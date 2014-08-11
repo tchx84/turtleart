@@ -501,7 +501,7 @@ return %s(self)" % (p, P, P)
         turtle_menu = MenuBuilder.make_sub_menu(menu, _('Turtle'))
 
         menu = gtk.Menu()
-        MenuBuilder.make_menu_item(menu, _('About...'), self._do_about_cb)
+        MenuBuilder.make_menu_item(menu, _('About something'), self._do_about_cb)
         help_menu = MenuBuilder.make_sub_menu(menu, _('Help'))
 
         menu_bar = gtk.MenuBar()
