@@ -449,6 +449,7 @@ class TurtleArtActivity(activity.Activity):
             self.tw.no_help = False
             self._hover_help_toggle.set_icon('help-off')
             self._hover_help_toggle.set_tooltip(_('Turn off hover help...'))
+            msg = _('Ok there is no way you will find this string')
             if HAS_GCONF:
                 self.client.set_int(self._HOVER_HELP, 0)
         else:
