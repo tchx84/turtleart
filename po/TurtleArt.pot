@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-12 14:04+0000\n"
+"POT-Creation-Date: 2014-08-12 14:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1220,6 +1220,10 @@ msgid "something else to say?"
 msgstr ""
 
 #: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:40
+msgid "something else to ask?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:41
 msgid ""
 "The real path to the TurtleArt installation must be listed in the "
 "environment variable is PYTHONPATH."
