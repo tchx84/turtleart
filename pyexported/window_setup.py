@@ -37,7 +37,7 @@ for path in sys.path:
 # if the TA installation path was not found, notify the user and refuse to run
 if _TA_INSTALLATION_PATH is None:
     print _("The real path to the TurtleArt installation must be listed in the "
-            "environment variable PYTHONPATH.")
+            "environment variable is PYTHONPATH.")
     exit(1)
 
 _PLUGIN_SUBPATH = 'plugins'
