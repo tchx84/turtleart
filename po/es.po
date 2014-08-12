@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-12 14:32+0000\n"
-"PO-Revision-Date: 2014-08-12 14:33+0000\n"
+"POT-Creation-Date: 2014-08-12 14:38+0000\n"
+"PO-Revision-Date: 2014-08-12 14:39+0000\n"
 "Last-Translator: Martin <tch@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <walter@sugarlabs.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1407853997.609284\n"
+"X-POOTLE-MTIME: 1407854346.569035\n"
 
 #: /var/www/pootle/repos/TurtleArt/turtleblocks.py:103
 msgid "usage is"
@@ -1260,6 +1260,10 @@ msgid "something else to tell?"
 msgstr "algo mas que decir?"
 
 #: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:42
+msgid "something else to write?"
+msgstr "algo mas que escribir?"
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:43
 msgid ""
 "The real path to the TurtleArt installation must be listed in the "
 "environment variable is PYTHONPATH."
