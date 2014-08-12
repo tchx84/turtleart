@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-12 13:38+0000\n"
-"PO-Revision-Date: 2014-08-12 13:53+0000\n"
+"POT-Creation-Date: 2014-08-12 14:32+0000\n"
+"PO-Revision-Date: 2014-08-12 14:33+0000\n"
 "Last-Translator: Martin <tch@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <walter@sugarlabs.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1407851594.609020\n"
+"X-POOTLE-MTIME: 1407853997.609284\n"
 
 #: /var/www/pootle/repos/TurtleArt/turtleblocks.py:103
 msgid "usage is"
@@ -1248,12 +1248,22 @@ msgstr ""
 "V)"
 
 #: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:39
+msgid "something else to say?"
+msgstr "algo mas que decir?"
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:40
+msgid "something else to ask?"
+msgstr "algo mas que preguntar?"
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:41
+msgid "something else to tell?"
+msgstr "algo mas que decir?"
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:42
 msgid ""
-"The path to the TurtleArt installation must be listed in the environment "
-"variable PYTHONPATH."
-msgstr ""
-"La ruta a la instalación de TurtleArt debe estar listada en la variable de "
-"entorno PYTHONPATH."
+"The real path to the TurtleArt installation must be listed in the "
+"environment variable is PYTHONPATH."
+msgstr "blah blah blah"
 
 #: /var/www/pootle/repos/TurtleArt/TurtleArt/taexportpython.py:198
 msgid "block is not exportable"
@@ -2293,6 +2303,13 @@ msgstr "¡Error al descargar!"
 #: /var/www/pootle/repos/TurtleArt/gnome_plugins/fb_plugin.py:87
 msgid "Facebook wall post"
 msgstr "Muro de Facebook"
+
+#~ msgid ""
+#~ "The path to the TurtleArt installation must be listed in the environment "
+#~ "variable PYTHONPATH."
+#~ msgstr ""
+#~ "La ruta a la instalación de TurtleArt debe estar listada en la variable de "
+#~ "entorno PYTHONPATH."
 
 #~ msgid "Please wait"
 #~ msgstr "Por favor espera"
