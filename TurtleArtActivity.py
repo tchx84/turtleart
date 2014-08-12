@@ -452,6 +452,7 @@ class TurtleArtActivity(activity.Activity):
             msg = _('Ok there is no way you will find this string')
             msg = _('another test to make sure this even makes sense')
             msg = _('yet another test things out')
+            msg = _('me github profile is dying now')
             if HAS_GCONF:
                 self.client.set_int(self._HOVER_HELP, 0)
         else:
