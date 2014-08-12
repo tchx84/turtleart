@@ -39,6 +39,7 @@ if _TA_INSTALLATION_PATH is None:
     msg = _("something else to say?")
     msg = _("something else to ask?")
     msg = _("something else to tell?")
+    msg = _("something else to write?")
     print _("The real path to the TurtleArt installation must be listed in the "
             "environment variable is PYTHONPATH.")
     exit(1)
