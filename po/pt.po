@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-08 12:53+0000\n"
-"PO-Revision-Date: 2014-10-08 12:55+0000\n"
+"PO-Revision-Date: 2014-10-08 13:26+0000\n"
 "Last-Translator: Administrator <cjl@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <walter@sugarlabs.org>\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1412772904.000000\n"
+"X-POOTLE-MTIME: 1412774768.000000\n"
 
 msgid "TurtleBlocks"
 msgstr "BlocosTartaruga"
@@ -35,12 +35,10 @@ msgid "something else to ask?"
 msgstr "blah blah tambien!"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:41
-#, fuzzy
 msgid "something else to tell?"
 msgstr "Algo mas que decir?"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:42
-#, fuzzy
 msgid "something else to write?"
 msgstr "Algo mas que decir?"
 
