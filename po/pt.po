@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-08 12:38+0000\n"
-"PO-Revision-Date: 2014-10-08 12:40+0000\n"
+"POT-Creation-Date: 2014-10-08 12:53+0000\n"
+"PO-Revision-Date: 2014-10-08 12:55+0000\n"
 "Last-Translator: Administrator <cjl@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <walter@sugarlabs.org>\n"
 "Language: pt\n"
@@ -16,17 +16,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1412772004.000000\n"
+"X-POOTLE-MTIME: 1412772904.000000\n"
 
 msgid "TurtleBlocks"
 msgstr "BlocosTartaruga"
 
 msgid ""
-"A Logo-inspired turtle that draws colorful pictures with snap-together "
-"visual programming blocks"
-msgstr ""
-"Uma tartaruga inspirada em Logo que desenha pinturas coloridas com blocos de "
-"programação visual"
+"A Logo-inspired turtle that draws cool pictures with snap-together visual "
+"programming blocks"
+msgstr "blah blah!"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:39
 msgid "something else to say?"
@@ -34,15 +32,17 @@ msgstr "Algo mas que decir?"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:40
 msgid "something else to ask?"
-msgstr ""
+msgstr "blah blah tambien!"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:41
+#, fuzzy
 msgid "something else to tell?"
-msgstr ""
+msgstr "Algo mas que decir?"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:42
+#, fuzzy
 msgid "something else to write?"
-msgstr ""
+msgstr "Algo mas que decir?"
 
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:43
 msgid ""
@@ -2292,6 +2292,13 @@ msgstr "tocar"
 #: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:217
 msgid "save"
 msgstr "guardar"
+
+#~ msgid ""
+#~ "A Logo-inspired turtle that draws colorful pictures with snap-together "
+#~ "visual programming blocks"
+#~ msgstr ""
+#~ "Uma tartaruga inspirada em Logo que desenha pinturas coloridas com blocos de "
+#~ "programação visual"
 
 #~ msgid "Please wait"
 #~ msgstr "Por favor espera"
