@@ -129,7 +129,7 @@ class TurtleArtActivity(activity.Activity):
                                   xo_color=xocolors)
                 self._joined_alert = Alert()
                 self._joined_alert.props.icon = share_icon
-                self._joined_alert.props.title = _('Please wait...')
+                self._joined_alert.props.title = _('Please wait a moment...')
                 self._joined_alert.props.msg = _('Starting connection...')
                 self.add_alert(self._joined_alert)
 
