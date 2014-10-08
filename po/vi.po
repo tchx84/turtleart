@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-17 00:31-0400\n"
+"POT-Creation-Date: 2014-10-08 12:27+0000\n"
 "PO-Revision-Date: 2011-12-31 06:22+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,1560 +21,974 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#. TRANS: "name" option from activity.info file
 #, fuzzy
 msgid "TurtleBlocks"
 msgstr "Khối rùa"
 
-#. TRANS: "summary" option from activity.info file
-#. TRANS: "description" option from activity.info file
 msgid ""
 "A Logo-inspired turtle that draws colorful pictures with snap-together "
 "visual programming blocks"
 msgstr ""
 
-#: TurtleArt/tabasics.py:119
-msgid "Palette of turtle commands"
-msgstr "Bảng chọn lệnh rùa"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:39
+msgid "something else to say?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:124
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:740
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:751
-msgid "forward"
-msgstr "tiếp"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:40
+msgid "something else to ask?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:128
-msgid "moves turtle forward"
-msgstr "chuyển rùa đi tới"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:41
+msgid "something else to tell?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:135
-msgid "back"
-msgstr "lùi"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:42
+msgid "something else to write?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:139
-msgid "moves turtle backward"
-msgstr "chuyển rùa đi lùi"
-
-#: TurtleArt/tabasics.py:147
-msgid "clean"
-msgstr "gột"
-
-#: TurtleArt/tabasics.py:150
-msgid "clears the screen and reset the turtle"
-msgstr "xoá màn hình và đặt lại rùa"
-
-#: TurtleArt/tabasics.py:158
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:871
-msgid "left"
-msgstr "trái"
-
-#: TurtleArt/tabasics.py:162
-msgid "turns turtle counterclockwise (angle in degrees)"
-msgstr "quay rùa theo ngược chiều kim đồng hồ (góc theo độ)"
-
-#: TurtleArt/tabasics.py:170
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:895
-msgid "right"
-msgstr "phải"
-
-#: TurtleArt/tabasics.py:174
-msgid "turns turtle clockwise (angle in degrees)"
-msgstr "quay rùa theo chiều kim đồng hồ (góc theo độ)"
-
-#: TurtleArt/tabasics.py:182
-msgid "arc"
-msgstr "cung"
-
-#: TurtleArt/tabasics.py:182
-msgid "angle"
-msgstr "góc"
-
-#: TurtleArt/tabasics.py:182
-msgid "radius"
-msgstr "bán kính"
-
-#: TurtleArt/tabasics.py:186
-msgid "moves turtle along an arc"
-msgstr "chuyển rùa theo một hình cung"
-
-#: TurtleArt/tabasics.py:195 TurtleArt/tabasics.py:261
-msgid "set xy"
-msgstr "đặt xy"
-
-#: TurtleArt/tabasics.py:195 TurtleArt/tabasics.py:261
-msgid "x"
-msgstr "x"
-
-#: TurtleArt/tabasics.py:195 TurtleArt/tabasics.py:261
-msgid "y"
-msgstr "y"
-
-#: TurtleArt/tabasics.py:199 TurtleArt/tabasics.py:265
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:43
 msgid ""
-"moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
-msgstr "di chuyển rùa tới vị trí xcor, ycor; (0, 0) là trung tâm của màn hình."
-
-#
-#: TurtleArt/tabasics.py:209
-msgid "set heading"
-msgstr "đặt hướng về"
-
-#: TurtleArt/tabasics.py:213
-msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
-msgstr "đặt sự hướng về của rùa (0 là hướng về đầu màn hình)"
-
-#: TurtleArt/tabasics.py:221 TurtleArt/tawindow.py:4105
-msgid "xcor"
-msgstr "xcor"
-
-#: TurtleArt/tabasics.py:222
-msgid ""
-"holds current x-coordinate value of the turtle (can be used in place of a "
-"number block)"
-msgstr ""
-"giữ giá trị đồ hoạ X hiện thời của rùa (cũng có thể được sử dụng để thay thế "
-"một khối con số)"
-
-#: TurtleArt/tabasics.py:232 TurtleArt/tawindow.py:4106
-msgid "ycor"
-msgstr "ycor"
-
-#: TurtleArt/tabasics.py:233
-msgid ""
-"holds current y-coordinate value of the turtle (can be used in place of a "
-"number block)"
-msgstr ""
-"giữ giá trị đồ hoạ Y hiện thời của rùa (cũng có thể được sử dụng để thay thế "
-"một khối con số)"
-
-#: TurtleArt/tabasics.py:243 TurtleArt/tawindow.py:4106
-msgid "heading"
-msgstr "tiêu đề"
-
-#: TurtleArt/tabasics.py:244
-msgid ""
-"holds current heading value of the turtle (can be used in place of a number "
-"block)"
-msgstr ""
-"giữ hướng về hiện thời của rùa (cũng có thể được sử dụng để thay thế một "
-"khối con số)"
-
-#: TurtleArt/tabasics.py:278
-msgid "Palette of pen commands"
-msgstr "Bảng chọn lệnh bút"
-
-#: TurtleArt/tabasics.py:283 TurtleArt/tabasics.py:294
-msgid "fill screen"
-msgstr "đầy màn hình"
-
-#: TurtleArt/tabasics.py:283 TurtleArt/tabasics.py:294
-#: TurtleArt/tabasics.py:344
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1197
-msgid "color"
-msgstr "màu"
-
-#: TurtleArt/tabasics.py:283 TurtleArt/tabasics.py:295
-#: TurtleArt/tabasics.py:354
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1193
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1198
-msgid "shade"
-msgstr "sắc màu"
-
-#: TurtleArt/tabasics.py:287 TurtleArt/tabasics.py:299
-msgid "fills the background with (color, shade)"
-msgstr "tô đầy nền bằng (màu, sắc)"
-
-#: TurtleArt/tabasics.py:295 TurtleArt/tabasics.py:363
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1194
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1199
-msgid "gray"
+"The real path to the TurtleArt installation must be listed in the "
+"environment variable is PYTHONPATH."
 msgstr ""
 
-#: TurtleArt/tabasics.py:309
-msgid "set color"
-msgstr "đặt màu"
-
-#: TurtleArt/tabasics.py:313
-msgid "sets color of the line drawn by the turtle"
-msgstr "thiết lập màu sắc cho đường do rùa vẽ"
-
-#: TurtleArt/tabasics.py:321
-msgid "set shade"
-msgstr "Tô bóng"
-
-#: TurtleArt/tabasics.py:325
-msgid "sets shade of the line drawn by the turtle"
-msgstr "đặt sắc màu của đường được rùa vẽ"
-
-#: TurtleArt/tabasics.py:333
-msgid "set gray"
-msgstr "tô xám"
-
-#: TurtleArt/tabasics.py:336
-msgid "sets gray level of the line drawn by the turtle"
-msgstr "tô xám đường được rùa vẽ"
-
-#: TurtleArt/tabasics.py:345
-msgid "holds current pen color (can be used in place of a number block)"
-msgstr "giữ màu bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
-
-#: TurtleArt/tabasics.py:355
-msgid "holds current pen shade"
-msgstr "giữ sắc màu bút hiện thời"
-
-#: TurtleArt/tabasics.py:364
-#, fuzzy
-msgid "holds current gray level (can be used in place of a number block)"
-msgstr ""
-"giữ giá trị tỷ lệ hiện thời của rùa (cũng có thể được sử dụng để thay thế "
-"một khối con số)"
-
-#: TurtleArt/tabasics.py:372
-msgid "pen up"
-msgstr "bút lên"
-
-#: TurtleArt/tabasics.py:375
-msgid "Turtle will not draw when moved."
-msgstr "Con rùa sẽ không vẽ khi được di chuyển."
-
-#: TurtleArt/tabasics.py:381
-msgid "pen down"
-msgstr "bút xuống"
-
-#: TurtleArt/tabasics.py:384
-msgid "Turtle will draw when moved."
-msgstr "Con rùa sẽ vẽ khi được di chuyển."
-
-#: TurtleArt/tabasics.py:390
-msgid "set pen size"
-msgstr "đặt kích cỡ bút"
-
-#: TurtleArt/tabasics.py:394
-msgid "sets size of the line drawn by the turtle"
-msgstr "đặt kích cỡ của đường được rùa vẽ"
-
-#: TurtleArt/tabasics.py:404
-msgid "start fill"
-msgstr "bắt đầu lấp đầy"
-
-#: TurtleArt/tabasics.py:406
-msgid "starts filled polygon (used with end fill block)"
-msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
-
-#: TurtleArt/tabasics.py:413
-msgid "end fill"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:132
+msgid "Please wait..."
 msgstr ""
 
-#: TurtleArt/tabasics.py:415
-#, fuzzy
-msgid "completes filled polygon (used with start fill block)"
-msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
-
-#: TurtleArt/tabasics.py:422
-msgid "pen size"
-msgstr "kích cỡ bút"
-
-#: TurtleArt/tabasics.py:423
-msgid "holds current pen size (can be used in place of a number block)"
-msgstr ""
-"giữ kích cỡ bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
-
-#: TurtleArt/tabasics.py:437
-msgid "Palette of pen colors"
-msgstr "Bảng chọn màu sắc bút"
-
-#: TurtleArt/tabasics.py:439
-msgid "red"
-msgstr "đỏ"
-
-#: TurtleArt/tabasics.py:440
-msgid "orange"
-msgstr "cam"
-
-#: TurtleArt/tabasics.py:442
-msgid "yellow"
-msgstr "vàng"
-
-#: TurtleArt/tabasics.py:444
-msgid "green"
-msgstr "lục"
-
-#: TurtleArt/tabasics.py:445
-msgid "cyan"
-msgstr "lục lam"
-
-#: TurtleArt/tabasics.py:446
-msgid "blue"
-msgstr "xanh"
-
-#: TurtleArt/tabasics.py:447
-msgid "purple"
-msgstr "tím"
-
-#: TurtleArt/tabasics.py:449
-#, fuzzy
-msgid "white"
-msgstr "trong khi"
-
-#: TurtleArt/tabasics.py:450
-#, fuzzy
-msgid "black"
-msgstr "lùi"
-
-#: TurtleArt/tabasics.py:456
-msgid "set text color"
-msgstr "đặt màu chữ"
-
-#: TurtleArt/tabasics.py:459
-msgid "sets color of text drawn by the turtle"
-msgstr "đặt màu của các chữ được rùa vẽ"
-
-#: TurtleArt/tabasics.py:467
-msgid "set text size"
-msgstr "đặt kích cỡ chữ"
-
-#: TurtleArt/tabasics.py:470
-#, fuzzy
-msgid "sets size of text drawn by the turtle"
-msgstr "đặt kích cỡ của các chữ được rùa vẽ"
-
-#: TurtleArt/tabasics.py:553
-msgid "Palette of numeric operators"
-msgstr "Bảng chọn toán tử thuộc số"
-
-#: TurtleArt/tabasics.py:559
-msgid "plus"
-msgstr "cộng"
-
-#: TurtleArt/tabasics.py:563
-msgid "adds two alphanumeric inputs"
-msgstr "thêm hai đầu vào chữ số, chử cái"
-
-#: TurtleArt/tabasics.py:571
-msgid "minus"
-msgstr "trừ"
-
-#: TurtleArt/tabasics.py:574
-msgid "subtracts bottom numeric input from top numeric input"
-msgstr "trừ đầu vào thuộc số dưới từ đầu vào thuộc số trên"
-
-#: TurtleArt/tabasics.py:585
-msgid "multiply"
-msgstr "nhân"
-
-#: TurtleArt/tabasics.py:588
-msgid "multiplies two numeric inputs"
-msgstr "nhân lên nhau hai đầu vào thuộc số"
-
-#: TurtleArt/tabasics.py:597
-msgid "divide"
-msgstr "chia"
-
-#: TurtleArt/tabasics.py:600
-msgid ""
-"divides top numeric input (numerator) by bottom numeric input (denominator)"
-msgstr "chia đầu vào thuộc số trên (tử số) cho đầu vào thuộc số dưới (mẫu số)"
-
-#: TurtleArt/tabasics.py:610
-msgid "identity"
-msgstr "nhận dạng"
-
-#: TurtleArt/tabasics.py:612
-msgid "identity operator used for extending blocks"
-msgstr "toán tử nhận diện dùng để mở rộng khối"
-
-#: TurtleArt/tabasics.py:620 TurtleArt/tabasics.py:621
-msgid "mod"
-msgstr "sửa"
-
-#: TurtleArt/tabasics.py:624
-msgid "modular (remainder) operator"
-msgstr "toán tử đơn thể (phần dư)"
-
-#: TurtleArt/tabasics.py:631
-msgid "√"
-msgstr "√"
-
-#: TurtleArt/tabasics.py:632
-msgid "square root"
-msgstr "căn bậc hai"
-
-#: TurtleArt/tabasics.py:635
-msgid "calculates square root"
-msgstr "tính căn bậc hai"
-
-#: TurtleArt/tabasics.py:642
-msgid "random"
-msgstr "ngẫu nhiên"
-
-#: TurtleArt/tabasics.py:642
-msgid "min"
-msgstr "tiểu"
-
-#: TurtleArt/tabasics.py:642
-msgid "max"
-msgstr "đại"
-
-#: TurtleArt/tabasics.py:646
-msgid "returns random number between minimum (top) and maximum (bottom) values"
-msgstr ""
-"trả lại một số ngẫu nhiên nằm giữa hai giá trị là tối thiểu (bên trên) và "
-"tối đa (bên dưới)"
-
-#: TurtleArt/tabasics.py:658
-msgid "number"
-msgstr "số"
-
-#: TurtleArt/tabasics.py:659
-msgid "used as numeric input in mathematic operators"
-msgstr "dùng để nhập thuộc số trong toán tử toán học"
-
-#: TurtleArt/tabasics.py:667
-msgid "greater than"
-msgstr "lớn hơn"
-
-#: TurtleArt/tabasics.py:670
-msgid "logical greater-than operator"
-msgstr "toán tử lớn-hơn lôgic"
-
-#: TurtleArt/tabasics.py:679
-msgid "less than"
-msgstr "nhỏ hơn"
-
-#: TurtleArt/tabasics.py:683
-msgid "logical less-than operator"
-msgstr "toán tử nhỏ hơn lôgic"
-
-#: TurtleArt/tabasics.py:691
-msgid "equal"
-msgstr "bằng"
-
-#: TurtleArt/tabasics.py:695
-msgid "logical equal-to operator"
-msgstr "toán tử bằng-với lôgic"
-
-#: TurtleArt/tabasics.py:701
-msgid "not"
-msgstr "không phải"
-
-#: TurtleArt/tabasics.py:704
-msgid "logical NOT operator"
-msgstr "toán tử KHÔNG_PHẢI lôgic"
-
-#: TurtleArt/tabasics.py:710 TurtleArt/tabasics.py:713
-msgid "and"
-msgstr "và"
-
-#: TurtleArt/tabasics.py:714
-msgid "logical AND operator"
-msgstr "toán tử VÀ lôgic"
-
-#: TurtleArt/tabasics.py:721 TurtleArt/tabasics.py:724
-msgid "or"
-msgstr "hoặc"
-
-#: TurtleArt/tabasics.py:725
-msgid "logical OR operator"
-msgstr "toán tử HOẶC lôgic"
-
-#: TurtleArt/tabasics.py:734
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:104
-msgid "Palette of flow operators"
-msgstr "Bảng chọn toán tử luồng"
-
-#: TurtleArt/tabasics.py:739
-msgid "wait"
-msgstr "đợi"
-
-#: TurtleArt/tabasics.py:743
-msgid "pauses program execution a specified number of seconds"
-msgstr "tạm dừng thực hiện chương trình trong một số giây đưa ra"
-
-#: TurtleArt/tabasics.py:750
-msgid "forever"
-msgstr "hẳn"
-
-#: TurtleArt/tabasics.py:754
-msgid "loops forever"
-msgstr "lặp lại vô hạn"
-
-#: TurtleArt/tabasics.py:761 TurtleArt/tabasics.py:765
-msgid "repeat"
-msgstr "lặp lại"
-
-#: TurtleArt/tabasics.py:766
-msgid "loops specified number of times"
-msgstr "lặp lại một số lần được ghi rõ"
-
-#: TurtleArt/tabasics.py:772 TurtleArt/tabasics.py:785
-msgid "if"
-msgstr "nếu"
-
-#: TurtleArt/tabasics.py:772 TurtleArt/tabasics.py:785
-msgid "then"
-msgstr "thì"
-
-#: TurtleArt/tabasics.py:775
-msgid "if then"
-msgstr "nếu thì"
-
-#: TurtleArt/tabasics.py:777
-msgid "if-then operator that uses boolean operators from Numbers palette"
-msgstr "toán tử nếu-thì mà sử dụng toán tử lôgic từ bảng chọn Số"
-
-#: TurtleArt/tabasics.py:785
-msgid "else"
-msgstr "không thì"
-
-#: TurtleArt/tabasics.py:789 TurtleArt/tabasics.py:797
-msgid "if then else"
-msgstr "nếu thì không thì"
-
-#: TurtleArt/tabasics.py:790 TurtleArt/tabasics.py:798
-msgid "if-then-else operator that uses boolean operators from Numbers palette"
-msgstr "toán tử nếu-thì-không_thì mà sử dụng toán tử lôgic từ bảng chọn Số"
-
-#: TurtleArt/tabasics.py:807
-msgid "horizontal space"
-msgstr "khoảng nằm ngang"
-
-#: TurtleArt/tabasics.py:808
-msgid "jogs stack right"
-msgstr "đẩy nhẹ đống qua phải"
-
-#: TurtleArt/tabasics.py:815
-msgid "vertical space"
-msgstr "khoảng nằm dọc"
-
-#: TurtleArt/tabasics.py:816
-msgid "jogs stack down"
-msgstr "đẩy nhẹ đống xuống dưới"
-
-#: TurtleArt/tabasics.py:822
-msgid "stop action"
-msgstr "dừng hành vi"
-
-#: TurtleArt/tabasics.py:825
-msgid "stops current action"
-msgstr "dừng hành vi đang làm"
-
-#: TurtleArt/tabasics.py:834
-msgid "Palette of variable blocks"
-msgstr "Bảng chọn khối biến đổi"
-
-#: TurtleArt/tabasics.py:839 pysamples/grecord.py:213
-msgid "start"
-msgstr "đầu"
-
-#: TurtleArt/tabasics.py:842
-msgid "connects action to toolbar run buttons"
-msgstr "kết nối hành vi đến nút chạy thanh công cụ"
-
-#: TurtleArt/tabasics.py:849 TurtleArt/tabasics.py:850
-#: TurtleArt/tabasics.py:851
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:192
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:193
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:194
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:201
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:214
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:229
-msgid "text"
-msgstr "văn bản"
-
-#: TurtleArt/tabasics.py:852
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:195
-msgid "string value"
-msgstr "giá trị chuỗi"
-
-#: TurtleArt/tabasics.py:856 TurtleArt/tabasics.py:859
-#: TurtleArt/tabasics.py:867 TurtleArt/tabasics.py:871
-#: TurtleArt/tawindow.py:1351 TurtleArt/tawindow.py:1448
-#: TurtleArt/tawindow.py:1461 TurtleArt/tawindow.py:2077
-#: TurtleArt/tawindow.py:4363
-msgid "action"
-msgstr "hành vi"
-
-#: TurtleArt/tabasics.py:861
-msgid "top of nameable action stack"
-msgstr "đầu của đống hành vi có thể đặt tên"
-
-#: TurtleArt/tabasics.py:872 TurtleArt/tawindow.py:4377
-msgid "invokes named action stack"
-msgstr "gọi đống hành vi đặt tên"
-
-#: TurtleArt/tabasics.py:879
-msgid "store in box 1"
-msgstr "lưu vào hộp 1"
-
-#: TurtleArt/tabasics.py:884
-msgid "stores numeric value in Variable 1"
-msgstr "cất giữ giá trị thuộc số trong Biến 1"
-
-#: TurtleArt/tabasics.py:892
-msgid "store in box 2"
-msgstr "lưu vào hộp 2"
-
-#: TurtleArt/tabasics.py:897
-msgid "stores numeric value in Variable 2"
-msgstr "cất giữ giá trị thuộc số trong Biến 2"
-
-#: TurtleArt/tabasics.py:905
-msgid "box 1"
-msgstr "hộp 1"
-
-#: TurtleArt/tabasics.py:908
-msgid "Variable 1 (numeric value)"
-msgstr "Biến 1 (giá trị thuộc số)"
-
-#: TurtleArt/tabasics.py:915
-msgid "box 2"
-msgstr "hộp 2"
-
-#: TurtleArt/tabasics.py:918
-msgid "Variable 2 (numeric value)"
-msgstr "Biến 2 (giá trị thuộc số)"
-
-#: TurtleArt/tabasics.py:924 TurtleArt/tawindow.py:4427
-msgid "store in"
-msgstr "lưu vào"
-
-#: TurtleArt/tabasics.py:924 TurtleArt/tabasics.py:939
-msgid "box"
-msgstr "hộp"
-
-#: TurtleArt/tabasics.py:924 TurtleArt/tawindow.py:4427
-msgid "value"
-msgstr "giá trị"
-
-#: TurtleArt/tabasics.py:928 TurtleArt/tabasics.py:942
-#: TurtleArt/tawindow.py:1355 TurtleArt/tawindow.py:1486
-#: TurtleArt/tawindow.py:2081 TurtleArt/tawindow.py:4390
-#: TurtleArt/tawindow.py:4418
-msgid "my box"
-msgstr "hộp mình"
-
-#: TurtleArt/tabasics.py:929 TurtleArt/tawindow.py:4432
-msgid "stores numeric value in named variable"
-msgstr "cất giữ giá trị thuộc số trong biến đặt tên"
-
-#: TurtleArt/tabasics.py:945 TurtleArt/tawindow.py:4404
-msgid "named variable (numeric value)"
-msgstr "biến đặt tên (giá trị thuộc số)"
-
-#: TurtleArt/tabasics.py:952 TurtleArt/tabasics.py:971
-msgid "action 1"
-msgstr "hành vi 1"
-
-#: TurtleArt/tabasics.py:955
-msgid "top of Action 1 stack"
-msgstr "đầu của đống Hành vi 1"
-
-#: TurtleArt/tabasics.py:961 TurtleArt/tabasics.py:981
-msgid "action 2"
-msgstr "hành vi 2"
-
-#: TurtleArt/tabasics.py:964
-msgid "top of Action 2 stack"
-msgstr "đầu của đống Hành vi 2"
-
-#: TurtleArt/tabasics.py:974
-msgid "invokes Action 1 stack"
-msgstr "gọi đống Hành vi 1"
-
-#: TurtleArt/tabasics.py:984
-msgid "invokes Action 2 stack"
-msgstr "gọi đống Hành vi 2"
-
-#: TurtleArt/tabasics.py:992
-msgid "trash"
-msgstr "thùng rác"
-
-#: TurtleArt/tabasics.py:996
-msgid "empty trash"
-msgstr "đổ rác"
-
-#: TurtleArt/tabasics.py:997
-msgid "permanently deletes items in trash"
-msgstr "xoá hoàn toàn các mục trong thùng rác"
-
-#: TurtleArt/tabasics.py:1001
-msgid "restore all"
-msgstr "phục hồi tất cả"
-
-#: TurtleArt/tabasics.py:1002
-msgid "restore all blocks from trash"
-msgstr "phục hồi từ sọt rác tất cả các khối"
-
-#: TurtleArt/tabasics.py:1006
-msgid "clear all"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:133
+msgid "Starting connection..."
 msgstr ""
 
-#: TurtleArt/tabasics.py:1007
-msgid "move all blocks to trash"
-msgstr ""
-
-#: TurtleArt/tacollaboration.py:152 TurtleArt/tawindow.py:2055
-#: TurtleArtActivity.py:751
-msgid "Share selected blocks"
-msgstr ""
-
-#: TurtleArt/taconstants.py:209 TurtleArt/taconstants.py:231
-#: TurtleArt/taconstants.py:252 TurtleArt/taconstants.py:294
-#: TurtleArt/taconstants.py:336 TurtleArt/taconstants.py:378
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:980
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:995
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1010
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1025
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1040
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1055
-msgid "Title"
-msgstr "Tiêu đề"
-
-#: TurtleArt/talogo.py:370 TurtleArtActivity.py:731
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1538
-msgid "Stop turtle"
-msgstr "Dừng rùa"
-
-#: TurtleArt/talogo.py:380 TurtleArtActivity.py:360 TurtleArtActivity.py:732
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1529
-msgid "Show blocks"
-msgstr "Hiện khối"
-
-#: TurtleArt/talogo.py:384 TurtleArtActivity.py:364 TurtleArtActivity.py:996
-msgid "Hide blocks"
-msgstr "Ẩn khối"
-
-#: TurtleArt/talogo.py:508
-msgid "did not output to"
-msgstr "đã không xuất tới"
-
-#: TurtleArt/talogo.py:567
-msgid "I don't know how to"
-msgstr "Tôi chưa biết cách"
-
-#: TurtleArt/talogo.py:623
-msgid "doesn't like"
-msgstr "không thích"
-
-#: TurtleArt/talogo.py:623
-msgid "as input"
-msgstr "làm đầu vào"
-
-#: TurtleArt/tapalette.py:97
-msgid "displays next palette"
-msgstr "hiển thị bảng chọn kế tiếp"
-
-#: TurtleArt/tapalette.py:98
-msgid "changes the orientation of the palette of blocks"
-msgstr "thay đổi hướng của bảng chọn khối"
-
-#: TurtleArt/tautils.py:295
-msgid "Load..."
-msgstr "tải xuống"
-
-#: TurtleArt/tautils.py:305
-msgid "Save..."
-msgstr "lưu lại"
-
-#: TurtleArt/tautils.py:586
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:730
-msgid "click to open"
-msgstr "nhấn để mở"
-
-#: TurtleArt/tawindow.py:1033 TurtleArt/tawindow.py:1034
-msgid "orientation"
-msgstr "hướng"
-
-#: TurtleArt/tawindow.py:1044 TurtleArt/tawindow.py:1644
-msgid "next"
-msgstr "tiếp"
-
-#: TurtleArt/tawindow.py:1063 TurtleArt/tawindow.py:1664
-msgid "shift"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1316
-msgid ""
-"Please hit the Stop Button before making changes to your Turtle Blocks "
-"program"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1369
-msgid "Select blocks to share"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1530 TurtleArtActivity.py:632
-#: TurtleArtActivity.py:781 turtleblocks.py:397
-msgid "Save stack"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1531 TurtleArt/tawindow.py:1546
-msgid "Really overwrite stack?"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1534 TurtleArt/tawindow.py:1574
-#: gnome_plugins/uploader_plugin.py:144
-msgid "Cancel"
-msgstr "Hủy bỏ"
-
-#: TurtleArt/tawindow.py:1538 TurtleArt/tawindow.py:1549
-msgid "Overwrite stack"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1570 TurtleArt/tawindow.py:1578
-#: TurtleArt/tawindow.py:1588 TurtleArtActivity.py:634 turtleblocks.py:399
-msgid "Delete stack"
-msgstr ""
-
-#: TurtleArt/tawindow.py:1571 TurtleArt/tawindow.py:1585
-msgid "Really delete stack?"
-msgstr ""
-
-#: TurtleArt/tawindow.py:4215
-msgid "image"
-msgstr "ảnh"
-
-#: TurtleArtActivity.py:188 TurtleArtActivity.py:757 TurtleArtActivity.py:925
-#: TurtleArtActivity.py:955 turtleblocks.py:371
-msgid "Save as Logo"
-msgstr "Lưu dạng Biểu hình"
-
-#: TurtleArtActivity.py:235 TurtleArtActivity.py:756 TurtleArtActivity.py:922
-#: TurtleArtActivity.py:952 turtleblocks.py:369
-msgid "Save as image"
-msgstr "Lưu dạng ảnh"
-
-#: TurtleArtActivity.py:243
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:395
 msgid "snapshot"
 msgstr "hiện trạng"
 
-#: TurtleArtActivity.py:251 TurtleArtActivity.py:691 TurtleArtActivity.py:733
-#: TurtleArtActivity.py:931 TurtleArtActivity.py:958
-msgid "Save snapshot"
-msgstr "Lưu ảnh chụp"
-
-#: TurtleArtActivity.py:296 TurtleArtActivity.py:657 TurtleArtActivity.py:808
-msgid "Turn off hover help"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:451
+msgid "OK! I am doing something more aggresive now"
 msgstr ""
 
-#: TurtleArtActivity.py:303 turtleblocks.py:390
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:452
+msgid "Ok there is no way you will find this string"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:453
+msgid "another test to make sure this even makes sense"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:454
+msgid "yet another test things out"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:455
+msgid "me github profile is dying now"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:464
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:473
 msgid "Turn on hover help"
 msgstr ""
 
-#: TurtleArtActivity.py:312 turtleblocks.py:404
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:474
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:487
 msgid "Show palette"
 msgstr "Hiện bảng chọn"
 
-#: TurtleArtActivity.py:318 TurtleArtActivity.py:984 turtleblocks.py:406
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:480
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1243
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:489
 msgid "Hide palette"
 msgstr "Ẩn bảng chọn"
 
-#: TurtleArtActivity.py:485
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:522
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:910
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1324
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:415
+msgid "Show blocks"
+msgstr "Hiện khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:526
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1255
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:419
+msgid "Hide blocks"
+msgstr "Ẩn khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:648
 msgid "Rescale coordinates down"
 msgstr "Giảm toạ độ theo tỷ lệ"
 
-#: TurtleArtActivity.py:489 TurtleArtActivity.py:648 TurtleArtActivity.py:804
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:657
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:826
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:992
 msgid "Rescale coordinates up"
 msgstr "Tăng toạ độ theo tỷ lệ"
 
-#: TurtleArtActivity.py:579 TurtleArtActivity.py:615 TurtleArtActivity.py:725
-#: TurtleArtActivity.py:778 turtleblocks.py:401
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:758
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:793
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:903
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:966
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:484
 msgid "Edit"
 msgstr "Sửa"
 
-#: TurtleArtActivity.py:584 TurtleArtActivity.py:613 TurtleArtActivity.py:726
-#: TurtleArtActivity.py:796 turtleblocks.py:392
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:763
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:791
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:904
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:984
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:475
 msgid "View"
 msgstr "Xem"
 
-#: TurtleArtActivity.py:611 TurtleArtActivity.py:727
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:789
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:905
 msgid "Project"
 msgstr "Dự án"
 
-#: TurtleArtActivity.py:617 TurtleArtActivity.py:724 TurtleArtActivity.py:753
-#: TurtleArtActivity.py:755 TurtleArtActivity.py:917
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:795
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:902
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:929
 msgid "Save/Load"
 msgstr ""
 
-#: TurtleArtActivity.py:625 TurtleArtActivity.py:779 turtleblocks.py:395
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:803
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:967
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:478
 msgid "Copy"
 msgstr "Chép"
 
-#: TurtleArtActivity.py:627 TurtleArtActivity.py:780 turtleblocks.py:396
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:805
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:968
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:479
 msgid "Paste"
 msgstr "Dán"
 
-#: TurtleArtActivity.py:629
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:807
 #, fuzzy
 msgid "Restore blocks from trash"
 msgstr "phục hồi từ sọt rác tất cả các khối"
 
-#: TurtleArtActivity.py:637 TurtleArtActivity.py:797
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:806
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:810
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:969
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:480
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1461
+msgid "Save stack"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:812
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:482
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1500
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1508
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1517
+msgid "Delete stack"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:815
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:985
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:938
 msgid "Fullscreen"
 msgstr "Toàn màn hình"
 
-#: TurtleArtActivity.py:640 TurtleArtActivity.py:798 turtleblocks.py:377
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:818
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:986
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:459
 msgid "Cartesian coordinates"
 msgstr "Toạ độ thuyết Đê-các-tơ"
 
-#: TurtleArtActivity.py:642 TurtleArtActivity.py:800 turtleblocks.py:379
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:820
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:988
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:461
 msgid "Polar coordinates"
 msgstr "Toạ độ cực"
 
-#: TurtleArtActivity.py:645 TurtleArtActivity.py:802
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:823
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:990
 msgid "Metric coordinates"
 msgstr "Tọa độ theo hệ Mét"
 
-#: TurtleArtActivity.py:651 TurtleArtActivity.py:806 turtleblocks.py:383
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:829
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:994
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:466
 msgid "Grow blocks"
 msgstr "Khối lớn hơn"
 
-#: TurtleArtActivity.py:654 TurtleArtActivity.py:807 turtleblocks.py:385
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:832
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:995
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:468
 msgid "Shrink blocks"
 msgstr "Khối nhỏ hơn"
 
-#: TurtleArtActivity.py:678 TurtleArtActivity.py:695 TurtleArtActivity.py:734
-#: TurtleArtActivity.py:934
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:835
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:996
+msgid "Turn off hover help"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:860
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:873
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:911
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1171
 msgid "Load example"
 msgstr "Tải ví dụ"
 
-#: TurtleArtActivity.py:728 TurtleArtActivity.py:990 turtleblocks.py:413
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:906
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1249
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:496
 msgid "Clean"
 msgstr "Làm sạch"
 
-#: TurtleArtActivity.py:729 TurtleArtActivity.py:992 turtleblocks.py:414
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:907
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:497
 msgid "Run"
 msgstr "Chạy"
 
-#: TurtleArtActivity.py:730 TurtleArtActivity.py:994 turtleblocks.py:415
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:908
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1253
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:498
 msgid "Step"
 msgstr "Bước"
 
-#: TurtleArtActivity.py:735 turtleblocks.py:422 util/helpbutton.py:45
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:909
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1333
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1217
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:405
+msgid "Stop turtle"
+msgstr "Dừng rùa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:912
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/util/helpbutton.py:44
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:505
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: TurtleArtActivity.py:736 turtleblocks.py:417
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:913
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:500
 msgid "Stop"
 msgstr "Dừng"
 
-#: TurtleArtActivity.py:758 TurtleArtActivity.py:938 TurtleArtActivity.py:960
-msgid "Load project"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:928
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2013
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tacollaboration.py:152
+msgid "Share selected blocks"
 msgstr ""
 
-#: TurtleArtActivity.py:761 TurtleArtActivity.py:943 TurtleArtActivity.py:965
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:930
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1133
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1194
+msgid "Save as image"
+msgstr "Lưu dạng ảnh"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:933
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1136
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1197
+msgid "Save as icon"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:938
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1140
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1201
+msgid "Save as ODP"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:943
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1149
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1210
+msgid "Save as Logo"
+msgstr "Lưu dạng Biểu hình"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:944
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1152
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1213
+msgid "Save as Python"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:945
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1156
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1217
+msgid "Save snapshot"
+msgstr "Lưu ảnh chụp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:946
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1180
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1219
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:433
+msgid "Add project"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:949
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1185
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1225
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:434
 msgid "Load plugin"
 msgstr ""
 
-#: TurtleArtActivity.py:762 TurtleArtActivity.py:946 TurtleArtActivity.py:968
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:950
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1188
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1228
 msgid "Load Python block"
 msgstr "Tải khối Python"
 
-#: TurtleArtActivity.py:895
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1105
 msgid "Palettes"
 msgstr ""
 
-#: TurtleArtActivity.py:912
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1123
 msgid "Sharing blocks disabled"
 msgstr ""
 
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1128
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:436
+msgid "Save"
+msgstr "Lưu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1160
+msgid "Load"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1177
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:432
+msgid "Open"
+msgstr "Mở"
+
 # Phím tắt này tương ứng với hành động nào?
-#: TurtleArtActivity.py:985
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1244
 msgid "<Ctrl>p"
 msgstr "Tổ hợp phím Ctrl+p"
 
-#: TurtleArtActivity.py:990
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1249
 msgid "<Ctrl>e"
 msgstr "Tổ hợp phím Ctrl+e"
 
-#: TurtleArtActivity.py:992
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1251
 msgid "<Ctrl>r"
 msgstr "Tổ hợp phím Ctrl+r"
 
-#: TurtleArtActivity.py:994
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1253
 msgid "<Ctrl>w"
 msgstr "Tổ hợp phím Ctrl+w"
 
-#: TurtleArtActivity.py:997
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1256
 msgid "<Ctrl>s"
 msgstr "Tổ hợp phím Ctrl+s"
 
-#: TurtleArtActivity.py:1152 TurtleArtActivity.py:1157
-#: TurtleArtActivity.py:1238
-msgid "Plugin could not be installed."
-msgstr ""
-
-#: TurtleArtActivity.py:1234
-msgid "Please restart Turtle Art in order to use the plugin."
-msgstr ""
-
-#: TurtleArtActivity.py:1252
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1435
 #, python-format
 msgid "Plugin %s already installed."
 msgstr ""
 
-#: TurtleArtActivity.py:1253
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1436
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:567
 #, python-format
 msgid "Do you want to reinstall %s?"
 msgstr ""
 
-#: gnome_plugins/collaboration_plugin.py:67
-msgid "My Turtle Art session"
-msgstr "Buổi học Turtle Art của tôi"
-
-#: gnome_plugins/collaboration_plugin.py:115
-msgid "Enable collaboration"
-msgstr "Kích hoạt tính năng cộng tác"
-
-#: gnome_plugins/collaboration_plugin.py:120
-msgid "Activities"
-msgstr "Hoạt động"
-
-#: gnome_plugins/collaboration_plugin.py:125
-msgid "Buddies"
-msgstr "Bạn"
-
-#: gnome_plugins/collaboration_plugin.py:128
-msgid "Share"
-msgstr "Chia sẻ"
-
-#: gnome_plugins/collaboration_plugin.py:129
-msgid "Configuration"
-msgstr "Cấu hình"
-
-#: gnome_plugins/collaboration_plugin.py:132
-msgid "Neighborhood"
-msgstr "Hàng xóm"
-
-#: gnome_plugins/collaboration_plugin.py:292
-msgid "Nickname"
-msgstr "Tên riêng"
-
-#: gnome_plugins/collaboration_plugin.py:294
-msgid "Account ID"
-msgstr "Tài khoản"
-
-#: gnome_plugins/collaboration_plugin.py:296
-msgid "Server"
-msgstr "Máy chủ"
-
-#: gnome_plugins/collaboration_plugin.py:298
-msgid "Port"
-msgstr "Cổng"
-
-#: gnome_plugins/collaboration_plugin.py:300
-msgid "Password"
-msgstr "Mật khẩu"
-
-#: gnome_plugins/collaboration_plugin.py:302
-msgid "Register"
-msgstr "Đăng ký"
-
-#: gnome_plugins/collaboration_plugin.py:304
-msgid "Colors"
-msgstr "Màu"
-
-#: gnome_plugins/fb_plugin.py:82 gnome_plugins/fb_plugin.py:83
-#: gnome_plugins/fb_plugin.py:92 gnome_plugins/uploader_plugin.py:63
-#: gnome_plugins/uploader_plugin.py:64 gnome_plugins/uploader_plugin.py:73
-msgid "Upload"
-msgstr "Tải lên"
-
-#: gnome_plugins/fb_plugin.py:87
-msgid "Facebook wall post"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:103
+msgid "usage is"
 msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:68
-msgid "Upload to Web"
-msgstr "Tải lên Web"
-
-#: gnome_plugins/uploader_plugin.py:90
-msgid ""
-"You must have an account at http://turtleartsite.sugarlabs.org to upload "
-"your project."
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:302
+msgid "No option action:"
 msgstr ""
-"Bạn phải có một tài khoản ở trang Web http://turtleartsite.sugarlabs.org để "
-"tải lên dự án của bạn"
 
-#: gnome_plugins/uploader_plugin.py:99
-msgid "Username:"
-msgstr "Tên người dùng:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:317
+msgid "File not found"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:109
-msgid "Password:"
-msgstr "Mật khẩu:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:341
+#, python-format
+msgid "Configuration directory not writable: %s"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:120
-msgid "Title:"
-msgstr "Tiêu đề:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:429
+msgid "New"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:130
-msgid "Description:"
-msgstr "Mô tả:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:430
+msgid "Show sample projects"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:140
-msgid "Submit to Web"
-msgstr "Gửi lên web"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:437
+#, fuzzy
+msgid "Save as"
+msgstr "Lưu dạng"
 
-#: gnome_plugins/uploader_plugin.py:166
-msgid "Login failed"
-msgstr "Đăng nhập thất bại"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:441
+msgid "Export as"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:203
-msgid "Failed to upload!"
-msgstr "tải lên thất bại"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:444
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4631
+msgid "image"
+msgstr "ảnh"
 
-#: plugins/accelerometer/accelerometer.py:49
-#: plugins/audio_sensors/audio_sensors.py:75
-#: plugins/camera_sensor/camera_sensor.py:63
-#: plugins/light_sensor/light_sensor.py:49 plugins/rfid/rfid.py:86
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:336
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:446
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4524
+msgid "icon"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:449
+msgid "ODP"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:451
+msgid "Logo"
+msgstr ""
+
+# Tên ngôn ngữ lập trình: đừng dịch
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:453
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:654
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:669
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:685
+msgid "Python"
+msgstr "Python"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:455
+msgid "Quit"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:456
+msgid "File"
+msgstr "Tập tin"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:464
+msgid "Rescale coordinates"
+msgstr "Đặt lại tỷ lệ toạ độ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:470
+msgid "Reset block size"
+msgstr "Đặt lại kích cỡ khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:491
+msgid "Show/hide blocks"
+msgstr "Hiện/ẩn khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:493
+msgid "Tools"
+msgstr "Công cụ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:499
+msgid "Debug"
+msgstr "Gỡ lỗi"
+
+# Tên: không nên dịch
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:501
+msgid "Turtle"
+msgstr "Rùa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:504
+msgid "About something"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:551
+msgid "You have unsaved work. Would you like to save before quitting?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:556
+msgid "Save project?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:566
+#, python-format
+msgid "Plugin %s already installed"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:706
+msgid "myproject"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:67
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:52
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:50
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:87
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:84
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:339
 msgid "Palette of sensor blocks"
 msgstr "Bảng chọn của khối cảm biến"
 
-#: plugins/accelerometer/accelerometer.py:56
-#: plugins/accelerometer/accelerometer.py:63
-msgid "acceleration"
-msgstr "gia tốc"
-
-#: plugins/accelerometer/accelerometer.py:58
-#: plugins/accelerometer/accelerometer.py:65
-msgid "push acceleration in x, y, z to heap"
-msgstr "đẩy gia tốc trong x, y, z xếp thành đống"
-
-#: plugins/audio_sensors/audio_sensors.py:83
-#: plugins/audio_sensors/audio_sensors.py:98 pysamples/grecord.py:205
-msgid "sound"
-msgstr "âm thanh"
-
-#: plugins/audio_sensors/audio_sensors.py:84
-#: plugins/audio_sensors/audio_sensors.py:99
-msgid "raw microphone input signal"
-msgstr "tín hiệu thô đầu vào máy vi âm"
-
-#: plugins/audio_sensors/audio_sensors.py:90
-#: plugins/audio_sensors/audio_sensors.py:105
-msgid "loudness"
-msgstr "độ lớn"
-
-#: plugins/audio_sensors/audio_sensors.py:91
-#: plugins/audio_sensors/audio_sensors.py:106
-msgid "microphone input volume"
-msgstr "âm lượng đầu vào máy vi âm"
-
-#: plugins/audio_sensors/audio_sensors.py:119
-#: plugins/audio_sensors/audio_sensors.py:127
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:322
-msgid "pitch"
-msgstr "cường độ"
-
-#: plugins/audio_sensors/audio_sensors.py:120
-#: plugins/audio_sensors/audio_sensors.py:128
-msgid "microphone input pitch"
-msgstr "cường độ đầu vào máy vi âm"
-
-#: plugins/audio_sensors/audio_sensors.py:151
-#: plugins/audio_sensors/audio_sensors.py:165
-#: plugins/audio_sensors/audio_sensors.py:179
-#: plugins/audio_sensors/audio_sensors.py:193
-msgid "resistance"
-msgstr "điện trở"
-
-#: plugins/audio_sensors/audio_sensors.py:152
-#: plugins/audio_sensors/audio_sensors.py:166
-#: plugins/audio_sensors/audio_sensors.py:180
-#: plugins/audio_sensors/audio_sensors.py:194
-msgid "microphone input resistance"
-msgstr "điện trở đầu vào máy vi âm"
-
-#: plugins/audio_sensors/audio_sensors.py:157
-#: plugins/audio_sensors/audio_sensors.py:171
-#: plugins/audio_sensors/audio_sensors.py:185
-#: plugins/audio_sensors/audio_sensors.py:199
-msgid "voltage"
-msgstr "điện áp"
-
-#: plugins/audio_sensors/audio_sensors.py:158
-#: plugins/audio_sensors/audio_sensors.py:172
-#: plugins/audio_sensors/audio_sensors.py:186
-#: plugins/audio_sensors/audio_sensors.py:200
-msgid "microphone input voltage"
-msgstr "điện áp đầu vào máy vi âm"
-
-#: plugins/camera_sensor/camera_sensor.py:67
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:139
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:71
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:133
 msgid "Palette of media objects"
 msgstr "Bảng chọn của đối tượng phương tiện truyền thông"
 
-#: plugins/camera_sensor/camera_sensor.py:80
-#: plugins/camera_sensor/camera_sensor.py:93
-#: plugins/camera_sensor/camera_sensor.py:128
-#: plugins/camera_sensor/camera_sensor.py:141
-#: plugins/light_sensor/light_sensor.py:56
-#: plugins/light_sensor/light_sensor.py:63
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:90
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:122
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:58
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:66
 msgid "brightness"
 msgstr "độ sáng"
 
-#: plugins/camera_sensor/camera_sensor.py:82
-#: plugins/camera_sensor/camera_sensor.py:130
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:92
 msgid "light level detected by camera"
 msgstr "mức độ ánh sáng được phát hiện bởi máy ảnh"
 
-#: plugins/camera_sensor/camera_sensor.py:95
-#: plugins/camera_sensor/camera_sensor.py:143
-msgid "Average RGB color from camera is pushed to the stack"
-msgstr "màu sắc Trung bình RGB từ máy ảnh được đẩy vào ngăp xếp"
-
-#: plugins/camera_sensor/camera_sensor.py:106
-#: plugins/camera_sensor/camera_sensor.py:113
-#: plugins/camera_sensor/camera_sensor.py:121
-#: plugins/camera_sensor/camera_sensor.py:155
-#: plugins/camera_sensor/camera_sensor.py:163
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:107
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:115
 msgid "camera output"
 msgstr "đầu ra máy ảnh"
 
-#: plugins/light_sensor/light_sensor.py:58
-#: plugins/light_sensor/light_sensor.py:65
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:124
+msgid "Average RGB color from camera is pushed to the stack"
+msgstr "màu sắc Trung bình RGB từ máy ảnh được đẩy vào ngăp xếp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:61
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:69
 msgid "light level detected by light sensor"
 msgstr "mức độ ánh sáng được phát hiện bởi bộ cảm biến ánh sáng"
 
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:56
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:63
+msgid "acceleration"
+msgstr "gia tốc"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:58
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:65
+msgid "push acceleration in x, y, z to heap"
+msgstr "đẩy gia tốc trong x, y, z xếp thành đống"
+
 # http://en.wikipedia.org/wiki/Radio-frequency_identification
-#: plugins/rfid/rfid.py:92 plugins/rfid/rfid.py:100
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:101
 msgid "RFID"
 msgstr "Nhận dạng tần số vô tuyến"
 
-#: plugins/rfid/rfid.py:93 plugins/rfid/rfid.py:101
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:94
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:102
 msgid "read value from RFID device"
 msgstr "đọc giá trị từ thiết bị Nhận dạng tần số vô tuyến"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:109
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:112
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:206
+msgid "sound"
+msgstr "âm thanh"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:94
+msgid "raw microphone input signal"
+msgstr "tín hiệu thô đầu vào máy vi âm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:100
+msgid "loudness"
+msgstr "độ lớn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:101
+msgid "microphone input volume"
+msgstr "âm lượng đầu vào máy vi âm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:126
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+msgid "pitch"
+msgstr "cường độ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:127
+msgid "microphone input pitch"
+msgstr "cường độ đầu vào máy vi âm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:160
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:178
+msgid "resistance"
+msgstr "điện trở"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:161
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:179
+msgid "microphone input resistance"
+msgstr "điện trở đầu vào máy vi âm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:166
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:184
+msgid "voltage"
+msgstr "điện áp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:167
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:185
+msgid "microphone input voltage"
+msgstr "điện áp đầu vào máy vi âm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:72
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:905
+msgid "Palette of flow operators"
+msgstr "Bảng chọn toán tử luồng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:76
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:79
 msgid "while"
 msgstr "trong khi"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:113
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:80
 msgid "do-while-True operator that uses boolean operators from Numbers palette"
 msgstr "toán tử làm-trong-khi-Đúng mà sử dụng toán tử lôgic từ bảng chọn Số"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:119
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:122
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:97
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:100
 msgid "until"
 msgstr "đến khi"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:123
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:101
 msgid "do-until-True operator that uses boolean operators from Numbers palette"
 msgstr "toán tử làm-đến-khi-Đúng mà sử dụng toán tử lôgic từ bảng chọn Số"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:130
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:732
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:903
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:121
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:854
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1048
 msgid "top"
 msgstr "trên"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:132
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:123
 msgid "top of a collapsible stack"
 msgstr "đầu của một đống có thể thu gọn"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:146
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:135
+msgid "media"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:141
 msgid "journal"
 msgstr "nhật ký"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:147
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:142
 msgid "Sugar Journal media object"
 msgstr "đối tượng phương tiện truyền thông Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:157
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:153
 msgid "audio"
 msgstr "âm thanh"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:159
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:155
 msgid "Sugar Journal audio object"
 msgstr "đối tượng âm thanh Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:169
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:166
 msgid "video"
 msgstr "hình ảnh chuyển động"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:171
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:168
 msgid "Sugar Journal video object"
 msgstr "đối tượng hình ảnh chuyển động Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:181
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:179
 msgid "description"
 msgstr "mô tả"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:183
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:181
 msgid "Sugar Journal description field"
 msgstr "trường mô tả Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:200
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:228
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:190
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:191
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:192
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:198
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:213
+msgid "text"
+msgstr "văn bản"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:193
+msgid "string value"
+msgstr "giá trị chuỗi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:197
 msgid "show"
 msgstr "hiển thị"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:204
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:217
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:232
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:201
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:216
 msgid "draws text or show media from the Journal"
 msgstr "vẽ văn bản hoặc hiển thị phương tiện truyền thông từ Nhật ký"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:213
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:212
 msgid "show aligned"
 msgstr "hiện liên kết"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:240
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:225
 msgid "set scale"
 msgstr "đặt tỷ lệ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:244
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:229
 msgid "sets the scale of media"
 msgstr "đặt tỷ lệ của phương tiện truyền thông"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:239
+msgid "set font"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:242
+msgid "sets the font used by the show block"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:249
 msgid "save picture"
 msgstr "lưu ảnh"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:253
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:264
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:262
 msgid "picture name"
 msgstr "tên ảnh"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:254
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:252
 msgid "saves a picture to the Sugar Journal"
 msgstr "lưu một ảnh vào Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:262
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:260
 msgid "save SVG"
 msgstr "lưu SVG"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:265
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:263
 msgid "saves turtle graphics as an SVG file in the Sugar Journal"
 msgstr "lưu đồ họa rùa dưới dạng một tập tin SVG trong Nhật ký Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:272
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:272
 msgid "scale"
 msgstr "tỷ lệ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:276
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:276
 msgid "holds current scale value"
 msgstr "giữ giá trị tỷ lệ hiện thời"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:281
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:283
 msgid "media wait"
 msgstr "Chờ chạy chương trình chơi nhạc"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:283
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:285
 msgid "wait for current video or audio to complete"
 msgstr "đợi cho đoạn video hoặc âm thanh chạy hết"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:289
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:291
 msgid "media stop"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:291
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:293
 msgid "stop video or audio"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:296
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:298
 msgid "media pause"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:298
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:300
 msgid "pause video or audio"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:303
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:305
 msgid "media resume"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:305
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:307
 msgid "resume playing video or audio"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:311
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:312
 msgid "speak"
 msgstr "Nói"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:313
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:314
 msgid "hello"
 msgstr "Chào"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:314
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:315
 msgid "speaks text"
 msgstr "Nguyên bản lời nói"
 
-#. TRANS: pitch, duration, amplitude
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:322
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
 msgid "sinewave"
 msgstr "Sóng hình sin"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
 msgid "amplitude"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
 msgid "duration"
 msgstr "Duy trỳ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:326
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:327
 msgid "plays a sinewave at frequency, amplitude, and duration (in seconds)"
 msgstr "Sử dụng sóng hình sin tai tần số, biên độ và thời gian( tính bằng giây)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:343
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:354
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:341
+#, fuzzy
+msgid "sensor"
+msgstr "Máy nhạy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:346
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:357
 msgid "button down"
 msgstr "nút xuống( trong bàn phím vi tính)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:346
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:349
 msgid "returns 1 if mouse button is pressed"
 msgstr "trả về 1 nếu nhấn chuột"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:357
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:360
 #, fuzzy
 msgid "returns True if mouse button is pressed"
 msgstr "trả về 1 nếu nhấn chuột"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:364
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:368
 msgid "mouse x"
 msgstr "Tọa độ x của chuột(vói x là tọa độ của trục hoành)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:367
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:371
 msgid "returns mouse x coordinate"
 msgstr "Trả về toạ độ x của con trỏ chuột"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:374
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:379
 msgid "mouse y"
 msgstr "Tọa độ y của chuột(vói y là tọa độ của trục hoành)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:377
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:382
 msgid "returns mouse y coordinate"
 msgstr "Trả về tọa độ y của con trỏ chuột"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:385
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:390
 msgid "query keyboard"
 msgstr "truy vấn bàn phím"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:387
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:392
 msgid "query for keyboard input (results stored in keyboard block)"
 msgstr "yêu cầu đầu vào bàn phím (kết quả được lưu vào khối bàn phím)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:394
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:400
 msgid "keyboard"
 msgstr "bàn phím"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:398
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:404
 #, fuzzy
 msgid "holds results of query-keyboard block as ASCII"
 msgstr "giữ kết quả của khối yêu-cầu-bàn-phím"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:430
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:412
 msgid "read pixel"
 msgstr "Đọc điểm ảnh"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:433
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:415
 msgid "RGB color under the turtle is pushed to the stack"
 msgstr "Khối màu RGB theo màu mà con rùa nhìn thấy được đưa vào stack"
 
 # Số màu rùa thấy được
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:441
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:422
 msgid "turtle sees"
 msgstr "Màu mà rùa nhìn thấy"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:443
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:425
 msgid "returns the color that the turtle \"sees\""
 msgstr "trả về màu mà con rùa nhìn thấy"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:451
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:434
 msgid "time"
 msgstr "Thời gian"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:454
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:437
 msgid "elapsed time (in seconds) since program started"
 msgstr "Thời gian trôi qua từ khi khởi động chương trình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:463
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:462
 msgid "Palette of extra options"
 msgstr "Bảng chọn tuỳ chọn bổ sung"
 
-#. TRANS: push adds a new item to the program stack
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:470
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:464
+#, fuzzy
+msgid "extras"
+msgstr "Bổ sung"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:469
 msgid "push"
 msgstr "đẩy"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:473
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:472
 msgid "pushes value onto FILO (first-in last-out heap)"
 msgstr "đẩy giá trị vào miền nhớ FILO (vào trước thì ra sau)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:483
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:484
 msgid "show heap"
 msgstr "hiện miền nhớ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:486
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:487
 msgid "shows values in FILO (first-in last-out heap)"
 msgstr "hiển thị các giá trị trong miền nhớ FILO (vào trước thì ra sau)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:496
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:499
 msgid "empty heap"
 msgstr "miền nhớ trống"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:499
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:502
 msgid "emptys FILO (first-in-last-out heap)"
 msgstr "trống miền FILO ( vào trước, ra sau)"
 
-#. TRANS: pop removes a new item from the program stack
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:510
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:513
 msgid "pop"
 msgstr "Đẩy"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:514
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:517
 msgid "pops value off FILO (first-in last-out heap)"
 msgstr "đẩy giá trị ra miền nhớ FILO (vào trước thì ra sau)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:525
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:535
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:529
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:585
 #, fuzzy
 msgid "empty heap?"
 msgstr "miền nhớ trống"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:528
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:538
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:532
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:588
 msgid "returns True if heap is empty"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:545
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:547
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:544
+msgid "save heap to file"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:545
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:559
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:573
+msgid "filename"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:547
+msgid "saves FILO (first-in last-out heap) to a file"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:558
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:566
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:572
+msgid "load heap from file"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:561
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:567
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:575
+msgid "loads FILO (first-in last-out heap) from a file"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:600
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:602
 msgid "comment"
 msgstr "ghi chú"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:549
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:604
 msgid "places a comment in your code"
 msgstr "đặt một ghi chú vào mã nguồn của bạn"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:555
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:611
 msgid "print"
 msgstr "in"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:559
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:615
 msgid "prints value in status block at bottom of the screen"
 msgstr "in giá trị trạng thái ở phần dưới màn hình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:569
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:626
 msgid "Python chr operator"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:578
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:636
 msgid "Python int operator"
 msgstr ""
 
-# Tên ngôn ngữ lập trình: đừng dịch
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:585
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:598
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:612
-msgid "Python"
-msgstr "Python"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:646
+msgid "polar"
+msgstr "cực"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:589
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:648
+msgid "displays polar coordinates"
+msgstr "hiển thị toạ độ cực"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:658
 msgid ""
 "a programmable block: used to add advanced single-variable math equations, e."
 "g., sin(x)"
@@ -1582,7 +996,7 @@ msgstr ""
 "Một cách lập trình:sử dụng bằng cách thêm các phương trình đơn biến như "
 "sin(x)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:602
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:673
 msgid ""
 "a programmable block: used to add advanced multi-variable math equations, e."
 "g., sqrt(x*x+y*y)"
@@ -1590,7 +1004,7 @@ msgstr ""
 "Một phương thức lập trình: được sử dụng để thêm nhiều phương trình toán học "
 "đa biến"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:616
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:689
 msgid ""
 "a programmable block: used to add advanced multi-variable math equations, e."
 "g., sin(x+y+z)"
@@ -1598,363 +1012,1320 @@ msgstr ""
 "Một cách lập trình:sử dụng bằng cách thêm các phương trình đabiến như "
 "sin(x+y+z)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:628
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:644
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:659
-msgid "Python block"
-msgstr "Khối ngôn ngữ lập trình Python"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:630
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:646
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:662
-msgid "runs code found in the tamyblock.py module found in the Journal"
-msgstr "chạy mã nguồn được tìm trong mô-đun tamyblock.py có trong Nhật ký"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:675
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:699
 msgid "Cartesian"
 msgstr "thuyết Đê-các-tơ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:677
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:701
 msgid "displays Cartesian coordinates"
 msgstr "hiển thị toạ độ thuyết Đê-các-tơ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:683
-msgid "polar"
-msgstr "cực"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:710
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:727
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:744
+msgid "Python block"
+msgstr "Khối ngôn ngữ lập trình Python"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:685
-msgid "displays polar coordinates"
-msgstr "hiển thị toạ độ cực"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:712
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:729
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:747
+msgid "runs code found in the tamyblock.py module found in the Journal"
+msgstr "chạy mã nguồn được tìm trong mô-đun tamyblock.py có trong Nhật ký"
 
-# Tên: không nên dịch
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:691
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:773
-msgid "turtle"
-msgstr "rùa"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:695
-msgid "chooses which turtle to command"
-msgstr "chọn con rùa nào cần điều khiển"
-
-#. TRANS: pop removes a new item from the program stack
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:703
-msgid "active turtle"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:763
+msgid "URL"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:706
-msgid "the name of the active turtle"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:768
+msgid "gets a text string or an image from a URL"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:715
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:724
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:778
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:788
 msgid "turtle shell"
 msgstr "mai rùa"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:717
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:725
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:780
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:789
 msgid "put a custom 'shell' on the turtle"
 msgstr "đặt một chiếc mai tùy thích lên chú rùa"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:733
+# Tên: không nên dịch
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:793
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:862
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:156
+msgid "turtle"
+msgstr "rùa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:797
+msgid "chooses which turtle to command"
+msgstr "chọn con rùa nào cần điều khiển"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:804
+msgid "turtle x"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:807
+msgid "Returns x coordinate of turtle"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:816
+msgid "turtle y"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:819
+msgid "Returns y coordinate of turtle"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:828
+msgid "active turtle"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:831
+msgid "the name of the active turtle"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:839
+msgid "turtle heading"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:842
+msgid "Returns heading of turtle"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:852
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:621
+msgid "click to open"
+msgstr "nhấn để mở"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:855
 msgid "top of a collapsed stack"
 msgstr "đầu của một đống đã thu gọn"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:738
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:748
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:759
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:860
+msgid "select palette"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:863
+msgid "selects a palette"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:871
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:883
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:897
 msgid "load"
 msgstr ""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:741
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:752
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:763
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:873
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:886
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:160
+msgid "forward"
+msgstr "tiếp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:874
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:887
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:901
 #, fuzzy
 msgid "loads a block"
 msgstr "nạp khối của mình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:762
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:900
 #, fuzzy
 msgid "setxy"
 msgstr "đặt xy"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:771
-msgid "palette"
-msgstr ""
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:774
-msgid "selects a palette"
-msgstr ""
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:782
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:913
 msgid "Palette of presentation templates"
 msgstr "Bảng chọn mẫu trình diễn"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:789
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:916
+msgid "portfolio"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:920
 msgid "hide blocks"
 msgstr "ẩn khối"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:791
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:922
 msgid "declutters canvas by hiding blocks"
 msgstr "làm sạch sẽ vùng vẽ bằng cách ẩn các khối"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:798
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:929
 msgid "show blocks"
 msgstr "hiện khối"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:800
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:931
 msgid "restores hidden blocks"
 msgstr "phục hồi các khối bị ẩn"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:808
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:940
 msgid "hides the Sugar toolbars"
 msgstr "ẩn các thanh công cụ Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:817
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:950
 msgid "list"
 msgstr "danh sách"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:821
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1056
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:954
 msgid "presentation bulleted list"
 msgstr "trình diễn danh sách nút"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:829
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1058
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:962
 msgid "presentation template: list of bullets"
 msgstr "mẫu trình diễn: danh sách chấm điểm"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:836
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:998
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:969
 msgid "presentation template: select Journal object (no description)"
 msgstr "mẫu trình diễn: chọn đối tượng Nhật ký (không mô tả)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:843
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:983
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:976
 msgid "presentation template: select Journal object (with description)"
 msgstr "mẫu trình diễn: chọn đối tượng Nhật ký (với mô tả)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:850
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1043
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:983
 msgid "presentation template: select four Journal objects"
 msgstr "mẫu trình diễn: chọn 4 đối tượng Nhật ký"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:857
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:864
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1013
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1028
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:990
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:997
 msgid "presentation template: select two Journal objects"
 msgstr "mẫu trình diễn: chọn 2 đối tượng Nhật ký"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:874
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1004
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:207
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:143
+msgid "left"
+msgstr "trái"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1007
 msgid "xcor of left of screen"
 msgstr "xcor bên trái màn hình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:879
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1015
 msgid "bottom"
 msgstr "dưới"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:882
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1018
 msgid "ycor of bottom of screen"
 msgstr "ycor bên dưới màn hình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:887
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1026
 msgid "width"
 msgstr "rộng"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:890
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1029
 msgid "the canvas width"
 msgstr "chiều rộng vùng vẽ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:898
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1037
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:221
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:145
+msgid "right"
+msgstr "phải"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1040
 msgid "xcor of right of screen"
 msgstr "xcor bên phải màn hình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:906
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1051
 msgid "ycor of top of screen"
 msgstr "ycor bên trên màn hình"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:911
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1059
 msgid "height"
 msgstr "độ cao"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:914
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1062
 msgid "the canvas height"
 msgstr "chiều cao vùng vẽ"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:921
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1072
 msgid "title x"
 msgstr "tiêu đề x"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:930
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1084
 msgid "title y"
 msgstr "tiêu đề y"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:939
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1096
 msgid "left x"
 msgstr "tọa độ x phía trái"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:948
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1108
 msgid "top y"
 msgstr "tọa độ y phía trên"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:957
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1120
 msgid "right x"
 msgstr "tọa độ x phía phải"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:966
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1132
 msgid "bottom y"
 msgstr "tọa độ y phía dưới"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:981
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:996
-msgid "presentation 1x1"
-msgstr "trình diễn 1×1"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1011
-msgid "presentation 2x1"
-msgstr "trình diễn 2×1"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1026
-msgid "presentation 1x2"
-msgstr "trình diễn 1×2"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1041
-msgid "presentation 2x2"
-msgstr "trình diễn 2×2"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1073
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1151
 msgid "Palette of user-defined operators"
 msgstr ""
 
-#: pysamples/brain.py:43
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1152
+msgid "my blocks"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:63
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:64
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:73
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:82
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:83
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:92
+msgid "Upload"
+msgstr "Tải lên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:68
+msgid "Upload to Web"
+msgstr "Tải lên Web"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:90
+msgid ""
+"You must have an account at http://turtleartsite.sugarlabs.org to upload "
+"your project."
+msgstr ""
+"Bạn phải có một tài khoản ở trang Web http://turtleartsite.sugarlabs.org để "
+"tải lên dự án của bạn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:99
+msgid "Username:"
+msgstr "Tên người dùng:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:109
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:120
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:130
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:140
+msgid "Submit to Web"
+msgstr "Gửi lên web"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:144
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1465
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1504
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:172
+msgid "Login failed"
+msgstr "Đăng nhập thất bại"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:209
+msgid "Failed to upload!"
+msgstr "tải lên thất bại"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:64
+msgid "My Turtle Art session"
+msgstr "Buổi học Turtle Art của tôi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:111
+msgid "Enable collaboration"
+msgstr "Kích hoạt tính năng cộng tác"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:116
+msgid "Activities"
+msgstr "Hoạt động"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:121
+msgid "Buddies"
+msgstr "Bạn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:124
+msgid "Share"
+msgstr "Chia sẻ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:125
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:128
+msgid "Neighborhood"
+msgstr "Hàng xóm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:289
+msgid "Nickname"
+msgstr "Tên riêng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:291
+msgid "Account ID"
+msgstr "Tài khoản"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:293
+msgid "Server"
+msgstr "Máy chủ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:295
+msgid "Port"
+msgstr "Cổng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:297
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:299
+msgid "Register"
+msgstr "Đăng ký"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:301
+msgid "Colors"
+msgstr "Màu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:87
+msgid "Facebook wall post"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:101
+msgid "displays next palette"
+msgstr "hiển thị bảng chọn kế tiếp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:102
+msgid "changes the orientation of the palette of blocks"
+msgstr "thay đổi hướng của bảng chọn khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:141
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:142
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1213
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1214
+msgid "trash"
+msgstr "thùng rác"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1092
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1093
+msgid "orientation"
+msgstr "hướng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1107
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1573
+msgid "next"
+msgstr "tiếp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1146
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1594
+msgid "shift"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1221
+msgid "Please hit the Stop Button before making changes to your program"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1264
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1377
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1390
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2043
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4777
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1049
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1052
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1065
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1069
+msgid "action"
+msgstr "hành vi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1270
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1416
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2049
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4804
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4831
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1137
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1152
+msgid "my box"
+msgstr "hộp mình"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1285
+msgid "Select blocks to share"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1462
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1476
+msgid "Really overwrite stack?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1469
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1479
+msgid "Overwrite stack"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1501
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1514
+msgid "Really delete stack?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1906
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1218
+msgid "empty trash"
+msgstr "đổ rác"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1907
+msgid "Do you really want to empty the trash?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4170
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4191
+#, python-format
+msgid "Cannot write data to %s."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4171
+msgid "Please choose a different save directory."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4192
+msgid "Please choose a different file name."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4297
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:281
+msgid "xcor"
+msgstr "xcor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4298
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:296
+msgid "ycor"
+msgstr "ycor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4298
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:311
+msgid "heading"
+msgstr "tiêu đề"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4324
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4329
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:444
+msgid "shade"
+msgstr "sắc màu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4325
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4330
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:454
+msgid "gray"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4328
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:369
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:432
+msgid "color"
+msgstr "màu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "True"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "False"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4790
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1070
+msgid "invokes named action stack"
+msgstr "gọi đống hành vi đặt tên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4817
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1155
+msgid "named variable (numeric value)"
+msgstr "biến đặt tên (giá trị thuộc số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4839
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+msgid "store in"
+msgstr "lưu vào"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4839
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+msgid "value"
+msgstr "giá trị"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4844
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1138
+msgid "stores numeric value in named variable"
+msgstr "cất giữ giá trị thuộc số trong biến đặt tên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:577
+msgid "did not output to"
+msgstr "đã không xuất tới"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:618
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:1014
+msgid "doesn't like"
+msgstr "không thích"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:619
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:1015
+msgid "as input"
+msgstr "làm đầu vào"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:682
+msgid "I don't know how to"
+msgstr "Tôi chưa biết cách"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:155
+msgid "Palette of turtle commands"
+msgstr "Bảng chọn lệnh rùa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:164
+msgid "moves turtle forward"
+msgstr "chuyển rùa đi tới"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:173
+msgid "back"
+msgstr "lùi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:177
+msgid "moves turtle backward"
+msgstr "chuyển rùa đi lùi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:186
+msgid "clean"
+msgstr "gột"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:189
+msgid "clears the screen and reset the turtle"
+msgstr "xoá màn hình và đặt lại rùa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:211
+msgid "turns turtle counterclockwise (angle in degrees)"
+msgstr "quay rùa theo ngược chiều kim đồng hồ (góc theo độ)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:225
+msgid "turns turtle clockwise (angle in degrees)"
+msgstr "quay rùa theo chiều kim đồng hồ (góc theo độ)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "arc"
+msgstr "cung"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "angle"
+msgstr "góc"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "radius"
+msgstr "bán kính"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:239
+msgid "moves turtle along an arc"
+msgstr "chuyển rùa theo một hình cung"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "set xy"
+msgstr "đặt xy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "x"
+msgstr "x"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "y"
+msgstr "y"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:255
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:334
+msgid ""
+"moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+msgstr "di chuyển rùa tới vị trí xcor, ycor; (0, 0) là trung tâm của màn hình."
+
+#
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:266
+msgid "set heading"
+msgstr "đặt hướng về"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:270
+msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+msgstr "đặt sự hướng về của rùa (0 là hướng về đầu màn hình)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:282
+msgid ""
+"holds current x-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+"giữ giá trị đồ hoạ X hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+"một khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:297
+msgid ""
+"holds current y-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+"giữ giá trị đồ hoạ Y hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+"một khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:312
+msgid ""
+"holds current heading value of the turtle (can be used in place of a number "
+"block)"
+msgstr ""
+"giữ hướng về hiện thời của rùa (cũng có thể được sử dụng để thay thế một "
+"khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:350
+msgid "Palette of pen commands"
+msgstr "Bảng chọn lệnh bút"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:351
+#, fuzzy
+msgid "pen"
+msgstr "Mở"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:369
+msgid "fill screen"
+msgstr "đầy màn hình"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:360
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:374
+msgid "fills the background with (color, shade)"
+msgstr "tô đầy nền bằng (màu, sắc)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:387
+msgid "set color"
+msgstr "đặt màu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:391
+msgid "sets color of the line drawn by the turtle"
+msgstr "thiết lập màu sắc cho đường do rùa vẽ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:403
+msgid "set shade"
+msgstr "Tô bóng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:407
+msgid "sets shade of the line drawn by the turtle"
+msgstr "đặt sắc màu của đường được rùa vẽ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:418
+msgid "set gray"
+msgstr "tô xám"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:421
+msgid "sets gray level of the line drawn by the turtle"
+msgstr "tô xám đường được rùa vẽ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:433
+msgid "holds current pen color (can be used in place of a number block)"
+msgstr "giữ màu bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:445
+msgid "holds current pen shade"
+msgstr "giữ sắc màu bút hiện thời"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:455
+#, fuzzy
+msgid "holds current gray level (can be used in place of a number block)"
+msgstr ""
+"giữ giá trị tỷ lệ hiện thời của rùa (cũng có thể được sử dụng để thay thế "
+"một khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:465
+msgid "pen up"
+msgstr "bút lên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:468
+msgid "Turtle will not draw when moved."
+msgstr "Con rùa sẽ không vẽ khi được di chuyển."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:475
+msgid "pen down"
+msgstr "bút xuống"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:478
+msgid "Turtle will draw when moved."
+msgstr "Con rùa sẽ vẽ khi được di chuyển."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:485
+msgid "pen down?"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:487
+msgid "returns True if pen is down"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:494
+msgid "set pen size"
+msgstr "đặt kích cỡ bút"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:498
+msgid "sets size of the line drawn by the turtle"
+msgstr "đặt kích cỡ của đường được rùa vẽ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:511
+msgid "start fill"
+msgstr "bắt đầu lấp đầy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:513
+msgid "starts filled polygon (used with end fill block)"
+msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:519
+msgid "end fill"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:521
+#, fuzzy
+msgid "completes filled polygon (used with start fill block)"
+msgstr "bắt đầu việc lấp đầy đa giác (bằng cách kết thúc việc lấp đầy khối)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:527
+msgid "pen size"
+msgstr "kích cỡ bút"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:528
+msgid "holds current pen size (can be used in place of a number block)"
+msgstr ""
+"giữ kích cỡ bút hiện thời (cũng có thể dùng để thay thế một khối con số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:544
+msgid "Palette of pen colors"
+msgstr "Bảng chọn màu sắc bút"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:545
+msgid "colors"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "red"
+msgstr "đỏ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "orange"
+msgstr "cam"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "yellow"
+msgstr "vàng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "green"
+msgstr "lục"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "cyan"
+msgstr "lục lam"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "blue"
+msgstr "xanh"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "purple"
+msgstr "tím"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+#, fuzzy
+msgid "white"
+msgstr "trong khi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:552
+#, fuzzy
+msgid "black"
+msgstr "lùi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:634
+msgid "Palette of numeric operators"
+msgstr "Bảng chọn toán tử thuộc số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:635
+#, fuzzy
+msgid "numbers"
+msgstr "số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:640
+msgid "plus"
+msgstr "cộng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:644
+msgid "adds two alphanumeric inputs"
+msgstr "thêm hai đầu vào chữ số, chử cái"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:663
+msgid "minus"
+msgstr "trừ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:666
+msgid "subtracts bottom numeric input from top numeric input"
+msgstr "trừ đầu vào thuộc số dưới từ đầu vào thuộc số trên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:684
+msgid "multiply"
+msgstr "nhân"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:687
+msgid "multiplies two numeric inputs"
+msgstr "nhân lên nhau hai đầu vào thuộc số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:703
+msgid "divide"
+msgstr "chia"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:706
+msgid ""
+"divides top numeric input (numerator) by bottom numeric input (denominator)"
+msgstr "chia đầu vào thuộc số trên (tử số) cho đầu vào thuộc số dưới (mẫu số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:723
+msgid "identity"
+msgstr "nhận dạng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:725
+msgid "identity operator used for extending blocks"
+msgstr "toán tử nhận diện dùng để mở rộng khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:751
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:752
+msgid "mod"
+msgstr "sửa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:755
+msgid "modular (remainder) operator"
+msgstr "toán tử đơn thể (phần dư)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:763
+msgid "√"
+msgstr "√"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:764
+msgid "square root"
+msgstr "căn bậc hai"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:767
+msgid "calculates square root"
+msgstr "tính căn bậc hai"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "random"
+msgstr "ngẫu nhiên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "min"
+msgstr "tiểu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "max"
+msgstr "đại"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:779
+msgid "returns random number between minimum (top) and maximum (bottom) values"
+msgstr ""
+"trả lại một số ngẫu nhiên nằm giữa hai giá trị là tối thiểu (bên trên) và "
+"tối đa (bên dưới)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:801
+msgid "number"
+msgstr "số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:802
+msgid "used as numeric input in mathematic operators"
+msgstr "dùng để nhập thuộc số trong toán tử toán học"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:809
+msgid "greater than"
+msgstr "lớn hơn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:812
+msgid "logical greater-than operator"
+msgstr "toán tử lớn-hơn lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:828
+msgid "less than"
+msgstr "nhỏ hơn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:832
+msgid "logical less-than operator"
+msgstr "toán tử nhỏ hơn lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:848
+msgid "equal"
+msgstr "bằng"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:852
+msgid "logical equal-to operator"
+msgstr "toán tử bằng-với lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:867
+msgid "not"
+msgstr "không phải"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:870
+msgid "logical NOT operator"
+msgstr "toán tử KHÔNG_PHẢI lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:878
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:881
+msgid "and"
+msgstr "và"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:882
+msgid "logical AND operator"
+msgstr "toán tử VÀ lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:890
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:893
+msgid "or"
+msgstr "hoặc"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:894
+msgid "logical OR operator"
+msgstr "toán tử HOẶC lôgic"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:906
+#, fuzzy
+msgid "flow"
+msgstr "Chảy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:910
+msgid "wait"
+msgstr "đợi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:914
+msgid "pauses program execution a specified number of seconds"
+msgstr "tạm dừng thực hiện chương trình trong một số giây đưa ra"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:923
+msgid "forever"
+msgstr "hẳn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:927
+msgid "loops forever"
+msgstr "lặp lại vô hạn"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:937
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:941
+msgid "repeat"
+msgstr "lặp lại"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:942
+msgid "loops specified number of times"
+msgstr "lặp lại một số lần được ghi rõ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "if"
+msgstr "nếu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "then"
+msgstr "thì"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:958
+msgid "if then"
+msgstr "nếu thì"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:960
+msgid "if-then operator that uses boolean operators from Numbers palette"
+msgstr "toán tử nếu-thì mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "else"
+msgstr "không thì"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:975
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:988
+msgid "if then else"
+msgstr "nếu thì không thì"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:976
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:989
+msgid "if-then-else operator that uses boolean operators from Numbers palette"
+msgstr "toán tử nếu-thì-không_thì mà sử dụng toán tử lôgic từ bảng chọn Số"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:998
+msgid "horizontal space"
+msgstr "khoảng nằm ngang"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:999
+msgid "jogs stack right"
+msgstr "đẩy nhẹ đống qua phải"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1008
+msgid "vertical space"
+msgstr "khoảng nằm dọc"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1009
+msgid "jogs stack down"
+msgstr "đẩy nhẹ đống xuống dưới"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1016
+msgid "stop action"
+msgstr "dừng hành vi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1019
+msgid "stops current action"
+msgstr "dừng hành vi đang làm"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1029
+msgid "Palette of variable blocks"
+msgstr "Bảng chọn khối biến đổi"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1030
+#, fuzzy
+msgid "blocks"
+msgstr "Khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1034
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:211
+msgid "start"
+msgstr "đầu"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1037
+msgid "connects action to toolbar run buttons"
+msgstr "kết nối hành vi đến nút chạy thanh công cụ"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1054
+msgid "top of nameable action stack"
+msgstr "đầu của đống hành vi có thể đặt tên"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1077
+msgid "store in box 1"
+msgstr "lưu vào hộp 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1082
+msgid "stores numeric value in Variable 1"
+msgstr "cất giữ giá trị thuộc số trong Biến 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1091
+msgid "store in box 2"
+msgstr "lưu vào hộp 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1096
+msgid "stores numeric value in Variable 2"
+msgstr "cất giữ giá trị thuộc số trong Biến 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1105
+msgid "box 1"
+msgstr "hộp 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1108
+msgid "Variable 1 (numeric value)"
+msgstr "Biến 1 (giá trị thuộc số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1118
+msgid "box 2"
+msgstr "hộp 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1121
+msgid "Variable 2 (numeric value)"
+msgstr "Biến 2 (giá trị thuộc số)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1149
+msgid "box"
+msgstr "hộp"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1161
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1185
+msgid "action 1"
+msgstr "hành vi 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1164
+msgid "top of Action 1 stack"
+msgstr "đầu của đống Hành vi 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1173
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1198
+msgid "action 2"
+msgstr "hành vi 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1176
+msgid "top of Action 2 stack"
+msgstr "đầu của đống Hành vi 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1188
+msgid "invokes Action 1 stack"
+msgstr "gọi đống Hành vi 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1201
+msgid "invokes Action 2 stack"
+msgstr "gọi đống Hành vi 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1219
+msgid "permanently deletes items in trash"
+msgstr "xoá hoàn toàn các mục trong thùng rác"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1223
+msgid "restore all"
+msgstr "phục hồi tất cả"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1224
+msgid "restore all blocks from trash"
+msgstr "phục hồi từ sọt rác tất cả các khối"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1228
+msgid "clear all"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1229
+msgid "move all blocks to trash"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taprimitive.py:60
+msgid "error in highlighted block"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taprimitive.py:62
+msgid "error"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:300
+msgid "Load..."
+msgstr "tải xuống"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:310
+msgid "Save..."
+msgstr "lưu lại"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:144
+msgid "up"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:146
+msgid "down"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:147
+msgid "backspace"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:148
+msgid "tab"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:150
+msgid "enter"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:153
+msgid "space"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:154
+msgid "delete"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:458
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:479
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:499
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:540
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:581
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:622
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:644
+msgid "banana"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taexportpython.py:198
+msgid "block is not exportable"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taexportpython.py:217
+msgid "error while exporting block"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:90
+msgid "Please restart Turtle Art in order to use the plugin."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:104
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:107
+msgid "Plugin could not be installed."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/forward_push.py:48
+msgid "push destination rgb value to heap"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/journal-stats.py:80
+msgid "other"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/uturn.py:35
+msgid "uturn"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/uturn.py:37
+msgid "turns the turtle 180 degrees"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:43
 msgid "Please install the Speak Activity and try again."
 msgstr ""
 
-#: pysamples/brain.py:54
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:52
 msgid "Spanish"
 msgstr ""
 
-#: pysamples/brain.py:58 pysamples/brain.py:72 pysamples/brain.py:74
-#: pysamples/brain.py:80
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:56
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:69
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:71
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:77
 msgid "English"
 msgstr ""
 
-#: pysamples/brain.py:91
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:88
 msgid "Sorry, I can't understand what you are asking about."
 msgstr ""
 
-#: pysamples/brain.py:100
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:97
 msgid ""
 "Sorry, there is no free memory to load my brain. Close other activities and "
 "try once more."
 msgstr ""
 
-#: pysamples/forward_push.py:45
-msgid "push destination rgb value to heap"
-msgstr ""
-
-#: pysamples/grecord.py:215
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:213
 msgid "stop"
 msgstr "dừng"
 
-#: pysamples/grecord.py:217
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:215
 msgid "play"
 msgstr "chơi"
 
-#: pysamples/grecord.py:219
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:217
 msgid "save"
 msgstr "lưu"
 
-#: pysamples/journal-stats.py:78
-msgid "other"
-msgstr ""
+#~ msgid "set text color"
+#~ msgstr "đặt màu chữ"
 
-#: pysamples/uturn.py:24
-msgid "uturn"
-msgstr ""
+#~ msgid "sets color of text drawn by the turtle"
+#~ msgstr "đặt màu của các chữ được rùa vẽ"
 
-#: pysamples/uturn.py:26
-msgid "make a uturn"
-msgstr ""
+#~ msgid "set text size"
+#~ msgstr "đặt kích cỡ chữ"
 
-#: turtleblocks.py:89
-msgid "usage is"
-msgstr ""
-
-#: turtleblocks.py:250
-msgid "No option action:"
-msgstr ""
-
-#: turtleblocks.py:265
-msgid "File not found"
-msgstr ""
-
-#: turtleblocks.py:289
-#, python-format
-msgid "Configuration directory not writable: %s"
-msgstr ""
-
-#: turtleblocks.py:365
-msgid "New"
-msgstr ""
-
-#: turtleblocks.py:366
-msgid "Open"
-msgstr "Mở"
-
-#: turtleblocks.py:367
-msgid "Save"
-msgstr "Lưu"
-
-#: turtleblocks.py:368
 #, fuzzy
-msgid "Save as"
-msgstr "Lưu dạng"
+#~ msgid "sets size of text drawn by the turtle"
+#~ msgstr "đặt kích cỡ của các chữ được rùa vẽ"
 
-#: turtleblocks.py:373
-msgid "Quit"
-msgstr ""
+#~ msgid "presentation 1x1"
+#~ msgstr "trình diễn 1×1"
 
-#: turtleblocks.py:374
-msgid "File"
-msgstr "Tập tin"
+#~ msgid "presentation 2x1"
+#~ msgstr "trình diễn 2×1"
 
-#: turtleblocks.py:381
-msgid "Rescale coordinates"
-msgstr "Đặt lại tỷ lệ toạ độ"
+#~ msgid "presentation 1x2"
+#~ msgstr "trình diễn 1×2"
 
-#: turtleblocks.py:387
-msgid "Reset block size"
-msgstr "Đặt lại kích cỡ khối"
-
-#: turtleblocks.py:408
-msgid "Show/hide blocks"
-msgstr "Hiện/ẩn khối"
-
-#: turtleblocks.py:410
-msgid "Tools"
-msgstr "Công cụ"
-
-#: turtleblocks.py:416
-msgid "Debug"
-msgstr "Gỡ lỗi"
-
-# Tên: không nên dịch
-#: turtleblocks.py:418
-msgid "Turtle"
-msgstr "Rùa"
-
-#: turtleblocks.py:421
-msgid "About..."
-msgstr ""
-
-#: turtleblocks.py:461
-msgid "You have unsaved work. Would you like to save before quitting?"
-msgstr ""
-
-#: turtleblocks.py:462
-msgid "Save project?"
-msgstr ""
+#~ msgid "presentation 2x2"
+#~ msgstr "trình diễn 2×2"
 
 # Tên: không nên dịch
 #~ msgid "Turtle Art"
@@ -1993,10 +2364,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "read"
 #~ msgstr "đỏ"
-
-#, fuzzy
-#~ msgid "sensor"
-#~ msgstr "Máy nhạy"
 
 #, fuzzy
 #~ msgid "mode"
@@ -2060,10 +2427,6 @@ msgstr ""
 #~ msgid " clean "
 #~ msgstr " làm sạch "
 
-#, fuzzy
-#~ msgid "numbers"
-#~ msgstr "số"
-
 #~ msgid "write"
 #~ msgstr "viết"
 
@@ -2074,10 +2437,6 @@ msgstr ""
 #~ msgstr ""
 #~ "một khối có thể lập trình: dùng để thêm phương trình toán học cấp cao, v.d. "
 #~ "sin(x)"
-
-#, fuzzy
-#~ msgid "blocks"
-#~ msgstr "Khối"
 
 #~ msgid "text size"
 #~ msgstr "kích cỡ chữ"
@@ -2090,10 +2449,6 @@ msgstr ""
 
 #~ msgid "picture top"
 #~ msgstr "trên ảnh"
-
-#, fuzzy
-#~ msgid "flow"
-#~ msgstr "Chảy"
 
 #~ msgid "restores most recent blocks from trash"
 #~ msgstr "phục hồi từ sọt rác các khối vừa đặt"
@@ -2113,10 +2468,6 @@ msgstr ""
 #~ msgid "Trashcan"
 #~ msgstr "Sọt Rác"
 
-#, fuzzy
-#~ msgid "pen"
-#~ msgstr "Mở"
-
 #~ msgid "picture right"
 #~ msgstr "bên phải ảnh"
 
@@ -2132,10 +2483,6 @@ msgstr ""
 #~ msgid "holds current text size (can be used in place of a number block)"
 #~ msgstr ""
 #~ "giữ kích cỡ chữ hiện thời (cũng có thể dùng để thay thế một khối con số)"
-
-#, fuzzy
-#~ msgid "extras"
-#~ msgstr "Bổ sung"
 
 #~ msgid "<Alt>d"
 #~ msgstr "<Alt>g"
