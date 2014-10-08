@@ -6,23 +6,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-05 00:30-0500\n"
-"PO-Revision-Date: 2013-12-10 19:34+0200\n"
-"Last-Translator: Eduardo H. <hoboprimate@gmail.com>\n"
+"POT-Creation-Date: 2014-10-08 12:38+0000\n"
+"PO-Revision-Date: 2014-10-08 12:40+0000\n"
+"Last-Translator: Administrator <cjl@sugarlabs.org>\n"
 "Language-Team: LANGUAGE <walter@sugarlabs.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1412772004.000000\n"
 
-#. TRANS: "name" option from activity.info file
 msgid "TurtleBlocks"
 msgstr "BlocosTartaruga"
 
-#. TRANS: "summary" option from activity.info file
-#. TRANS: "description" option from activity.info file
 msgid ""
 "A Logo-inspired turtle that draws colorful pictures with snap-together "
 "visual programming blocks"
@@ -30,1660 +28,958 @@ msgstr ""
 "Uma tartaruga inspirada em Logo que desenha pinturas coloridas com blocos de "
 "programação visual"
 
-#: TurtleArt/tabasics.py:155
-msgid "Palette of turtle commands"
-msgstr "Palete de comandos da tartaruga"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:39
+msgid "something else to say?"
+msgstr "Algo mas que decir?"
 
-#: TurtleArt/tabasics.py:156
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:775
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:784
-msgid "turtle"
-msgstr "tartaruga"
-
-#: TurtleArt/tabasics.py:160
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:734
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:747
-msgid "forward"
-msgstr "avançar"
-
-#: TurtleArt/tabasics.py:164
-msgid "moves turtle forward"
-msgstr "move a tartaruga para a frente"
-
-#: TurtleArt/tabasics.py:173
-msgid "back"
-msgstr "recuar"
-
-#: TurtleArt/tabasics.py:177
-msgid "moves turtle backward"
-msgstr "move a tartaruga para trás"
-
-#: TurtleArt/tabasics.py:186
-msgid "clean"
-msgstr "limpar"
-
-#: TurtleArt/tabasics.py:189
-msgid "clears the screen and reset the turtle"
-msgstr "limpa o ecrã e coloca a tartaruga na posição inicial"
-
-#: TurtleArt/tabasics.py:207 TurtleArt/taconstants.py:138
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:973
-msgid "left"
-msgstr "esquerda"
-
-#: TurtleArt/tabasics.py:211
-msgid "turns turtle counterclockwise (angle in degrees)"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:40
+msgid "something else to ask?"
 msgstr ""
-"roda a tartaruga na direção contrária dos ponteiros do relógio (ângulo em "
-"graus)"
 
-#: TurtleArt/tabasics.py:221 TurtleArt/taconstants.py:140
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1006
-msgid "right"
-msgstr "direita"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:41
+msgid "something else to tell?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:225
-msgid "turns turtle clockwise (angle in degrees)"
-msgstr "roda a tartaruga na direção dos ponteiros do relógio (ângulo em graus)"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:42
+msgid "something else to write?"
+msgstr ""
 
-#: TurtleArt/tabasics.py:235
-msgid "arc"
-msgstr "arco"
-
-#: TurtleArt/tabasics.py:235
-msgid "angle"
-msgstr "ângulo"
-
-#: TurtleArt/tabasics.py:235
-msgid "radius"
-msgstr "raio"
-
-#: TurtleArt/tabasics.py:239
-msgid "moves turtle along an arc"
-msgstr "move a tartaruga ao longo de um arco"
-
-#: TurtleArt/tabasics.py:251 TurtleArt/tabasics.py:330
-msgid "set xy"
-msgstr "definir xy"
-
-#: TurtleArt/tabasics.py:251 TurtleArt/tabasics.py:330
-msgid "x"
-msgstr "x"
-
-#: TurtleArt/tabasics.py:251 TurtleArt/tabasics.py:330
-msgid "y"
-msgstr "y"
-
-#: TurtleArt/tabasics.py:255 TurtleArt/tabasics.py:334
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pyexported/window_setup.py:43
 msgid ""
-"moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+"The real path to the TurtleArt installation must be listed in the "
+"environment variable is PYTHONPATH."
 msgstr ""
-"move a tartaruga para a posição coor.x, coor.y; (0, 0) fica no centro do "
-"ecrã."
 
-#: TurtleArt/tabasics.py:266
-msgid "set heading"
-msgstr "definir orientação"
-
-#: TurtleArt/tabasics.py:270
-msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
-msgstr "define a orientação da tartaruga (0 é para o topo do ecrã)"
-
-#: TurtleArt/tabasics.py:281 TurtleArt/tawindow.py:4452
-msgid "xcor"
-msgstr "coor.x"
-
-#: TurtleArt/tabasics.py:282
-msgid ""
-"holds current x-coordinate value of the turtle (can be used in place of a "
-"number block)"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:132
+msgid "Please wait a moment..."
 msgstr ""
-"contém o valor atual da coordenada X da tartaruga (pode ser usado em vez de "
-"um bloco de número)"
 
-#: TurtleArt/tabasics.py:296 TurtleArt/tawindow.py:4453
-msgid "ycor"
-msgstr "coor.y"
-
-#: TurtleArt/tabasics.py:297
-msgid ""
-"holds current y-coordinate value of the turtle (can be used in place of a "
-"number block)"
-msgstr ""
-"contém o valor atual da coordenada Y da tartaruga (pode ser usado em vez de "
-"um bloco de número)"
-
-#: TurtleArt/tabasics.py:311 TurtleArt/tawindow.py:4453
-msgid "heading"
-msgstr "orientação"
-
-#: TurtleArt/tabasics.py:312
-msgid ""
-"holds current heading value of the turtle (can be used in place of a number "
-"block)"
-msgstr ""
-"contém o valor atual da orientação da tartaruga (pode ser usado em vez de um "
-"bloco de número)"
-
-#: TurtleArt/tabasics.py:350
-msgid "Palette of pen commands"
-msgstr "Palete de comandos da caneta"
-
-#: TurtleArt/tabasics.py:351
-msgid "pen"
-msgstr "caneta"
-
-#: TurtleArt/tabasics.py:356 TurtleArt/tabasics.py:369
-msgid "fill screen"
-msgstr "preencher ecrã"
-
-#: TurtleArt/tabasics.py:356 TurtleArt/tabasics.py:369
-#: TurtleArt/tabasics.py:432 TurtleArt/tawindow.py:4483
-msgid "color"
-msgstr "cor"
-
-#: TurtleArt/tabasics.py:356 TurtleArt/tabasics.py:370
-#: TurtleArt/tabasics.py:444 TurtleArt/tawindow.py:4479
-#: TurtleArt/tawindow.py:4484
-msgid "shade"
-msgstr "tom"
-
-#: TurtleArt/tabasics.py:360 TurtleArt/tabasics.py:374
-msgid "fills the background with (color, shade)"
-msgstr "preenche o fundo com (cor, tom)"
-
-#: TurtleArt/tabasics.py:370 TurtleArt/tabasics.py:454
-#: TurtleArt/tawindow.py:4480 TurtleArt/tawindow.py:4485
-msgid "gray"
-msgstr "cinza"
-
-#: TurtleArt/tabasics.py:387
-msgid "set color"
-msgstr "definir cor"
-
-#: TurtleArt/tabasics.py:391
-msgid "sets color of the line drawn by the turtle"
-msgstr "define a cor da linha desenhada pela tartaruga"
-
-#: TurtleArt/tabasics.py:403
-msgid "set shade"
-msgstr "definir tom"
-
-#: TurtleArt/tabasics.py:407
-msgid "sets shade of the line drawn by the turtle"
-msgstr "define o tom da linha desenhada pela tartaruga"
-
-#: TurtleArt/tabasics.py:418
-msgid "set gray"
-msgstr "definir cinza"
-
-#: TurtleArt/tabasics.py:421
-msgid "sets gray level of the line drawn by the turtle"
-msgstr "define o nível de cinza da linha desenhada pela tartaruga"
-
-#: TurtleArt/tabasics.py:433
-msgid "holds current pen color (can be used in place of a number block)"
-msgstr ""
-"contém a cor atual da caneta (pode ser usado em vez de um bloco de número)"
-
-#: TurtleArt/tabasics.py:445
-msgid "holds current pen shade"
-msgstr "contém o tom atual da caneta"
-
-#: TurtleArt/tabasics.py:455
-msgid "holds current gray level (can be used in place of a number block)"
-msgstr ""
-"contém o nível de cinza atual (pode ser usado em vez de um bloco de número)"
-
-#: TurtleArt/tabasics.py:465
-msgid "pen up"
-msgstr "caneta levantada"
-
-#: TurtleArt/tabasics.py:468
-msgid "Turtle will not draw when moved."
-msgstr "A tartaruga não desenhará quando movida."
-
-#: TurtleArt/tabasics.py:475
-msgid "pen down"
-msgstr "caneta embaixo"
-
-#: TurtleArt/tabasics.py:478
-msgid "Turtle will draw when moved."
-msgstr "A tartaruga desenhará quando movida."
-
-#: TurtleArt/tabasics.py:485
-msgid "pen down?"
-msgstr "caneta embaixo?"
-
-#: TurtleArt/tabasics.py:487
-msgid "returns True if pen is down"
-msgstr "devolve Verdadeiro se a caneta estiver embaixo"
-
-#: TurtleArt/tabasics.py:494
-msgid "set pen size"
-msgstr "definir tamanho da caneta"
-
-#: TurtleArt/tabasics.py:498
-msgid "sets size of the line drawn by the turtle"
-msgstr "define o tamanho da linha desenhada pela tartaruga"
-
-#: TurtleArt/tabasics.py:511
-msgid "start fill"
-msgstr "iniciar preenchimento"
-
-#: TurtleArt/tabasics.py:513
-msgid "starts filled polygon (used with end fill block)"
-msgstr ""
-"inicia polígono preenchido (utilizado com o bloco terminar preenchimento)"
-
-#: TurtleArt/tabasics.py:519
-msgid "end fill"
-msgstr "terminar preenchimento"
-
-#: TurtleArt/tabasics.py:521
-msgid "completes filled polygon (used with start fill block)"
-msgstr ""
-"completa o polígono preenchido (utilizado com o bloco iniciar preenchimento)"
-
-#: TurtleArt/tabasics.py:527
-msgid "pen size"
-msgstr "tamanho da caneta"
-
-#: TurtleArt/tabasics.py:528
-msgid "holds current pen size (can be used in place of a number block)"
-msgstr ""
-"contém o tamanho atual da caneta (pode ser usado em vez de um bloco de "
-"número)"
-
-#: TurtleArt/tabasics.py:544
-msgid "Palette of pen colors"
-msgstr "Palete de cores da caneta"
-
-#: TurtleArt/tabasics.py:545
-msgid "colors"
-msgstr "cores"
-
-#: TurtleArt/tabasics.py:550
-msgid "red"
-msgstr "vermelho"
-
-#: TurtleArt/tabasics.py:550
-msgid "orange"
-msgstr "laranja"
-
-#: TurtleArt/tabasics.py:550
-msgid "yellow"
-msgstr "amarelo"
-
-#: TurtleArt/tabasics.py:550
-msgid "green"
-msgstr "verde"
-
-#: TurtleArt/tabasics.py:551
-msgid "cyan"
-msgstr "ciano"
-
-#: TurtleArt/tabasics.py:551
-msgid "blue"
-msgstr "azul"
-
-#: TurtleArt/tabasics.py:551
-msgid "purple"
-msgstr "roxo"
-
-#: TurtleArt/tabasics.py:551
-msgid "white"
-msgstr "branco"
-
-#: TurtleArt/tabasics.py:552
-msgid "black"
-msgstr "preto"
-
-#: TurtleArt/tabasics.py:634
-msgid "Palette of numeric operators"
-msgstr "Palete de operadores numéricos"
-
-#: TurtleArt/tabasics.py:635
-msgid "numbers"
-msgstr "números"
-
-#: TurtleArt/tabasics.py:640
-msgid "plus"
-msgstr "mais"
-
-#: TurtleArt/tabasics.py:644
-msgid "adds two alphanumeric inputs"
-msgstr "soma duas entradas alfanuméricas"
-
-#: TurtleArt/tabasics.py:659
-msgid "minus"
-msgstr "menos"
-
-#: TurtleArt/tabasics.py:662
-msgid "subtracts bottom numeric input from top numeric input"
-msgstr "subtrai a entrada numérica de baixo à entrada numérica em cima"
-
-#: TurtleArt/tabasics.py:674
-msgid "multiply"
-msgstr "multiplicar"
-
-#: TurtleArt/tabasics.py:677
-msgid "multiplies two numeric inputs"
-msgstr "multiplica duas entradas numéricas"
-
-#: TurtleArt/tabasics.py:686
-msgid "divide"
-msgstr "dividir"
-
-#: TurtleArt/tabasics.py:689
-msgid ""
-"divides top numeric input (numerator) by bottom numeric input (denominator)"
-msgstr ""
-"divide a entrada numérica em cima (numerador) pela entrada numérica de baixo "
-"(denominador)"
-
-#: TurtleArt/tabasics.py:699
-msgid "identity"
-msgstr "identidade"
-
-#: TurtleArt/tabasics.py:701
-msgid "identity operator used for extending blocks"
-msgstr "operador de identidade utilizado para extender blocos"
-
-#: TurtleArt/tabasics.py:725 TurtleArt/tabasics.py:726
-msgid "mod"
-msgstr "mod"
-
-#: TurtleArt/tabasics.py:729
-msgid "modular (remainder) operator"
-msgstr "operador módulo (resto da divisão inteira)"
-
-#: TurtleArt/tabasics.py:737
-msgid "√"
-msgstr "√"
-
-#: TurtleArt/tabasics.py:738
-msgid "square root"
-msgstr "raiz quadrada"
-
-#: TurtleArt/tabasics.py:741
-msgid "calculates square root"
-msgstr "calcula a raiz quadrada"
-
-#: TurtleArt/tabasics.py:749
-msgid "random"
-msgstr "aleatório"
-
-#: TurtleArt/tabasics.py:749
-msgid "min"
-msgstr "mín"
-
-#: TurtleArt/tabasics.py:749
-msgid "max"
-msgstr "máx"
-
-#: TurtleArt/tabasics.py:753
-msgid "returns random number between minimum (top) and maximum (bottom) values"
-msgstr ""
-"devolve um número aleatório entre os valores mínimo (em cima) e máximo (em "
-"baixo)"
-
-#: TurtleArt/tabasics.py:775
-msgid "number"
-msgstr "número"
-
-#: TurtleArt/tabasics.py:776
-msgid "used as numeric input in mathematic operators"
-msgstr "utilizado como entrada numérica em operadores matemáticos"
-
-#: TurtleArt/tabasics.py:783
-msgid "greater than"
-msgstr "maior que"
-
-#: TurtleArt/tabasics.py:786
-msgid "logical greater-than operator"
-msgstr "operador lógico maior-que"
-
-#: TurtleArt/tabasics.py:802
-msgid "less than"
-msgstr "menor que"
-
-#: TurtleArt/tabasics.py:806
-msgid "logical less-than operator"
-msgstr "operador lógico menor-que"
-
-#: TurtleArt/tabasics.py:822
-msgid "equal"
-msgstr "igual"
-
-#: TurtleArt/tabasics.py:826
-msgid "logical equal-to operator"
-msgstr "operador lógico igual-a"
-
-#: TurtleArt/tabasics.py:841
-msgid "not"
-msgstr "não é igual"
-
-#: TurtleArt/tabasics.py:844
-msgid "logical NOT operator"
-msgstr "operador lógico não-é-igual (NOT)"
-
-#: TurtleArt/tabasics.py:852 TurtleArt/tabasics.py:855
-msgid "and"
-msgstr "e"
-
-#: TurtleArt/tabasics.py:856
-msgid "logical AND operator"
-msgstr "operador lógico e (AND)"
-
-#: TurtleArt/tabasics.py:864 TurtleArt/tabasics.py:867
-msgid "or"
-msgstr "ou"
-
-#: TurtleArt/tabasics.py:868
-msgid "logical OR operator"
-msgstr "operador lógico ou (OR)"
-
-#: TurtleArt/tabasics.py:879
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:72
-msgid "Palette of flow operators"
-msgstr "Palete de operadores de fluxo"
-
-#: TurtleArt/tabasics.py:880
-msgid "flow"
-msgstr "fluxo"
-
-#: TurtleArt/tabasics.py:884
-msgid "wait"
-msgstr "esperar"
-
-#: TurtleArt/tabasics.py:888
-msgid "pauses program execution a specified number of seconds"
-msgstr "pausa a execução do programa um determinado número de segundos"
-
-#: TurtleArt/tabasics.py:897
-msgid "forever"
-msgstr "para sempre"
-
-#: TurtleArt/tabasics.py:901
-msgid "loops forever"
-msgstr "repete para sempre"
-
-#: TurtleArt/tabasics.py:911 TurtleArt/tabasics.py:915
-msgid "repeat"
-msgstr "repetir"
-
-#: TurtleArt/tabasics.py:916
-msgid "loops specified number of times"
-msgstr "repete determinado número de vezes"
-
-#: TurtleArt/tabasics.py:929 TurtleArt/tabasics.py:945
-msgid "if"
-msgstr "se"
-
-#: TurtleArt/tabasics.py:929 TurtleArt/tabasics.py:945
-msgid "then"
-msgstr "então"
-
-#: TurtleArt/tabasics.py:932
-msgid "if then"
-msgstr "se então"
-
-#: TurtleArt/tabasics.py:934
-msgid "if-then operator that uses boolean operators from Numbers palette"
-msgstr "operador se-então que usa operadores booleanos da palete Números"
-
-#: TurtleArt/tabasics.py:945
-msgid "else"
-msgstr "senão"
-
-#: TurtleArt/tabasics.py:949 TurtleArt/tabasics.py:962
-msgid "if then else"
-msgstr "se então senão"
-
-#: TurtleArt/tabasics.py:950 TurtleArt/tabasics.py:963
-msgid "if-then-else operator that uses boolean operators from Numbers palette"
-msgstr "operador se-então-senão que usa operadores booleanos da palete Números"
-
-#: TurtleArt/tabasics.py:972
-msgid "horizontal space"
-msgstr "espaço horizontal"
-
-#: TurtleArt/tabasics.py:973
-msgid "jogs stack right"
-msgstr "expande pilha para a direita"
-
-#: TurtleArt/tabasics.py:982
-msgid "vertical space"
-msgstr "espaço vertical"
-
-#: TurtleArt/tabasics.py:983
-msgid "jogs stack down"
-msgstr "expande pilha para baixo"
-
-#: TurtleArt/tabasics.py:990
-msgid "stop action"
-msgstr "parar ação"
-
-#: TurtleArt/tabasics.py:993
-msgid "stops current action"
-msgstr "para a ação atual"
-
-#: TurtleArt/tabasics.py:1003
-msgid "Palette of variable blocks"
-msgstr "Palete de blocos de variável"
-
-#: TurtleArt/tabasics.py:1004
-msgid "blocks"
-msgstr "blocos"
-
-#: TurtleArt/tabasics.py:1008 pysamples/grecord.py:211
-msgid "start"
-msgstr "iniciar"
-
-#: TurtleArt/tabasics.py:1011
-msgid "connects action to toolbar run buttons"
-msgstr "conecta ação com os botões de execução da barra de ferramentas"
-
-#: TurtleArt/tabasics.py:1023 TurtleArt/tabasics.py:1024
-#: TurtleArt/tabasics.py:1025
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:187
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:188
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:189
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:195
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:210
-msgid "text"
-msgstr "texto"
-
-#: TurtleArt/tabasics.py:1026
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:190
-msgid "string value"
-msgstr "valor de texto"
-
-#: TurtleArt/tabasics.py:1030 TurtleArt/tabasics.py:1033
-#: TurtleArt/tabasics.py:1046 TurtleArt/tabasics.py:1050
-#: TurtleArt/tawindow.py:1577 TurtleArt/tawindow.py:1676
-#: TurtleArt/tawindow.py:1689 TurtleArt/tawindow.py:2330
-#: TurtleArt/tawindow.py:4785
-msgid "action"
-msgstr "ação"
-
-#: TurtleArt/tabasics.py:1035
-msgid "top of nameable action stack"
-msgstr "topo da pilha de ação com nome"
-
-#: TurtleArt/tabasics.py:1051 TurtleArt/tawindow.py:4798
-msgid "invokes named action stack"
-msgstr "invoca pilha de ação com nome"
-
-#: TurtleArt/tabasics.py:1058
-msgid "store in box 1"
-msgstr "guardar na caixa 1"
-
-#: TurtleArt/tabasics.py:1063
-msgid "stores numeric value in Variable 1"
-msgstr "guarda o valor numérico na Variável 1"
-
-#: TurtleArt/tabasics.py:1072
-msgid "store in box 2"
-msgstr "guardar na caixa 2"
-
-#: TurtleArt/tabasics.py:1077
-msgid "stores numeric value in Variable 2"
-msgstr "guarda o valor numérico na Variável 2"
-
-#: TurtleArt/tabasics.py:1086
-msgid "box 1"
-msgstr "caixa 1"
-
-#: TurtleArt/tabasics.py:1089
-msgid "Variable 1 (numeric value)"
-msgstr "Variável 1 (valor numérico)"
-
-#: TurtleArt/tabasics.py:1099
-msgid "box 2"
-msgstr "caixa 2"
-
-#: TurtleArt/tabasics.py:1102
-msgid "Variable 2 (numeric value)"
-msgstr "Variável 2 (valor numérico)"
-
-#: TurtleArt/tabasics.py:1114 TurtleArt/tawindow.py:4847
-msgid "store in"
-msgstr "guardar em"
-
-#: TurtleArt/tabasics.py:1114 TurtleArt/tabasics.py:1130
-msgid "box"
-msgstr "caixa"
-
-#: TurtleArt/tabasics.py:1114 TurtleArt/tawindow.py:4847
-msgid "value"
-msgstr "valor"
-
-#: TurtleArt/tabasics.py:1118 TurtleArt/tabasics.py:1133
-#: TurtleArt/tawindow.py:1581 TurtleArt/tawindow.py:1715
-#: TurtleArt/tawindow.py:2334 TurtleArt/tawindow.py:4812
-#: TurtleArt/tawindow.py:4839
-msgid "my box"
-msgstr "a minha caixa"
-
-#: TurtleArt/tabasics.py:1119 TurtleArt/tawindow.py:4852
-msgid "stores numeric value in named variable"
-msgstr "guarda valor numérico em variável com nome"
-
-#: TurtleArt/tabasics.py:1136 TurtleArt/tawindow.py:4825
-msgid "named variable (numeric value)"
-msgstr "variável com nome (valor numérico)"
-
-#: TurtleArt/tabasics.py:1142 TurtleArt/tabasics.py:1166
-msgid "action 1"
-msgstr "ação 1"
-
-#: TurtleArt/tabasics.py:1145
-msgid "top of Action 1 stack"
-msgstr "topo da pilha Ação 1"
-
-#: TurtleArt/tabasics.py:1154 TurtleArt/tabasics.py:1179
-msgid "action 2"
-msgstr "ação 2"
-
-#: TurtleArt/tabasics.py:1157
-msgid "top of Action 2 stack"
-msgstr "topo da pilha Ação 2"
-
-#: TurtleArt/tabasics.py:1169
-msgid "invokes Action 1 stack"
-msgstr "invoca pilha Ação 1"
-
-#: TurtleArt/tabasics.py:1182
-msgid "invokes Action 2 stack"
-msgstr "invoca pilha Ação 2"
-
-#: TurtleArt/tabasics.py:1194 TurtleArt/tabasics.py:1195
-#: TurtleArt/tapalette.py:137 TurtleArt/tapalette.py:138
-msgid "trash"
-msgstr "lixo"
-
-#: TurtleArt/tabasics.py:1199 TurtleArt/tawindow.py:2203
-msgid "empty trash"
-msgstr "esvaziar lixo"
-
-#: TurtleArt/tabasics.py:1200
-msgid "permanently deletes items in trash"
-msgstr "apaga permanentemente os itens no lixo"
-
-#: TurtleArt/tabasics.py:1204
-msgid "restore all"
-msgstr "restaurar tudo"
-
-#: TurtleArt/tabasics.py:1205
-msgid "restore all blocks from trash"
-msgstr "restaura todos os blocos do lixo"
-
-#: TurtleArt/tabasics.py:1209
-msgid "clear all"
-msgstr "limpar tudo"
-
-#: TurtleArt/tabasics.py:1210
-msgid "move all blocks to trash"
-msgstr "move todos os blocos para o lixo"
-
-#: TurtleArt/tacollaboration.py:152 TurtleArt/tawindow.py:2308
-#: TurtleArtActivity.py:892
-msgid "Share selected blocks"
-msgstr "Partilhar os blocos selecionados"
-
-#: TurtleArt/taconstants.py:139
-msgid "up"
-msgstr "para cima"
-
-#: TurtleArt/taconstants.py:141
-msgid "down"
-msgstr "para baixo"
-
-#: TurtleArt/taconstants.py:142
-msgid "backspace"
-msgstr "retrocesso"
-
-#: TurtleArt/taconstants.py:143
-msgid "tab"
-msgstr "tabuladora"
-
-#. TRANS: enter is the name of the enter (or return) key
-#: TurtleArt/taconstants.py:145
-msgid "enter"
-msgstr "enter"
-
-#. TRANS: space is the name of the space key
-#: TurtleArt/taconstants.py:148
-msgid "space"
-msgstr "espaço"
-
-#: TurtleArt/taconstants.py:149
-msgid "delete"
-msgstr "apagar"
-
-#: TurtleArt/taconstants.py:362 TurtleArt/taconstants.py:383
-#: TurtleArt/taconstants.py:403 TurtleArt/taconstants.py:444
-#: TurtleArt/taconstants.py:485 TurtleArt/taconstants.py:526
-msgid "Title"
-msgstr "Título"
-
-#: TurtleArt/taexportpython.py:194
-msgid "block is not exportable"
-msgstr "o bloco não é exportável"
-
-#: TurtleArt/taexportpython.py:213
-msgid "error while exporting block"
-msgstr "erro ao exportar o bloco"
-
-#: TurtleArt/talogo.py:383 TurtleArt/tawindow.py:1538 TurtleArtActivity.py:873
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1302
-msgid "Stop turtle"
-msgstr "Parar tartaruga"
-
-#: TurtleArt/talogo.py:393 TurtleArtActivity.py:489 TurtleArtActivity.py:874
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1293
-msgid "Show blocks"
-msgstr "Mostrar blocos"
-
-#: TurtleArt/talogo.py:397 TurtleArtActivity.py:493 TurtleArtActivity.py:1172
-msgid "Hide blocks"
-msgstr "Esconder blocos"
-
-#: TurtleArt/talogo.py:537
-msgid "did not output to"
-msgstr "não saiu para"
-
-#: TurtleArt/talogo.py:577 TurtleArt/talogo.py:948
-msgid "doesn't like"
-msgstr "não gosta"
-
-#: TurtleArt/talogo.py:578 TurtleArt/talogo.py:949
-msgid "as input"
-msgstr "como entrada"
-
-#: TurtleArt/talogo.py:639
-msgid "I don't know how to"
-msgstr "Eu não sei como"
-
-#: TurtleArt/tapalette.py:97
-msgid "displays next palette"
-msgstr "mostra a palete seguinte"
-
-#: TurtleArt/tapalette.py:98
-msgid "changes the orientation of the palette of blocks"
-msgstr "altera a orientação das paletes de blocos"
-
-#: TurtleArt/taplugin.py:90
-msgid "Please restart Turtle Art in order to use the plugin."
-msgstr "Por favor reinicia o TartarugArte para utilizar este plugin."
-
-#: TurtleArt/taplugin.py:93 TurtleArt/taplugin.py:104
-#: TurtleArt/taplugin.py:107
-msgid "Plugin could not be installed."
-msgstr "O plugin não pode ser instalado."
-
-#: TurtleArt/taprimitive.py:57
-msgid "error in highlighted block"
-msgstr "erro no bloco realçado"
-
-#: TurtleArt/taprimitive.py:59
-msgid "error"
-msgstr "erro"
-
-#: TurtleArt/tautils.py:298
-msgid "Load..."
-msgstr "Carregar..."
-
-#: TurtleArt/tautils.py:308
-msgid "Save..."
-msgstr "Guardar..."
-
-#: TurtleArt/tautils.py:591
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:860
-msgid "click to open"
-msgstr "clica para abrir"
-
-#: TurtleArt/tawindow.py:1207 TurtleArt/tawindow.py:1208
-msgid "orientation"
-msgstr "orientação"
-
-#: TurtleArt/tawindow.py:1222 TurtleArt/tawindow.py:1872
-msgid "next"
-msgstr "próximo"
-
-#: TurtleArt/tawindow.py:1261 TurtleArt/tawindow.py:1893
-msgid "shift"
-msgstr "deslocar"
-
-#: TurtleArt/tawindow.py:1542
-msgid "Please hit the Stop Button before making changes to your program"
-msgstr ""
-"Por favor, carrega no botão Parar antes de fazeres mudanças ao teu programa"
-
-#: TurtleArt/tawindow.py:1595
-msgid "Select blocks to share"
-msgstr "Selecionar blocos para partilhar"
-
-#: TurtleArt/tawindow.py:1760 TurtleArtActivity.py:774
-#: TurtleArtActivity.py:921 turtleblocks.py:462
-msgid "Save stack"
-msgstr "Guardar pilha"
-
-#: TurtleArt/tawindow.py:1761 TurtleArt/tawindow.py:1775
-msgid "Really overwrite stack?"
-msgstr "Desejas sobrescrever a pilha?"
-
-#: TurtleArt/tawindow.py:1764 TurtleArt/tawindow.py:1803
-#: gnome_plugins/uploader_plugin.py:144
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: TurtleArt/tawindow.py:1768 TurtleArt/tawindow.py:1778
-msgid "Overwrite stack"
-msgstr "Sobrescrever pilha"
-
-#: TurtleArt/tawindow.py:1799 TurtleArt/tawindow.py:1807
-#: TurtleArt/tawindow.py:1816 TurtleArtActivity.py:776 turtleblocks.py:464
-msgid "Delete stack"
-msgstr "Apagar pilha"
-
-#: TurtleArt/tawindow.py:1800 TurtleArt/tawindow.py:1813
-msgid "Really delete stack?"
-msgstr "Desejas apagar a pilha?"
-
-#: TurtleArt/tawindow.py:2204
-msgid "Do you really want to empty the trash?"
-msgstr "Desejas esvaziar o lixo?"
-
-#: TurtleArt/tawindow.py:4634
-msgid "image"
-msgstr "imagem"
-
-#: TurtleArtActivity.py:131
-msgid "Please wait"
-msgstr "Por favor espera"
-
-#: TurtleArtActivity.py:132
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:133
 msgid "Starting connection..."
 msgstr "A iniciar ligação..."
 
-#: TurtleArtActivity.py:367
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:395
 msgid "snapshot"
 msgstr "revisão"
 
-#: TurtleArtActivity.py:422 TurtleArtActivity.py:799 TurtleArtActivity.py:948
-msgid "Turn off hover help"
-msgstr "Desligar ajuda flutuante"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:451
+msgid "OK! I am doing something more aggresive now"
+msgstr ""
 
-#: TurtleArtActivity.py:431 turtleblocks.py:455
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:452
+msgid "Ok there is no way you will find this string"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:453
+msgid "another test to make sure this even makes sense"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:454
+msgid "yet another test things out"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:455
+msgid "me github profile is dying now"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:464
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:473
 msgid "Turn on hover help"
 msgstr "Ligar ajuda flutuante"
 
-#: TurtleArtActivity.py:441 turtleblocks.py:469
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:474
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:487
 msgid "Show palette"
 msgstr "Mostrar palete"
 
-#: TurtleArtActivity.py:447 TurtleArtActivity.py:1160 turtleblocks.py:471
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:480
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1243
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:489
 msgid "Hide palette"
 msgstr "Esconder palete"
 
-#: TurtleArtActivity.py:615
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:522
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:910
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1324
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:415
+msgid "Show blocks"
+msgstr "Mostrar blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:526
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1255
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:419
+msgid "Hide blocks"
+msgstr "Esconder blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:648
 msgid "Rescale coordinates down"
 msgstr "Diminuir a escala das coordenadas"
 
-#: TurtleArtActivity.py:624 TurtleArtActivity.py:790 TurtleArtActivity.py:944
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:657
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:826
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:992
 msgid "Rescale coordinates up"
 msgstr "Aumentar a escala das coordenadas"
 
-#: TurtleArtActivity.py:722 TurtleArtActivity.py:757 TurtleArtActivity.py:867
-#: TurtleArtActivity.py:918 turtleblocks.py:466
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:758
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:793
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:903
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:966
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:484
 msgid "Edit"
 msgstr "Editar"
 
-#: TurtleArtActivity.py:727 TurtleArtActivity.py:755 TurtleArtActivity.py:868
-#: TurtleArtActivity.py:936 turtleblocks.py:457
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:763
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:791
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:904
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:984
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:475
 msgid "View"
 msgstr "Ver"
 
-#: TurtleArtActivity.py:753 TurtleArtActivity.py:869
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:789
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:905
 msgid "Project"
 msgstr "Projeto"
 
-#: TurtleArtActivity.py:759 TurtleArtActivity.py:866 TurtleArtActivity.py:893
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:795
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:902
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:929
 msgid "Save/Load"
 msgstr "Guardar/Carregar"
 
-#: TurtleArtActivity.py:767 TurtleArtActivity.py:919 turtleblocks.py:460
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:803
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:967
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:478
 msgid "Copy"
 msgstr "Copiar"
 
-#: TurtleArtActivity.py:769 TurtleArtActivity.py:920 turtleblocks.py:461
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:805
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:968
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:479
 msgid "Paste"
 msgstr "Colar"
 
-#: TurtleArtActivity.py:771
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:807
 msgid "Restore blocks from trash"
 msgstr "Restaura os blocos do lixo"
 
-#: TurtleArtActivity.py:779 TurtleArtActivity.py:937
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:907
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:810
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:969
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:480
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1461
+msgid "Save stack"
+msgstr "Guardar pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:812
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:482
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1500
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1508
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1517
+msgid "Delete stack"
+msgstr "Apagar pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:815
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:985
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:938
 msgid "Fullscreen"
 msgstr "Ecrã Inteiro"
 
-#: TurtleArtActivity.py:782 TurtleArtActivity.py:938 turtleblocks.py:441
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:818
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:986
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:459
 msgid "Cartesian coordinates"
 msgstr "Coordenadas cartesianas"
 
-#: TurtleArtActivity.py:784 TurtleArtActivity.py:940 turtleblocks.py:443
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:820
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:988
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:461
 msgid "Polar coordinates"
 msgstr "Coordenadas polares"
 
-#: TurtleArtActivity.py:787 TurtleArtActivity.py:942
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:823
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:990
 msgid "Metric coordinates"
 msgstr "Coordenadas métricas"
 
-#: TurtleArtActivity.py:793 TurtleArtActivity.py:946 turtleblocks.py:448
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:829
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:994
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:466
 msgid "Grow blocks"
 msgstr "Aumentar tamanho dos blocos"
 
-#: TurtleArtActivity.py:796 TurtleArtActivity.py:947 turtleblocks.py:450
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:832
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:995
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:468
 msgid "Shrink blocks"
 msgstr "Diminuir tamanho dos blocos"
 
-#: TurtleArtActivity.py:824 TurtleArtActivity.py:837 TurtleArtActivity.py:875
-#: TurtleArtActivity.py:1102
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:835
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:996
+msgid "Turn off hover help"
+msgstr "Desligar ajuda flutuante"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:860
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:873
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:911
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1171
 msgid "Load example"
 msgstr "Carregar exemplo"
 
-#: TurtleArtActivity.py:870 TurtleArtActivity.py:1166 turtleblocks.py:478
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:906
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1249
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:496
 msgid "Clean"
 msgstr "Limpar"
 
-#: TurtleArtActivity.py:871 TurtleArtActivity.py:1168 turtleblocks.py:479
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:907
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:497
 msgid "Run"
 msgstr "Executar"
 
-#: TurtleArtActivity.py:872 TurtleArtActivity.py:1170 turtleblocks.py:480
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:908
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1253
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:498
 msgid "Step"
 msgstr "Passo a passo"
 
-#: TurtleArtActivity.py:876 turtleblocks.py:487 util/helpbutton.py:44
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:909
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1333
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1217
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:405
+msgid "Stop turtle"
+msgstr "Parar tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:912
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/util/helpbutton.py:44
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:505
 msgid "Help"
 msgstr "Ajuda"
 
-#: TurtleArtActivity.py:877 turtleblocks.py:482
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:913
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:500
 msgid "Stop"
 msgstr "Parar"
 
-#: TurtleArtActivity.py:894 TurtleArtActivity.py:1077
-#: TurtleArtActivity.py:1125 turtleblocks.py:431
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:928
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2013
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tacollaboration.py:152
+msgid "Share selected blocks"
+msgstr "Partilhar os blocos selecionados"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:930
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1133
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1194
 msgid "Save as image"
 msgstr "Guardar como imagem"
 
-#: TurtleArtActivity.py:895 TurtleArtActivity.py:1080
-#: TurtleArtActivity.py:1128 turtleblocks.py:433
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:933
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1136
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1197
+msgid "Save as icon"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:938
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1140
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1201
+msgid "Save as ODP"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:943
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1149
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1210
 msgid "Save as Logo"
 msgstr "Guardar como Logo"
 
-#: TurtleArtActivity.py:896 TurtleArtActivity.py:1083
-#: TurtleArtActivity.py:1131 turtleblocks.py:435
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:944
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1152
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1213
 msgid "Save as Python"
 msgstr "Guardar como Python"
 
-#: TurtleArtActivity.py:897 TurtleArtActivity.py:1087
-#: TurtleArtActivity.py:1135
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:945
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1156
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1217
 msgid "Save snapshot"
 msgstr "Guardar revisão"
 
-#: TurtleArtActivity.py:898 TurtleArtActivity.py:1111
-msgid "Load project"
-msgstr "Carregar projeto"
-
-#: TurtleArtActivity.py:901 TurtleArtActivity.py:1116
-#: TurtleArtActivity.py:1142 turtleblocks.py:427
-msgid "Load plugin"
-msgstr "Carregar plugin"
-
-#: TurtleArtActivity.py:902 TurtleArtActivity.py:1119
-#: TurtleArtActivity.py:1145
-msgid "Load Python block"
-msgstr "Carregar bloco de Python"
-
-#: TurtleArtActivity.py:1049
-msgid "Palettes"
-msgstr "Paletes"
-
-#: TurtleArtActivity.py:1067
-msgid "Sharing blocks disabled"
-msgstr "Partilha de blocos desativada"
-
-#: TurtleArtActivity.py:1072 turtleblocks.py:429
-msgid "Save"
-msgstr "Guardar"
-
-#: TurtleArtActivity.py:1091
-msgid "Load"
-msgstr "Carregar"
-
-#: TurtleArtActivity.py:1108 turtleblocks.py:425
-msgid "Open"
-msgstr "Abrir"
-
-#: TurtleArtActivity.py:1137 turtleblocks.py:426
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:946
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1180
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1219
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:433
 msgid "Add project"
 msgstr "Adicionar projeto"
 
-#: TurtleArtActivity.py:1161
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:949
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1185
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1225
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:434
+msgid "Load plugin"
+msgstr "Carregar plugin"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:950
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1188
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1228
+msgid "Load Python block"
+msgstr "Carregar bloco de Python"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1105
+msgid "Palettes"
+msgstr "Paletes"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1123
+msgid "Sharing blocks disabled"
+msgstr "Partilha de blocos desativada"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1128
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:436
+msgid "Save"
+msgstr "Guardar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1160
+msgid "Load"
+msgstr "Carregar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1177
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:432
+msgid "Open"
+msgstr "Abrir"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1244
 msgid "<Ctrl>p"
 msgstr "<Ctrl>p"
 
-#: TurtleArtActivity.py:1166
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1249
 msgid "<Ctrl>e"
 msgstr "<Ctrl>e"
 
-#: TurtleArtActivity.py:1168
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1251
 msgid "<Ctrl>r"
 msgstr "<Ctrl>r"
 
-#: TurtleArtActivity.py:1170
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1253
 msgid "<Ctrl>w"
 msgstr "<Ctrl>w"
 
-#: TurtleArtActivity.py:1173
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1256
 msgid "<Ctrl>s"
 msgstr "<Ctrl>s"
 
-#: TurtleArtActivity.py:1352
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1435
 #, python-format
 msgid "Plugin %s already installed."
 msgstr "O plugin %s já está instalado."
 
-#: TurtleArtActivity.py:1353 turtleblocks.py:547
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArtActivity.py:1436
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:567
 #, python-format
 msgid "Do you want to reinstall %s?"
 msgstr "Queres reinstalar %s?"
 
-#: gnome_plugins/collaboration_plugin.py:64
-msgid "My Turtle Art session"
-msgstr "A minha sessão TartarugArte"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:103
+msgid "usage is"
+msgstr "utilização é"
 
-#: gnome_plugins/collaboration_plugin.py:111
-msgid "Enable collaboration"
-msgstr "Ativar colaboração"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:302
+msgid "No option action:"
+msgstr "Ação sem opção:"
 
-#: gnome_plugins/collaboration_plugin.py:116
-msgid "Activities"
-msgstr "Atividades"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:317
+msgid "File not found"
+msgstr "Ficheiro não encontrado"
 
-#: gnome_plugins/collaboration_plugin.py:121
-msgid "Buddies"
-msgstr "Parceiros"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:341
+#, python-format
+msgid "Configuration directory not writable: %s"
+msgstr "O diretório de configuração não tem permissão de escrita: %s"
 
-#: gnome_plugins/collaboration_plugin.py:124
-msgid "Share"
-msgstr "Partilhar"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:429
+msgid "New"
+msgstr "Novo"
 
-#: gnome_plugins/collaboration_plugin.py:125
-msgid "Configuration"
-msgstr "Configuração"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:430
+msgid "Show sample projects"
+msgstr "Mostrar projetos de exemplo"
 
-#: gnome_plugins/collaboration_plugin.py:128
-msgid "Neighborhood"
-msgstr "Vizinhança"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:437
+msgid "Save as"
+msgstr "Guardar como"
 
-#: gnome_plugins/collaboration_plugin.py:289
-msgid "Nickname"
-msgstr "Nome"
-
-#: gnome_plugins/collaboration_plugin.py:291
-msgid "Account ID"
-msgstr "Identificação de conta"
-
-#: gnome_plugins/collaboration_plugin.py:293
-msgid "Server"
-msgstr "Servidor"
-
-#: gnome_plugins/collaboration_plugin.py:295
-msgid "Port"
-msgstr "Porta"
-
-#: gnome_plugins/collaboration_plugin.py:297
-msgid "Password"
-msgstr "Palavra-Passe"
-
-#: gnome_plugins/collaboration_plugin.py:299
-msgid "Register"
-msgstr "Registar"
-
-#: gnome_plugins/collaboration_plugin.py:301
-msgid "Colors"
-msgstr "Cores"
-
-#: gnome_plugins/fb_plugin.py:82 gnome_plugins/fb_plugin.py:83
-#: gnome_plugins/fb_plugin.py:92 gnome_plugins/uploader_plugin.py:63
-#: gnome_plugins/uploader_plugin.py:64 gnome_plugins/uploader_plugin.py:73
-msgid "Upload"
-msgstr "Transferir"
-
-#: gnome_plugins/fb_plugin.py:87
-msgid "Facebook wall post"
-msgstr "Colocar no Mural de Facebook"
-
-#: gnome_plugins/uploader_plugin.py:68
-msgid "Upload to Web"
-msgstr "Transferir para a Web"
-
-#: gnome_plugins/uploader_plugin.py:90
-msgid ""
-"You must have an account at http://turtleartsite.sugarlabs.org to upload "
-"your project."
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:441
+msgid "Export as"
 msgstr ""
-"Precisas de ter uma conta em http://turtleartsite.sugarlabs.org para "
-"transferir o teu projeto."
 
-#: gnome_plugins/uploader_plugin.py:99
-msgid "Username:"
-msgstr "Nome de Utilizador:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:444
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4631
+msgid "image"
+msgstr "imagem"
 
-#: gnome_plugins/uploader_plugin.py:109
-msgid "Password:"
-msgstr "Palavra-Passe:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:446
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4524
+msgid "icon"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:120
-msgid "Title:"
-msgstr "Título:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:449
+msgid "ODP"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:130
-msgid "Description:"
-msgstr "Descrição:"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:451
+msgid "Logo"
+msgstr ""
 
-#: gnome_plugins/uploader_plugin.py:140
-msgid "Submit to Web"
-msgstr "Enviar à Web"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:453
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:654
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:669
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:685
+msgid "Python"
+msgstr "Python"
 
-#: gnome_plugins/uploader_plugin.py:166
-msgid "Login failed"
-msgstr "O login falhou"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:455
+msgid "Quit"
+msgstr "Sair"
 
-#: gnome_plugins/uploader_plugin.py:203
-msgid "Failed to upload!"
-msgstr "A transferência falhou!"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:456
+msgid "File"
+msgstr "Ficheiro"
 
-#: plugins/accelerometer/accelerometer.py:50
-#: plugins/audio_sensors/audio_sensors.py:81
-#: plugins/camera_sensor/camera_sensor.py:67
-#: plugins/light_sensor/light_sensor.py:52 plugins/rfid/rfid.py:87
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:326
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:464
+msgid "Rescale coordinates"
+msgstr "Repor a escala das coordenadas"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:470
+msgid "Reset block size"
+msgstr "Repor o tamanho dos blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:491
+msgid "Show/hide blocks"
+msgstr "Mostrar/esconder blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:493
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:499
+msgid "Debug"
+msgstr "Depurar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:501
+msgid "Turtle"
+msgstr "Tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:504
+msgid "About something"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:551
+msgid "You have unsaved work. Would you like to save before quitting?"
+msgstr "Tens trabalho não guardado. Queres guardar antes de sair?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:556
+msgid "Save project?"
+msgstr "Guardar projeto?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:566
+#, python-format
+#, python-format,
+msgid "Plugin %s already installed"
+msgstr "O plugin %s já está instalado"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/turtleblocks.py:706
+msgid "myproject"
+msgstr "meuprojeto"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:67
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:52
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:50
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:87
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:84
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:339
 msgid "Palette of sensor blocks"
 msgstr "Palete de blocos de sensores"
 
-#: plugins/accelerometer/accelerometer.py:56
-#: plugins/accelerometer/accelerometer.py:63
-msgid "acceleration"
-msgstr "aceleração"
-
-#: plugins/accelerometer/accelerometer.py:58
-#: plugins/accelerometer/accelerometer.py:65
-msgid "push acceleration in x, y, z to heap"
-msgstr "inserir a aceleração em X, Y, Z para pilha"
-
-#: plugins/audio_sensors/audio_sensors.py:90 pysamples/grecord.py:206
-msgid "sound"
-msgstr "som"
-
-#: plugins/audio_sensors/audio_sensors.py:91
-msgid "raw microphone input signal"
-msgstr "sinal bruto da entrada do microfone"
-
-#: plugins/audio_sensors/audio_sensors.py:97
-msgid "loudness"
-msgstr "volume"
-
-#: plugins/audio_sensors/audio_sensors.py:98
-msgid "microphone input volume"
-msgstr "volume da entrada do microfone"
-
-#: plugins/audio_sensors/audio_sensors.py:123
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:310
-msgid "pitch"
-msgstr "altura do som"
-
-#: plugins/audio_sensors/audio_sensors.py:124
-msgid "microphone input pitch"
-msgstr "altura do som da entrada do microfone"
-
-#: plugins/audio_sensors/audio_sensors.py:157
-#: plugins/audio_sensors/audio_sensors.py:175
-msgid "resistance"
-msgstr "resistência"
-
-#: plugins/audio_sensors/audio_sensors.py:158
-#: plugins/audio_sensors/audio_sensors.py:176
-msgid "microphone input resistance"
-msgstr "resistência da entrada do microfone"
-
-#: plugins/audio_sensors/audio_sensors.py:163
-#: plugins/audio_sensors/audio_sensors.py:181
-msgid "voltage"
-msgstr "voltagem"
-
-#: plugins/audio_sensors/audio_sensors.py:164
-#: plugins/audio_sensors/audio_sensors.py:182
-msgid "microphone input voltage"
-msgstr "voltagem da entrada do microfone"
-
-#: plugins/camera_sensor/camera_sensor.py:71
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:133
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:71
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:133
 msgid "Palette of media objects"
 msgstr "Palete de objetos de média"
 
-#: plugins/camera_sensor/camera_sensor.py:83
-#: plugins/camera_sensor/camera_sensor.py:99
-#: plugins/camera_sensor/camera_sensor.py:136
-#: plugins/camera_sensor/camera_sensor.py:152
-#: plugins/light_sensor/light_sensor.py:58
-#: plugins/light_sensor/light_sensor.py:66
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:90
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:122
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:58
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:66
 msgid "brightness"
 msgstr "luminosidade"
 
-#: plugins/camera_sensor/camera_sensor.py:85
-#: plugins/camera_sensor/camera_sensor.py:138
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:92
 msgid "light level detected by camera"
 msgstr "nível de luz detetado pela câmara"
 
-#: plugins/camera_sensor/camera_sensor.py:101
-#: plugins/camera_sensor/camera_sensor.py:154
-msgid "Average RGB color from camera is pushed to the stack"
-msgstr "O valor médio da cor RGB da câmara é inserido na pilha"
-
-#: plugins/camera_sensor/camera_sensor.py:114
-#: plugins/camera_sensor/camera_sensor.py:121
-#: plugins/camera_sensor/camera_sensor.py:129
-#: plugins/camera_sensor/camera_sensor.py:169
-#: plugins/camera_sensor/camera_sensor.py:177
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:107
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:115
 msgid "camera output"
 msgstr "saída da câmara"
 
-#: plugins/light_sensor/light_sensor.py:61
-#: plugins/light_sensor/light_sensor.py:69
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/camera_sensor/camera_sensor.py:124
+msgid "Average RGB color from camera is pushed to the stack"
+msgstr "O valor médio da cor RGB da câmara é inserido na pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:61
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/light_sensor/light_sensor.py:69
 msgid "light level detected by light sensor"
 msgstr "nível de luz detetado pelo sensor de luz"
 
-#: plugins/rfid/rfid.py:93 plugins/rfid/rfid.py:101
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:56
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:63
+msgid "acceleration"
+msgstr "aceleração"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:58
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/accelerometer/accelerometer.py:65
+msgid "push acceleration in x, y, z to heap"
+msgstr "inserir a aceleração em X, Y, Z para pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:101
 msgid "RFID"
 msgstr "RFID"
 
-#: plugins/rfid/rfid.py:94 plugins/rfid/rfid.py:102
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:94
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/rfid/rfid.py:102
 msgid "read value from RFID device"
 msgstr "ler valor do dispositivo RFID"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:76
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:79
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:206
+msgid "sound"
+msgstr "som"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:94
+msgid "raw microphone input signal"
+msgstr "sinal bruto da entrada do microfone"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:100
+msgid "loudness"
+msgstr "volume"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:101
+msgid "microphone input volume"
+msgstr "volume da entrada do microfone"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:126
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+msgid "pitch"
+msgstr "altura do som"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:127
+msgid "microphone input pitch"
+msgstr "altura do som da entrada do microfone"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:160
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:178
+msgid "resistance"
+msgstr "resistência"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:161
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:179
+msgid "microphone input resistance"
+msgstr "resistência da entrada do microfone"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:166
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:184
+msgid "voltage"
+msgstr "voltagem"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:167
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/audio_sensors/audio_sensors.py:185
+msgid "microphone input voltage"
+msgstr "voltagem da entrada do microfone"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:72
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:905
+msgid "Palette of flow operators"
+msgstr "Palete de operadores de fluxo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:76
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:79
 msgid "while"
 msgstr "enquanto"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:80
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:80
 msgid "do-while-True operator that uses boolean operators from Numbers palette"
 msgstr ""
 "operador faz-enquanto-Verdade que utiliza operadores booleanos da palete de "
 "Números"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:97
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:100
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:97
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:100
 msgid "until"
 msgstr "até"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:101
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:101
 msgid "do-until-True operator that uses boolean operators from Numbers palette"
 msgstr ""
 "operador faz-até-Verdade que utiliza operadores booleanos da palete de "
 "Números"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:121
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:862
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1017
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:121
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:854
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1048
 msgid "top"
 msgstr "topo"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:123
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:123
 msgid "top of a collapsible stack"
 msgstr "topo de uma pilha que pode encolher"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:135
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:135
 msgid "media"
 msgstr "média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:141
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:141
 msgid "journal"
 msgstr "diário"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:142
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:142
 msgid "Sugar Journal media object"
 msgstr "Objeto de média do Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:152
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:153
 msgid "audio"
 msgstr "áudio"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:154
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:155
 msgid "Sugar Journal audio object"
 msgstr "Objeto de som do Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:164
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:166
 msgid "video"
 msgstr "vídeo"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:166
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:168
 msgid "Sugar Journal video object"
 msgstr "Objeto de vídeo do Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:176
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:179
 msgid "description"
 msgstr "descrição"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:178
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:181
 msgid "Sugar Journal description field"
 msgstr "Campo de descrição do Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:194
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:190
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:191
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:192
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:198
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:213
+msgid "text"
+msgstr "texto"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:193
+msgid "string value"
+msgstr "valor de texto"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:197
 msgid "show"
 msgstr "mostrar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:198
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:213
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:201
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:216
 msgid "draws text or show media from the Journal"
 msgstr "desenha texto ou mostra média do Diário"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:209
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:212
 msgid "show aligned"
 msgstr "mostrar alinhado"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:222
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:225
 msgid "set scale"
 msgstr "ajustar escala"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:226
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:229
 msgid "sets the scale of media"
 msgstr "ajusta a escala do média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:236
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:239
+msgid "set font"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:242
+msgid "sets the font used by the show block"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:249
 msgid "save picture"
 msgstr "guardar imagem"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:238
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:249
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:262
 msgid "picture name"
 msgstr "nome da imagem"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:239
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:252
 msgid "saves a picture to the Sugar Journal"
 msgstr "guarda uma imagem no Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:247
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:260
 msgid "save SVG"
 msgstr "guardar SVG"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:250
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:263
 msgid "saves turtle graphics as an SVG file in the Sugar Journal"
 msgstr "guarda os desenhos da tartaruga como um ficheiro SVG no Diário do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:259
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:272
 msgid "scale"
 msgstr "escala"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:263
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:276
 msgid "holds current scale value"
 msgstr "contém o valor atual da escala"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:270
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:283
 msgid "media wait"
 msgstr "esperar por média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:272
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:285
 msgid "wait for current video or audio to complete"
 msgstr "espera que o vídeo ou áudio atual acabe"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:278
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:291
 msgid "media stop"
 msgstr "parar média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:280
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:293
 msgid "stop video or audio"
 msgstr "parar vídeo ou áudio"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:285
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:298
 msgid "media pause"
 msgstr "pausar média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:287
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:300
 msgid "pause video or audio"
 msgstr "pausar vídeo ou áudio"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:292
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:305
 msgid "media resume"
 msgstr "retomar média"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:294
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:307
 msgid "resume playing video or audio"
 msgstr "retomar a reprodução de vídeo ou áudio"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:299
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:312
 msgid "speak"
 msgstr "falar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:301
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:314
 msgid "hello"
 msgstr "olá"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:302
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:315
 msgid "speaks text"
 msgstr "fala texto"
 
-#. TRANS: pitch, duration, amplitude
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:310
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
 msgid "sinewave"
 msgstr "sinusoide"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:311
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
 msgid "amplitude"
 msgstr "amplitude"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:311
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
 msgid "duration"
 msgstr "duração"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:314
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:327
 msgid "plays a sinewave at frequency, amplitude, and duration (in seconds)"
 msgstr "toca uma sinusoide na frequência, amplitude, e duração (em segundos)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:328
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:341
 msgid "sensor"
 msgstr "sensor"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:333
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:344
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:346
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:357
 msgid "button down"
 msgstr "botão premido"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:336
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:349
 msgid "returns 1 if mouse button is pressed"
 msgstr "devolve 1 se o botão do rato for premido"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:347
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:360
 msgid "returns True if mouse button is pressed"
 msgstr "devolve Verdadeiro se o botão do rato for premido"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:355
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:368
 msgid "mouse x"
 msgstr "x rato"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:358
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:371
 msgid "returns mouse x coordinate"
 msgstr "devolve a coordenada X do rato"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:366
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:379
 msgid "mouse y"
 msgstr "y rato"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:369
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:382
 msgid "returns mouse y coordinate"
 msgstr "devolve a coordenada Y do rato"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:377
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:390
 msgid "query keyboard"
 msgstr "consultar teclado"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:379
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:392
 msgid "query for keyboard input (results stored in keyboard block)"
 msgstr "consulta por entrada de teclado (resultados guardados no bloco teclado)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:387
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:400
 msgid "keyboard"
 msgstr "teclado"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:391
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:404
 msgid "holds results of query-keyboard block as ASCII"
 msgstr "contém resultados do bloco consultar-teclado em ASCII"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:399
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:412
 msgid "read pixel"
 msgstr "ler pixel"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:402
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:415
 msgid "RGB color under the turtle is pushed to the stack"
 msgstr "a cor RGB por debaixo da tartaruga é inserida na pilha"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:409
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:422
 msgid "turtle sees"
 msgstr "tartaruga vê"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:412
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:425
 msgid "returns the color that the turtle \"sees\""
 msgstr "devolve a cor que a tartaruga \"vê\""
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:421
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:434
 msgid "time"
 msgstr "tempo"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:424
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:437
 msgid "elapsed time (in seconds) since program started"
 msgstr "tempo decorrido (em segundos) desde que o programa começou"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:449
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:462
 msgid "Palette of extra options"
 msgstr "Palete de opções extra"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:451
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:464
 msgid "extras"
 msgstr "extras"
 
-#. TRANS: push adds a new item to the program stack
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:456
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:469
 msgid "push"
 msgstr "inserir"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:459
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:472
 msgid "pushes value onto FILO (first-in last-out heap)"
 msgstr "insere valor no FILO (pilha último a entrar, primeiro a sair)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:471
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:484
 msgid "show heap"
 msgstr "mostrar pilha"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:474
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:487
 msgid "shows values in FILO (first-in last-out heap)"
 msgstr "mostra valores no FILO (pilha último a entrar, primeiro a sair)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:486
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:499
 msgid "empty heap"
 msgstr "esvaziar pilha"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:489
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:502
 msgid "emptys FILO (first-in-last-out heap)"
 msgstr "esvazia FILO (pilha último a entrar, primeiro a sair)"
 
-#. TRANS: pop removes a new item from the program stack
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:500
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:513
 msgid "pop"
 msgstr "retirar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:504
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:517
 msgid "pops value off FILO (first-in last-out heap)"
 msgstr "retira valor do FILO (pilha último a entrar, primeiro a sair)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:516
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:555
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:529
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:585
 msgid "empty heap?"
 msgstr "pilha vazia?"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:519
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:558
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:532
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:588
 msgid "returns True if heap is empty"
 msgstr "devolve Verdadeiro se a pilha estiver vazia"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:531
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:544
 msgid "save heap to file"
 msgstr "guardar pilha como ficheiro"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:532
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:543
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:545
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:559
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:573
 msgid "filename"
 msgstr "nome de ficheiro"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:534
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:547
 msgid "saves FILO (first-in last-out heap) to a file"
 msgstr "guarda FILO (pilha último a entrar, primeiro a sair) como ficheiro"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:542
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:558
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:566
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:572
 msgid "load heap from file"
 msgstr "carregar pilha de ficheiro"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:545
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:561
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:567
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:575
 msgid "loads FILO (first-in last-out heap) from a file"
 msgstr "carregar FILO (pilha último a entrar, primeiro a sair) de ficheiro"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:570
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:572
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:600
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:602
 msgid "comment"
 msgstr "comentar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:574
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:604
 msgid "places a comment in your code"
 msgstr "coloca um comentário no teu código"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:581
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:611
 msgid "print"
 msgstr "imprimir"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:585
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:615
 msgid "prints value in status block at bottom of the screen"
 msgstr "imprime valor no bloco de estado na base do ecrã"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:596
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:626
 msgid "Python chr operator"
 msgstr "Operador Python de chr"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:606
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:636
 msgid "Python int operator"
 msgstr "Operador Python de int"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:616
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:646
 msgid "polar"
 msgstr "Polar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:618
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:648
 msgid "displays polar coordinates"
 msgstr "mostra coordenadas polares"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:624
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:639
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:655
-msgid "Python"
-msgstr "Python"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:628
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:658
 msgid ""
 "a programmable block: used to add advanced single-variable math equations, e."
 "g., sin(x)"
@@ -1691,7 +987,7 @@ msgstr ""
 "um bloco programável: utilizado para adicionar equações matemáticas "
 "avançadas de uma variável, por ex., sin(x)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:643
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:673
 msgid ""
 "a programmable block: used to add advanced multi-variable math equations, e."
 "g., sqrt(x*x+y*y)"
@@ -1699,7 +995,7 @@ msgstr ""
 "um bloco programável: utilizado para adicionar equações matemáticas "
 "avançadas de múltiplas variáveis, por ex., sqrt(x*x+y*y)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:659
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:689
 msgid ""
 "a programmable block: used to add advanced multi-variable math equations, e."
 "g., sin(x+y+z)"
@@ -1707,260 +1003,1277 @@ msgstr ""
 "um bloco programável: utilizado para adicionar equações matemáticas "
 "avançadas de múltiplas variáveis, por ex., sin(x+y+z)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:669
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:699
 msgid "Cartesian"
 msgstr "Cartesiano"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:671
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:701
 msgid "displays Cartesian coordinates"
 msgstr "mostra coordenadas Cartesianas"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:680
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:697
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:714
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:710
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:727
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:744
 msgid "Python block"
 msgstr "Bloco de Python"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:682
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:699
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:717
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:712
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:729
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:747
 msgid "runs code found in the tamyblock.py module found in the Journal"
 msgstr "executa código encontrado no módulo tamyblock.py encontrado no Diário"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:732
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:744
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:758
-msgid "load"
-msgstr "carregar"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:735
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:748
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:762
-msgid "loads a block"
-msgstr "carrega um bloco"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:761
-msgid "setxy"
-msgstr "definir xy"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:773
-msgid "select palette"
-msgstr "selecionar palete"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:776
-msgid "selects a palette"
-msgstr "seleciona uma palete"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:788
-msgid "chooses which turtle to command"
-msgstr "escolhe que tartaruga comandar"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:795
-msgid "turtle x"
-msgstr "tartaruga x"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:798
-msgid "Returns x coordinate of turtle"
-msgstr "Devolve a coordenada x da tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:807
-msgid "turtle y"
-msgstr "tartaruga y"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:810
-msgid "Returns y coordinate of turtle"
-msgstr "Devolve a coordenada y da tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:819
-msgid "active turtle"
-msgstr "tartaruga ativa"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:822
-msgid "the name of the active turtle"
-msgstr "o nome da tartaruga ativa"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:830
-msgid "turtle heading"
-msgstr "direção tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:833
-msgid "Returns heading of turtle"
-msgstr "Devolve a direção da tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:844
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:854
-msgid "turtle shell"
-msgstr "carapaça da tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:846
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:855
-msgid "put a custom 'shell' on the turtle"
-msgstr "coloca uma \"carapaça\" personalizada na tartaruga"
-
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:863
-msgid "top of a collapsed stack"
-msgstr "topo de uma pilha que encolhe. Usado com o bloco base"
-
-#. TRANS: URL is universal resource locator
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:868
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:763
 msgid "URL"
 msgstr "URL"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:873
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:768
 msgid "gets a text string or an image from a URL"
 msgstr "obtém uma cadeia de texto ou uma imagem desde um URL"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:882
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:778
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:788
+msgid "turtle shell"
+msgstr "carapaça da tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:780
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:789
+msgid "put a custom 'shell' on the turtle"
+msgstr "coloca uma \"carapaça\" personalizada na tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:793
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:862
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:156
+msgid "turtle"
+msgstr "tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:797
+msgid "chooses which turtle to command"
+msgstr "escolhe que tartaruga comandar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:804
+msgid "turtle x"
+msgstr "tartaruga x"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:807
+msgid "Returns x coordinate of turtle"
+msgstr "Devolve a coordenada x da tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:816
+msgid "turtle y"
+msgstr "tartaruga y"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:819
+msgid "Returns y coordinate of turtle"
+msgstr "Devolve a coordenada y da tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:828
+msgid "active turtle"
+msgstr "tartaruga ativa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:831
+msgid "the name of the active turtle"
+msgstr "o nome da tartaruga ativa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:839
+msgid "turtle heading"
+msgstr "direção tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:842
+msgid "Returns heading of turtle"
+msgstr "Devolve a direção da tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:852
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:621
+msgid "click to open"
+msgstr "clica para abrir"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:855
+msgid "top of a collapsed stack"
+msgstr "topo de uma pilha que encolhe. Usado com o bloco base"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:860
+msgid "select palette"
+msgstr "selecionar palete"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:863
+msgid "selects a palette"
+msgstr "seleciona uma palete"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:871
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:883
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:897
+msgid "load"
+msgstr "carregar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:873
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:886
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:160
+msgid "forward"
+msgstr "avançar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:874
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:887
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:901
+msgid "loads a block"
+msgstr "carrega um bloco"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:900
+msgid "setxy"
+msgstr "definir xy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:913
 msgid "Palette of presentation templates"
 msgstr "Palete de modelos de apresentação"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:885
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:916
 msgid "portfolio"
 msgstr "portefólio"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:889
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:920
 msgid "hide blocks"
 msgstr "esconder blocos"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:891
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:922
 msgid "declutters canvas by hiding blocks"
 msgstr "arruma a área de trabalho escondendo os blocos"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:898
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:929
 msgid "show blocks"
 msgstr "mostrar blocos"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:900
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:931
 msgid "restores hidden blocks"
 msgstr "restaura blocos escondidos"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:909
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:940
 msgid "hides the Sugar toolbars"
 msgstr "esconde as barras de ferramentas do Sugar"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:919
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:950
 msgid "list"
 msgstr "lista"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:923
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:954
 msgid "presentation bulleted list"
 msgstr "lista de pontos de apresentação"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:931
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:962
 msgid "presentation template: list of bullets"
 msgstr "modelo de apresentação: lista de pontos"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:938
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:969
 msgid "presentation template: select Journal object (no description)"
 msgstr "modelo de apresentação: escolhe objeto do Diário (sem descrição)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:945
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:976
 msgid "presentation template: select Journal object (with description)"
 msgstr "modelo de apresentação: escolhe objeto do Diário (com descrição)"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:952
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:983
 msgid "presentation template: select four Journal objects"
 msgstr "modelo de apresentação: escolhe quatro objetos do Diário"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:959
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:966
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:990
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:997
 msgid "presentation template: select two Journal objects"
 msgstr "modelo de apresentação: escolhe dois objetos do Diário"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:976
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1004
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:207
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:143
+msgid "left"
+msgstr "esquerda"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1007
 msgid "xcor of left of screen"
 msgstr "coor.x da esquerda do ecrã"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:984
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1015
 msgid "bottom"
 msgstr "base"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:987
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1018
 msgid "ycor of bottom of screen"
 msgstr "coor.y da base do ecrã"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:995
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1026
 msgid "width"
 msgstr "largura"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:998
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1029
 msgid "the canvas width"
 msgstr "a largura da tela"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1009
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1037
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:221
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:145
+msgid "right"
+msgstr "direita"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1040
 msgid "xcor of right of screen"
 msgstr "coor.x da direita do ecrã"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1020
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1051
 msgid "ycor of top of screen"
 msgstr "coor.y do topo do ecrã"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1028
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1059
 msgid "height"
 msgstr "altura"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1031
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1062
 msgid "the canvas height"
 msgstr "a altura da tela"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1041
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1072
 msgid "title x"
 msgstr "x título"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1053
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1084
 msgid "title y"
 msgstr "y título"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1065
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1096
 msgid "left x"
 msgstr "x esquerda"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1077
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1108
 msgid "top y"
 msgstr "y topo"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1089
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1120
 msgid "right x"
 msgstr "x direita"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1101
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1132
 msgid "bottom y"
 msgstr "y base"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1120
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1151
 msgid "Palette of user-defined operators"
 msgstr "Palete de operadores definidos pelo utilizador"
 
-#: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1121
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1152
 msgid "my blocks"
 msgstr "os meus blocos"
 
-#: pyexported/window_setup.py:39
-msgid ""
-"The path to the TurtleArt installation must be listed in the environment "
-"variable PYTHONPATH."
-msgstr ""
-"O caminho para a instalação de TartartugArte deve estar listada na variável "
-"de ambiente PYTHONPATH"
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:63
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:64
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:73
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:82
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:83
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:92
+msgid "Upload"
+msgstr "Transferir"
 
-#: pysamples/brain.py:43
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:68
+msgid "Upload to Web"
+msgstr "Transferir para a Web"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:90
+msgid ""
+"You must have an account at http://turtleartsite.sugarlabs.org to upload "
+"your project."
+msgstr ""
+"Precisas de ter uma conta em http://turtleartsite.sugarlabs.org para "
+"transferir o teu projeto."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:99
+msgid "Username:"
+msgstr "Nome de Utilizador:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:109
+msgid "Password:"
+msgstr "Palavra-Passe:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:120
+msgid "Title:"
+msgstr "Título:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:130
+msgid "Description:"
+msgstr "Descrição:"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:140
+msgid "Submit to Web"
+msgstr "Enviar à Web"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:144
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1465
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1504
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:172
+msgid "Login failed"
+msgstr "O login falhou"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/uploader_plugin.py:209
+msgid "Failed to upload!"
+msgstr "A transferência falhou!"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:64
+msgid "My Turtle Art session"
+msgstr "A minha sessão TartarugArte"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:111
+msgid "Enable collaboration"
+msgstr "Ativar colaboração"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:116
+msgid "Activities"
+msgstr "Atividades"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:121
+msgid "Buddies"
+msgstr "Parceiros"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:124
+msgid "Share"
+msgstr "Partilhar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:125
+msgid "Configuration"
+msgstr "Configuração"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:128
+msgid "Neighborhood"
+msgstr "Vizinhança"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:289
+msgid "Nickname"
+msgstr "Nome"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:291
+msgid "Account ID"
+msgstr "Identificação de conta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:293
+msgid "Server"
+msgstr "Servidor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:295
+msgid "Port"
+msgstr "Porta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:297
+msgid "Password"
+msgstr "Palavra-Passe"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:299
+msgid "Register"
+msgstr "Registar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/collaboration_plugin.py:301
+msgid "Colors"
+msgstr "Cores"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/gnome_plugins/fb_plugin.py:87
+msgid "Facebook wall post"
+msgstr "Colocar no Mural de Facebook"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:101
+msgid "displays next palette"
+msgstr "mostra a palete seguinte"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:102
+msgid "changes the orientation of the palette of blocks"
+msgstr "altera a orientação das paletes de blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:141
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tapalette.py:142
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1213
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1214
+msgid "trash"
+msgstr "lixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1092
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1093
+msgid "orientation"
+msgstr "orientação"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1107
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1573
+msgid "next"
+msgstr "próximo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1146
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1594
+msgid "shift"
+msgstr "deslocar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1221
+msgid "Please hit the Stop Button before making changes to your program"
+msgstr ""
+"Por favor, carrega no botão Parar antes de fazeres mudanças ao teu programa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1264
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1377
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1390
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2043
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4777
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1049
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1052
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1065
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1069
+msgid "action"
+msgstr "ação"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1270
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1416
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:2049
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4804
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4831
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1137
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1152
+msgid "my box"
+msgstr "a minha caixa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1285
+msgid "Select blocks to share"
+msgstr "Selecionar blocos para partilhar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1462
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1476
+msgid "Really overwrite stack?"
+msgstr "Desejas sobrescrever a pilha?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1469
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1479
+msgid "Overwrite stack"
+msgstr "Sobrescrever pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1501
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1514
+msgid "Really delete stack?"
+msgstr "Desejas apagar a pilha?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1906
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1218
+msgid "empty trash"
+msgstr "esvaziar lixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:1907
+msgid "Do you really want to empty the trash?"
+msgstr "Desejas esvaziar o lixo?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4170
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4191
+#, python-format
+msgid "Cannot write data to %s."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4171
+msgid "Please choose a different save directory."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4192
+msgid "Please choose a different file name."
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4297
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:281
+msgid "xcor"
+msgstr "coor.x"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4298
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:296
+msgid "ycor"
+msgstr "coor.y"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4298
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:311
+msgid "heading"
+msgstr "orientação"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4324
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4329
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:444
+msgid "shade"
+msgstr "tom"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4325
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4330
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:454
+msgid "gray"
+msgstr "cinza"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4328
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:369
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:432
+msgid "color"
+msgstr "cor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "True"
+msgstr "Verdadeiro"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "False"
+msgstr "Falso"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4790
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1070
+msgid "invokes named action stack"
+msgstr "invoca pilha de ação com nome"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4817
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1155
+msgid "named variable (numeric value)"
+msgstr "variável com nome (valor numérico)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4839
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+msgid "store in"
+msgstr "guardar em"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4839
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+msgid "value"
+msgstr "valor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tawindow.py:4844
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1138
+msgid "stores numeric value in named variable"
+msgstr "guarda valor numérico em variável com nome"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:577
+msgid "did not output to"
+msgstr "não saiu para"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:618
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:1014
+msgid "doesn't like"
+msgstr "não gosta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:619
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:1015
+msgid "as input"
+msgstr "como entrada"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/talogo.py:682
+msgid "I don't know how to"
+msgstr "Eu não sei como"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:155
+msgid "Palette of turtle commands"
+msgstr "Palete de comandos da tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:164
+msgid "moves turtle forward"
+msgstr "move a tartaruga para a frente"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:173
+msgid "back"
+msgstr "recuar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:177
+msgid "moves turtle backward"
+msgstr "move a tartaruga para trás"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:186
+msgid "clean"
+msgstr "limpar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:189
+msgid "clears the screen and reset the turtle"
+msgstr "limpa o ecrã e coloca a tartaruga na posição inicial"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:211
+msgid "turns turtle counterclockwise (angle in degrees)"
+msgstr ""
+"roda a tartaruga na direção contrária dos ponteiros do relógio (ângulo em "
+"graus)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:225
+msgid "turns turtle clockwise (angle in degrees)"
+msgstr "roda a tartaruga na direção dos ponteiros do relógio (ângulo em graus)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "arc"
+msgstr "arco"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "angle"
+msgstr "ângulo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:235
+msgid "radius"
+msgstr "raio"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:239
+msgid "moves turtle along an arc"
+msgstr "move a tartaruga ao longo de um arco"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "set xy"
+msgstr "definir xy"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "x"
+msgstr "x"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:330
+msgid "y"
+msgstr "y"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:255
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:334
+msgid ""
+"moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+msgstr ""
+"move a tartaruga para a posição coor.x, coor.y; (0, 0) fica no centro do "
+"ecrã."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:266
+msgid "set heading"
+msgstr "definir orientação"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:270
+msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+msgstr "define a orientação da tartaruga (0 é para o topo do ecrã)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:282
+msgid ""
+"holds current x-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+"contém o valor atual da coordenada X da tartaruga (pode ser usado em vez de "
+"um bloco de número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:297
+msgid ""
+"holds current y-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+"contém o valor atual da coordenada Y da tartaruga (pode ser usado em vez de "
+"um bloco de número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:312
+msgid ""
+"holds current heading value of the turtle (can be used in place of a number "
+"block)"
+msgstr ""
+"contém o valor atual da orientação da tartaruga (pode ser usado em vez de um "
+"bloco de número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:350
+msgid "Palette of pen commands"
+msgstr "Palete de comandos da caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:351
+msgid "pen"
+msgstr "caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:369
+msgid "fill screen"
+msgstr "preencher ecrã"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:360
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:374
+msgid "fills the background with (color, shade)"
+msgstr "preenche o fundo com (cor, tom)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:387
+msgid "set color"
+msgstr "definir cor"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:391
+msgid "sets color of the line drawn by the turtle"
+msgstr "define a cor da linha desenhada pela tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:403
+msgid "set shade"
+msgstr "definir tom"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:407
+msgid "sets shade of the line drawn by the turtle"
+msgstr "define o tom da linha desenhada pela tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:418
+msgid "set gray"
+msgstr "definir cinza"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:421
+msgid "sets gray level of the line drawn by the turtle"
+msgstr "define o nível de cinza da linha desenhada pela tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:433
+msgid "holds current pen color (can be used in place of a number block)"
+msgstr ""
+"contém a cor atual da caneta (pode ser usado em vez de um bloco de número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:445
+msgid "holds current pen shade"
+msgstr "contém o tom atual da caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:455
+msgid "holds current gray level (can be used in place of a number block)"
+msgstr ""
+"contém o nível de cinza atual (pode ser usado em vez de um bloco de número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:465
+msgid "pen up"
+msgstr "caneta levantada"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:468
+msgid "Turtle will not draw when moved."
+msgstr "A tartaruga não desenhará quando movida."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:475
+msgid "pen down"
+msgstr "caneta embaixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:478
+msgid "Turtle will draw when moved."
+msgstr "A tartaruga desenhará quando movida."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:485
+msgid "pen down?"
+msgstr "caneta embaixo?"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:487
+msgid "returns True if pen is down"
+msgstr "devolve Verdadeiro se a caneta estiver embaixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:494
+msgid "set pen size"
+msgstr "definir tamanho da caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:498
+msgid "sets size of the line drawn by the turtle"
+msgstr "define o tamanho da linha desenhada pela tartaruga"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:511
+msgid "start fill"
+msgstr "iniciar preenchimento"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:513
+msgid "starts filled polygon (used with end fill block)"
+msgstr ""
+"inicia polígono preenchido (utilizado com o bloco terminar preenchimento)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:519
+msgid "end fill"
+msgstr "terminar preenchimento"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:521
+msgid "completes filled polygon (used with start fill block)"
+msgstr ""
+"completa o polígono preenchido (utilizado com o bloco iniciar preenchimento)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:527
+msgid "pen size"
+msgstr "tamanho da caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:528
+msgid "holds current pen size (can be used in place of a number block)"
+msgstr ""
+"contém o tamanho atual da caneta (pode ser usado em vez de um bloco de "
+"número)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:544
+msgid "Palette of pen colors"
+msgstr "Palete de cores da caneta"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:545
+msgid "colors"
+msgstr "cores"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "red"
+msgstr "vermelho"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "orange"
+msgstr "laranja"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "yellow"
+msgstr "amarelo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:550
+msgid "green"
+msgstr "verde"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "cyan"
+msgstr "ciano"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "blue"
+msgstr "azul"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "purple"
+msgstr "roxo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:551
+msgid "white"
+msgstr "branco"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:552
+msgid "black"
+msgstr "preto"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:634
+msgid "Palette of numeric operators"
+msgstr "Palete de operadores numéricos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:635
+msgid "numbers"
+msgstr "números"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:640
+msgid "plus"
+msgstr "mais"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:644
+msgid "adds two alphanumeric inputs"
+msgstr "soma duas entradas alfanuméricas"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:663
+msgid "minus"
+msgstr "menos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:666
+msgid "subtracts bottom numeric input from top numeric input"
+msgstr "subtrai a entrada numérica de baixo à entrada numérica em cima"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:684
+msgid "multiply"
+msgstr "multiplicar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:687
+msgid "multiplies two numeric inputs"
+msgstr "multiplica duas entradas numéricas"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:703
+msgid "divide"
+msgstr "dividir"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:706
+msgid ""
+"divides top numeric input (numerator) by bottom numeric input (denominator)"
+msgstr ""
+"divide a entrada numérica em cima (numerador) pela entrada numérica de baixo "
+"(denominador)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:723
+msgid "identity"
+msgstr "identidade"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:725
+msgid "identity operator used for extending blocks"
+msgstr "operador de identidade utilizado para extender blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:751
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:752
+msgid "mod"
+msgstr "mod"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:755
+msgid "modular (remainder) operator"
+msgstr "operador módulo (resto da divisão inteira)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:763
+msgid "√"
+msgstr "√"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:764
+msgid "square root"
+msgstr "raiz quadrada"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:767
+msgid "calculates square root"
+msgstr "calcula a raiz quadrada"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "random"
+msgstr "aleatório"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "min"
+msgstr "mín"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:775
+msgid "max"
+msgstr "máx"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:779
+msgid "returns random number between minimum (top) and maximum (bottom) values"
+msgstr ""
+"devolve um número aleatório entre os valores mínimo (em cima) e máximo (em "
+"baixo)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:801
+msgid "number"
+msgstr "número"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:802
+msgid "used as numeric input in mathematic operators"
+msgstr "utilizado como entrada numérica em operadores matemáticos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:809
+msgid "greater than"
+msgstr "maior que"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:812
+msgid "logical greater-than operator"
+msgstr "operador lógico maior-que"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:828
+msgid "less than"
+msgstr "menor que"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:832
+msgid "logical less-than operator"
+msgstr "operador lógico menor-que"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:848
+msgid "equal"
+msgstr "igual"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:852
+msgid "logical equal-to operator"
+msgstr "operador lógico igual-a"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:867
+msgid "not"
+msgstr "não é igual"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:870
+msgid "logical NOT operator"
+msgstr "operador lógico não-é-igual (NOT)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:878
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:881
+msgid "and"
+msgstr "e"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:882
+msgid "logical AND operator"
+msgstr "operador lógico e (AND)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:890
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:893
+msgid "or"
+msgstr "ou"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:894
+msgid "logical OR operator"
+msgstr "operador lógico ou (OR)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:906
+msgid "flow"
+msgstr "fluxo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:910
+msgid "wait"
+msgstr "esperar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:914
+msgid "pauses program execution a specified number of seconds"
+msgstr "pausa a execução do programa um determinado número de segundos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:923
+msgid "forever"
+msgstr "para sempre"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:927
+msgid "loops forever"
+msgstr "repete para sempre"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:937
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:941
+msgid "repeat"
+msgstr "repetir"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:942
+msgid "loops specified number of times"
+msgstr "repete determinado número de vezes"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "if"
+msgstr "se"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "then"
+msgstr "então"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:958
+msgid "if then"
+msgstr "se então"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:960
+msgid "if-then operator that uses boolean operators from Numbers palette"
+msgstr "operador se-então que usa operadores booleanos da palete Números"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:971
+msgid "else"
+msgstr "senão"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:975
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:988
+msgid "if then else"
+msgstr "se então senão"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:976
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:989
+msgid "if-then-else operator that uses boolean operators from Numbers palette"
+msgstr "operador se-então-senão que usa operadores booleanos da palete Números"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:998
+msgid "horizontal space"
+msgstr "espaço horizontal"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:999
+msgid "jogs stack right"
+msgstr "expande pilha para a direita"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1008
+msgid "vertical space"
+msgstr "espaço vertical"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1009
+msgid "jogs stack down"
+msgstr "expande pilha para baixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1016
+msgid "stop action"
+msgstr "parar ação"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1019
+msgid "stops current action"
+msgstr "para a ação atual"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1029
+msgid "Palette of variable blocks"
+msgstr "Palete de blocos de variável"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1030
+msgid "blocks"
+msgstr "blocos"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1034
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:211
+msgid "start"
+msgstr "iniciar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1037
+msgid "connects action to toolbar run buttons"
+msgstr "conecta ação com os botões de execução da barra de ferramentas"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1054
+msgid "top of nameable action stack"
+msgstr "topo da pilha de ação com nome"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1077
+msgid "store in box 1"
+msgstr "guardar na caixa 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1082
+msgid "stores numeric value in Variable 1"
+msgstr "guarda o valor numérico na Variável 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1091
+msgid "store in box 2"
+msgstr "guardar na caixa 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1096
+msgid "stores numeric value in Variable 2"
+msgstr "guarda o valor numérico na Variável 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1105
+msgid "box 1"
+msgstr "caixa 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1108
+msgid "Variable 1 (numeric value)"
+msgstr "Variável 1 (valor numérico)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1118
+msgid "box 2"
+msgstr "caixa 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1121
+msgid "Variable 2 (numeric value)"
+msgstr "Variável 2 (valor numérico)"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1133
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1149
+msgid "box"
+msgstr "caixa"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1161
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1185
+msgid "action 1"
+msgstr "ação 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1164
+msgid "top of Action 1 stack"
+msgstr "topo da pilha Ação 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1173
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1198
+msgid "action 2"
+msgstr "ação 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1176
+msgid "top of Action 2 stack"
+msgstr "topo da pilha Ação 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1188
+msgid "invokes Action 1 stack"
+msgstr "invoca pilha Ação 1"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1201
+msgid "invokes Action 2 stack"
+msgstr "invoca pilha Ação 2"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1219
+msgid "permanently deletes items in trash"
+msgstr "apaga permanentemente os itens no lixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1223
+msgid "restore all"
+msgstr "restaurar tudo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1224
+msgid "restore all blocks from trash"
+msgstr "restaura todos os blocos do lixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1228
+msgid "clear all"
+msgstr "limpar tudo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tabasics.py:1229
+msgid "move all blocks to trash"
+msgstr "move todos os blocos para o lixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taprimitive.py:60
+msgid "error in highlighted block"
+msgstr "erro no bloco realçado"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taprimitive.py:62
+msgid "error"
+msgstr "erro"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:300
+msgid "Load..."
+msgstr "Carregar..."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/tautils.py:310
+msgid "Save..."
+msgstr "Guardar..."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:144
+msgid "up"
+msgstr "para cima"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:146
+msgid "down"
+msgstr "para baixo"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:147
+msgid "backspace"
+msgstr "retrocesso"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:148
+msgid "tab"
+msgstr "tabuladora"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:150
+msgid "enter"
+msgstr "enter"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:153
+msgid "space"
+msgstr "espaço"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:154
+msgid "delete"
+msgstr "apagar"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:458
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:479
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:499
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:540
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:581
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:622
+msgid "Title"
+msgstr "Título"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taconstants.py:644
+msgid "banana"
+msgstr ""
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taexportpython.py:198
+msgid "block is not exportable"
+msgstr "o bloco não é exportável"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taexportpython.py:217
+msgid "error while exporting block"
+msgstr "erro ao exportar o bloco"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:90
+msgid "Please restart Turtle Art in order to use the plugin."
+msgstr "Por favor reinicia o TartarugArte para utilizar este plugin."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:93
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:104
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/TurtleArt/taplugin.py:107
+msgid "Plugin could not be installed."
+msgstr "O plugin não pode ser instalado."
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/forward_push.py:48
+msgid "push destination rgb value to heap"
+msgstr "empurrar o valor rgb de destino para a pilha"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/journal-stats.py:80
+msgid "other"
+msgstr "outros"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/uturn.py:35
+msgid "uturn"
+msgstr "rodar 180°"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/uturn.py:37
+msgid "turns the turtle 180 degrees"
+msgstr "roda a tartaruga 180 graus"
+
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:43
 msgid "Please install the Speak Activity and try again."
 msgstr "Por favor instala a Atividade Falar e tenta de novo"
 
-#: pysamples/brain.py:52
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:52
 msgid "Spanish"
 msgstr "Espanhol"
 
-#: pysamples/brain.py:56 pysamples/brain.py:69 pysamples/brain.py:71
-#: pysamples/brain.py:77
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:56
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:69
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:71
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:77
 msgid "English"
 msgstr "Inglês"
 
-#: pysamples/brain.py:88
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:88
 msgid "Sorry, I can't understand what you are asking about."
 msgstr "Desculpa, não entendo o que estás a perguntar."
 
-#: pysamples/brain.py:97
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/brain.py:97
 msgid ""
 "Sorry, there is no free memory to load my brain. Close other activities and "
 "try once more."
@@ -1968,115 +2281,33 @@ msgstr ""
 "Desculpa, não há memória livre para carregar o meu cérebro. Fecha outras "
 "atividades e tenta mais uma vez."
 
-#: pysamples/forward_push.py:48
-msgid "push destination rgb value to heap"
-msgstr "empurrar o valor rgb de destino para a pilha"
-
-#: pysamples/grecord.py:213
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:213
 msgid "stop"
 msgstr "parar"
 
-#: pysamples/grecord.py:215
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:215
 msgid "play"
 msgstr "tocar"
 
-#: pysamples/grecord.py:217
+#: /var/www/pootle/sugarlabs/clones/TurtleArt/pysamples/grecord.py:217
 msgid "save"
 msgstr "guardar"
 
-#: pysamples/journal-stats.py:80
-msgid "other"
-msgstr "outros"
+#~ msgid "Please wait"
+#~ msgstr "Por favor espera"
 
-#: pysamples/uturn.py:35
-msgid "uturn"
-msgstr "rodar 180°"
+#~ msgid "Load project"
+#~ msgstr "Carregar projeto"
 
-#: pysamples/uturn.py:37
-msgid "turns the turtle 180 degrees"
-msgstr "roda a tartaruga 180 graus"
+#~ msgid ""
+#~ "The path to the TurtleArt installation must be listed in the environment "
+#~ "variable PYTHONPATH."
+#~ msgstr ""
+#~ "O caminho para a instalação de TartartugArte deve estar listada na variável "
+#~ "de ambiente PYTHONPATH"
 
-#: turtleblocks.py:104
-msgid "usage is"
-msgstr "utilização é"
-
-#: turtleblocks.py:295
-msgid "No option action:"
-msgstr "Ação sem opção:"
-
-#: turtleblocks.py:310
-msgid "File not found"
-msgstr "Ficheiro não encontrado"
-
-#: turtleblocks.py:334
-#, python-format
-msgid "Configuration directory not writable: %s"
-msgstr "O diretório de configuração não tem permissão de escrita: %s"
-
-#: turtleblocks.py:422
-msgid "New"
-msgstr "Novo"
-
-#: turtleblocks.py:423
-msgid "Show sample projects"
-msgstr "Mostrar projetos de exemplo"
-
-#: turtleblocks.py:430
-msgid "Save as"
-msgstr "Guardar como"
-
-#: turtleblocks.py:437
-msgid "Quit"
-msgstr "Sair"
-
-#: turtleblocks.py:438
-msgid "File"
-msgstr "Ficheiro"
-
-#: turtleblocks.py:446
-msgid "Rescale coordinates"
-msgstr "Repor a escala das coordenadas"
-
-#: turtleblocks.py:452
-msgid "Reset block size"
-msgstr "Repor o tamanho dos blocos"
-
-#: turtleblocks.py:473
-msgid "Show/hide blocks"
-msgstr "Mostrar/esconder blocos"
-
-#: turtleblocks.py:475
-msgid "Tools"
-msgstr "Ferramentas"
-
-#: turtleblocks.py:481
-msgid "Debug"
-msgstr "Depurar"
-
-#: turtleblocks.py:483
-msgid "Turtle"
-msgstr "Tartaruga"
-
-#: turtleblocks.py:486
-msgid "About..."
-msgstr "Sobre..."
-
-#: turtleblocks.py:532
-msgid "You have unsaved work. Would you like to save before quitting?"
-msgstr "Tens trabalho não guardado. Queres guardar antes de sair?"
-
-#: turtleblocks.py:536
-msgid "Save project?"
-msgstr "Guardar projeto?"
-
-#: turtleblocks.py:546
-#, python-format, 
-msgid "Plugin %s already installed"
-msgstr "O plugin %s já está instalado"
-
-#: turtleblocks.py:666
-msgid "myproject"
-msgstr "meuprojeto"
+#~ msgid "About..."
+#~ msgstr "Sobre..."
 
 #~ msgid "Hide sample projects"
 #~ msgstr "Esconder projetos de exemplo"
@@ -3000,12 +3231,6 @@ msgstr "meuprojeto"
 
 #~ msgid "label"
 #~ msgstr "etiqueta"
-
-#~ msgid "True"
-#~ msgstr "Verdadeiro"
-
-#~ msgid "False"
-#~ msgstr "Falso"
 
 #~ msgid "Save as HTML"
 #~ msgstr "Guardar como HTML"
