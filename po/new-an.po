@@ -1,0 +1,2255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-23 14:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: an\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.11.0\n"
+
+msgid "TurtleBlocks"
+msgstr ""
+
+msgid ""
+"A Logo-inspired turtle that draws cool pictures with snap-together visual "
+"programming blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:103
+msgid "usage is"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:302
+msgid "No option action:"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:317
+msgid "File not found"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:341
+#, python-format
+msgid "Configuration directory not writable: %s"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:429
+msgid "New"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:430
+msgid "Show sample projects"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:432
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1177
+msgid "Open"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:433
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:946
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1180
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1219
+msgid "Add project"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:434
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:949
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1185
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1225
+msgid "Load plugin"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:436
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1128
+msgid "Save"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:437
+msgid "Save as"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:441
+msgid "Export as"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:444
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4631
+msgid "image"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:446
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4524
+msgid "icon"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:449
+msgid "ODP"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:451
+msgid "Logo"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:453
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:654
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:669
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:685
+msgid "Python"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:455
+msgid "Quit"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:456
+msgid "File"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:459
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:818
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:986
+msgid "Cartesian coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:461
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:820
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:988
+msgid "Polar coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:464
+msgid "Rescale coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:466
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:829
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:994
+msgid "Grow blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:468
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:832
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:995
+msgid "Shrink blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:470
+msgid "Reset block size"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:473
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:464
+msgid "Turn on hover help"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:475
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:763
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:791
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:904
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:984
+msgid "View"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:478
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:803
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:967
+msgid "Copy"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:479
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:805
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:968
+msgid "Paste"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:480
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:810
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:969
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1461
+msgid "Save stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:482
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:812
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1500
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1508
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1517
+msgid "Delete stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:484
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:758
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:793
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:903
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:966
+msgid "Edit"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:487
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:474
+msgid "Show palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:489
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:480
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1243
+msgid "Hide palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:491
+msgid "Show/hide blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:493
+msgid "Tools"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:496
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:906
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1249
+msgid "Clean"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:497
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:907
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1251
+msgid "Run"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:498
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:908
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1253
+msgid "Step"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:499
+msgid "Debug"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:500
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:913
+msgid "Stop"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:501
+msgid "Turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:504
+msgid "About something"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:505
+#: /var/www/pootle/repos/TurtleArt/util/helpbutton.py:44
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:912
+msgid "Help"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:551
+msgid "You have unsaved work. Would you like to save before quitting?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:556
+msgid "Save project?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:566
+#, python-format
+msgid "Plugin %s already installed"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:567
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1436
+#, python-format
+msgid "Do you want to reinstall %s?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/turtleblocks.py:706
+msgid "myproject"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/accelerometer/accelerometer.py:50
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:67
+#: /var/www/pootle/repos/TurtleArt/plugins/rfid/rfid.py:87
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:339
+#: /var/www/pootle/repos/TurtleArt/plugins/light_sensor/light_sensor.py:52
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:84
+msgid "Palette of sensor blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/accelerometer/accelerometer.py:56
+#: /var/www/pootle/repos/TurtleArt/plugins/accelerometer/accelerometer.py:63
+msgid "acceleration"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/accelerometer/accelerometer.py:58
+#: /var/www/pootle/repos/TurtleArt/plugins/accelerometer/accelerometer.py:65
+msgid "push acceleration in x, y, z to heap"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:71
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:133
+msgid "Palette of media objects"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:90
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:122
+#: /var/www/pootle/repos/TurtleArt/plugins/light_sensor/light_sensor.py:58
+#: /var/www/pootle/repos/TurtleArt/plugins/light_sensor/light_sensor.py:66
+msgid "brightness"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:92
+msgid "light level detected by camera"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:107
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:115
+msgid "camera output"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/camera_sensor/camera_sensor.py:124
+msgid "Average RGB color from camera is pushed to the stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/rfid/rfid.py:93
+#: /var/www/pootle/repos/TurtleArt/plugins/rfid/rfid.py:101
+msgid "RFID"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/rfid/rfid.py:94
+#: /var/www/pootle/repos/TurtleArt/plugins/rfid/rfid.py:102
+msgid "read value from RFID device"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:72
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:905
+msgid "Palette of flow operators"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:76
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:79
+msgid "while"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:80
+msgid "do-while-True operator that uses boolean operators from Numbers palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:97
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:100
+msgid "until"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:101
+msgid "do-until-True operator that uses boolean operators from Numbers palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:121
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:854
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1048
+msgid "top"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:123
+msgid "top of a collapsible stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:135
+msgid "media"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:141
+msgid "journal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:142
+msgid "Sugar Journal media object"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:153
+msgid "audio"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:155
+msgid "Sugar Journal audio object"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:166
+msgid "video"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:168
+msgid "Sugar Journal video object"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:179
+msgid "description"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:181
+msgid "Sugar Journal description field"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:190
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:191
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:192
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:198
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:213
+msgid "text"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:193
+msgid "string value"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:197
+msgid "show"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:201
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:216
+msgid "draws text or show media from the Journal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:212
+msgid "show aligned"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:225
+msgid "set scale"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:229
+msgid "sets the scale of media"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:239
+msgid "set font"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:242
+msgid "sets the font used by the show block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:249
+msgid "save picture"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:251
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:262
+msgid "picture name"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:252
+msgid "saves a picture to the Sugar Journal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:260
+msgid "save SVG"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:263
+msgid "saves turtle graphics as an SVG file in the Sugar Journal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:272
+msgid "scale"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:276
+msgid "holds current scale value"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:283
+msgid "media wait"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:285
+msgid "wait for current video or audio to complete"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:291
+msgid "media stop"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:293
+msgid "stop video or audio"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:298
+msgid "media pause"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:300
+msgid "pause video or audio"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:305
+msgid "media resume"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:307
+msgid "resume playing video or audio"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:312
+msgid "speak"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:314
+msgid "hello"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:315
+msgid "speaks text"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+msgid "sinewave"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:323
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:126
+msgid "pitch"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
+msgid "amplitude"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:324
+msgid "duration"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:327
+msgid "plays a sinewave at frequency, amplitude, and duration (in seconds)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:341
+msgid "sensor"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:346
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:357
+msgid "button down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:349
+msgid "returns 1 if mouse button is pressed"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:360
+msgid "returns True if mouse button is pressed"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:368
+msgid "mouse x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:371
+msgid "returns mouse x coordinate"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:379
+msgid "mouse y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:382
+msgid "returns mouse y coordinate"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:390
+msgid "query keyboard"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:392
+msgid "query for keyboard input (results stored in keyboard block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:400
+msgid "keyboard"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:404
+msgid "holds results of query-keyboard block as ASCII"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:412
+msgid "read pixel"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:415
+msgid "RGB color under the turtle is pushed to the stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:422
+msgid "turtle sees"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:425
+msgid "returns the color that the turtle \"sees\""
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:434
+msgid "time"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:437
+msgid "elapsed time (in seconds) since program started"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:462
+msgid "Palette of extra options"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:464
+msgid "extras"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:469
+msgid "push"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:472
+msgid "pushes value onto FILO (first-in last-out heap)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:484
+msgid "show heap"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:487
+msgid "shows values in FILO (first-in last-out heap)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:499
+msgid "empty heap"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:502
+msgid "emptys FILO (first-in-last-out heap)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:513
+msgid "pop"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:517
+msgid "pops value off FILO (first-in last-out heap)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:529
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:585
+msgid "empty heap?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:532
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:588
+msgid "returns True if heap is empty"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:544
+msgid "save heap to file"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:545
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:559
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:573
+msgid "filename"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:547
+msgid "saves FILO (first-in last-out heap) to a file"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:558
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:566
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:572
+msgid "load heap from file"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:561
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:567
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:575
+msgid "loads FILO (first-in last-out heap) from a file"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:600
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:602
+msgid "comment"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:604
+msgid "places a comment in your code"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:611
+msgid "print"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:615
+msgid "prints value in status block at bottom of the screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:626
+msgid "Python chr operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:636
+msgid "Python int operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:646
+msgid "polar"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:648
+msgid "displays polar coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:658
+msgid ""
+"a programmable block: used to add advanced single-variable math equations, e."
+"g., sin(x)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:673
+msgid ""
+"a programmable block: used to add advanced multi-variable math equations, e."
+"g., sqrt(x*x+y*y)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:689
+msgid ""
+"a programmable block: used to add advanced multi-variable math equations, e."
+"g., sin(x+y+z)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:699
+msgid "Cartesian"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:701
+msgid "displays Cartesian coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:710
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:727
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:744
+msgid "Python block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:712
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:729
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:747
+msgid "runs code found in the tamyblock.py module found in the Journal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:763
+msgid "URL"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:768
+msgid "gets a text string or an image from a URL"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:778
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:788
+msgid "turtle shell"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:780
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:789
+msgid "put a custom 'shell' on the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:793
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:862
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:156
+msgid "turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:797
+msgid "chooses which turtle to command"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:804
+msgid "turtle x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:807
+msgid "Returns x coordinate of turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:816
+msgid "turtle y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:819
+msgid "Returns y coordinate of turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:828
+msgid "active turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:831
+msgid "the name of the active turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:839
+msgid "turtle heading"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:842
+msgid "Returns heading of turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:852
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tautils.py:621
+msgid "click to open"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:855
+msgid "top of a collapsed stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:860
+msgid "select palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:863
+msgid "selects a palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:871
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:883
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:897
+msgid "load"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:873
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:886
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:160
+msgid "forward"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:874
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:887
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:901
+msgid "loads a block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:900
+msgid "setxy"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:913
+msgid "Palette of presentation templates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:916
+msgid "portfolio"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:920
+msgid "hide blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:922
+msgid "declutters canvas by hiding blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:929
+msgid "show blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:931
+msgid "restores hidden blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:938
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:815
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:985
+msgid "Fullscreen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:940
+msgid "hides the Sugar toolbars"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:950
+msgid "list"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:954
+msgid "presentation bulleted list"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:962
+msgid "presentation template: list of bullets"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:969
+msgid "presentation template: select Journal object (no description)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:976
+msgid "presentation template: select Journal object (with description)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:983
+msgid "presentation template: select four Journal objects"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:990
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:997
+msgid "presentation template: select two Journal objects"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1004
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:143
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:207
+msgid "left"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1007
+msgid "xcor of left of screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1015
+msgid "bottom"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1018
+msgid "ycor of bottom of screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1026
+msgid "width"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1029
+msgid "the canvas width"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1037
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:145
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:221
+msgid "right"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1040
+msgid "xcor of right of screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1051
+msgid "ycor of top of screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1059
+msgid "height"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1062
+msgid "the canvas height"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1072
+msgid "title x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1084
+msgid "title y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1096
+msgid "left x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1108
+msgid "top y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1120
+msgid "right x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1132
+msgid "bottom y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1151
+msgid "Palette of user-defined operators"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1152
+msgid "my blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1324
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:522
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:910
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:415
+msgid "Show blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/turtle_blocks_extras/turtle_blocks_extras.py:1333
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:909
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1217
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:405
+msgid "Stop turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/light_sensor/light_sensor.py:61
+#: /var/www/pootle/repos/TurtleArt/plugins/light_sensor/light_sensor.py:69
+msgid "light level detected by light sensor"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:93
+#: /var/www/pootle/repos/TurtleArt/pysamples/grecord.py:206
+msgid "sound"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:94
+msgid "raw microphone input signal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:100
+msgid "loudness"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:101
+msgid "microphone input volume"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:127
+msgid "microphone input pitch"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:160
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:178
+msgid "resistance"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:161
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:179
+msgid "microphone input resistance"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:166
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:184
+msgid "voltage"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:167
+#: /var/www/pootle/repos/TurtleArt/plugins/audio_sensors/audio_sensors.py:185
+msgid "microphone input voltage"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:39
+msgid "something else to say?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:40
+msgid "something else to ask?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:41
+msgid "something else to tell?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:42
+msgid "something else to write?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pyexported/window_setup.py:43
+msgid ""
+"The real path to the TurtleArt installation must be listed in the "
+"environment variable is PYTHONPATH."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:132
+msgid "Please wait a moment..."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:133
+msgid "Starting connection..."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:395
+msgid "snapshot"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:451
+msgid "OK! I am doing something more aggresive now"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:452
+msgid "Ok there is no way you will find this string"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:453
+msgid "another test to make sure this even makes sense"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:454
+msgid "yet another test things out"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:455
+msgid "me github profile is dying now"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:526
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1255
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:419
+msgid "Hide blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:648
+msgid "Rescale coordinates down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:657
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:826
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:992
+msgid "Rescale coordinates up"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:789
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:905
+msgid "Project"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:795
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:902
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:929
+msgid "Save/Load"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:807
+msgid "Restore blocks from trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:823
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:990
+msgid "Metric coordinates"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:835
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:996
+msgid "Turn off hover help"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:860
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:873
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:911
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1171
+msgid "Load example"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:928
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tacollaboration.py:152
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:2013
+msgid "Share selected blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:930
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1133
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1194
+msgid "Save as image"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:933
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1136
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1197
+msgid "Save as icon"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:938
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1140
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1201
+msgid "Save as ODP"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:943
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1149
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1210
+msgid "Save as Logo"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:944
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1152
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1213
+msgid "Save as Python"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:945
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1156
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1217
+msgid "Save snapshot"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:950
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1188
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1228
+msgid "Load Python block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1105
+msgid "Palettes"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1123
+msgid "Sharing blocks disabled"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1160
+msgid "Load"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1244
+msgid "<Ctrl>p"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1249
+msgid "<Ctrl>e"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1251
+msgid "<Ctrl>r"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1253
+msgid "<Ctrl>w"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1256
+msgid "<Ctrl>s"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArtActivity.py:1435
+#, python-format
+msgid "Plugin %s already installed."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taexportpython.py:198
+msgid "block is not exportable"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taexportpython.py:217
+msgid "error while exporting block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tautils.py:300
+msgid "Load..."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tautils.py:310
+msgid "Save..."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:144
+msgid "up"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:146
+msgid "down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:147
+msgid "backspace"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:148
+msgid "tab"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:150
+msgid "enter"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:153
+msgid "space"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:154
+msgid "delete"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:458
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:479
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:499
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:540
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:581
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:622
+msgid "Title"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taconstants.py:644
+msgid "banana"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taplugin.py:90
+msgid "Please restart Turtle Art in order to use the plugin."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taplugin.py:93
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taplugin.py:104
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taplugin.py:107
+msgid "Plugin could not be installed."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:155
+msgid "Palette of turtle commands"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:164
+msgid "moves turtle forward"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:173
+msgid "back"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:177
+msgid "moves turtle backward"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:186
+msgid "clean"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:189
+msgid "clears the screen and reset the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:211
+msgid "turns turtle counterclockwise (angle in degrees)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:225
+msgid "turns turtle clockwise (angle in degrees)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:235
+msgid "arc"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:235
+msgid "angle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:235
+msgid "radius"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:239
+msgid "moves turtle along an arc"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:330
+msgid "set xy"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:330
+msgid "x"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:251
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:330
+msgid "y"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:255
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:334
+msgid ""
+"moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:266
+msgid "set heading"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:270
+msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:281
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4297
+msgid "xcor"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:282
+msgid ""
+"holds current x-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:296
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4298
+msgid "ycor"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:297
+msgid ""
+"holds current y-coordinate value of the turtle (can be used in place of a "
+"number block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:311
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4298
+msgid "heading"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:312
+msgid ""
+"holds current heading value of the turtle (can be used in place of a number "
+"block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:350
+msgid "Palette of pen commands"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:351
+msgid "pen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:369
+msgid "fill screen"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:369
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:432
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4328
+msgid "color"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:356
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:444
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4324
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4329
+msgid "shade"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:360
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:374
+msgid "fills the background with (color, shade)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:370
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:454
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4325
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4330
+msgid "gray"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:387
+msgid "set color"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:391
+msgid "sets color of the line drawn by the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:403
+msgid "set shade"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:407
+msgid "sets shade of the line drawn by the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:418
+msgid "set gray"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:421
+msgid "sets gray level of the line drawn by the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:433
+msgid "holds current pen color (can be used in place of a number block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:445
+msgid "holds current pen shade"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:455
+msgid "holds current gray level (can be used in place of a number block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:465
+msgid "pen up"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:468
+msgid "Turtle will not draw when moved."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:475
+msgid "pen down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:478
+msgid "Turtle will draw when moved."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:485
+msgid "pen down?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:487
+msgid "returns True if pen is down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:494
+msgid "set pen size"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:498
+msgid "sets size of the line drawn by the turtle"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:511
+msgid "start fill"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:513
+msgid "starts filled polygon (used with end fill block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:519
+msgid "end fill"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:521
+msgid "completes filled polygon (used with start fill block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:527
+msgid "pen size"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:528
+msgid "holds current pen size (can be used in place of a number block)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:544
+msgid "Palette of pen colors"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:545
+msgid "colors"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:550
+msgid "red"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:550
+msgid "orange"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:550
+msgid "yellow"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:550
+msgid "green"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:551
+msgid "cyan"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:551
+msgid "blue"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:551
+msgid "purple"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:551
+msgid "white"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:552
+msgid "black"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:634
+msgid "Palette of numeric operators"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:635
+msgid "numbers"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:640
+msgid "plus"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:644
+msgid "adds two alphanumeric inputs"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:663
+msgid "minus"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:666
+msgid "subtracts bottom numeric input from top numeric input"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:684
+msgid "multiply"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:687
+msgid "multiplies two numeric inputs"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:703
+msgid "divide"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:706
+msgid ""
+"divides top numeric input (numerator) by bottom numeric input (denominator)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:723
+msgid "identity"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:725
+msgid "identity operator used for extending blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:751
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:752
+msgid "mod"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:755
+msgid "modular (remainder) operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:763
+msgid "√"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:764
+msgid "square root"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:767
+msgid "calculates square root"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:775
+msgid "random"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:775
+msgid "min"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:775
+msgid "max"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:779
+msgid "returns random number between minimum (top) and maximum (bottom) values"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:801
+msgid "number"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:802
+msgid "used as numeric input in mathematic operators"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:809
+msgid "greater than"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:812
+msgid "logical greater-than operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:828
+msgid "less than"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:832
+msgid "logical less-than operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:848
+msgid "equal"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:852
+msgid "logical equal-to operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:867
+msgid "not"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:870
+msgid "logical NOT operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:878
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:881
+msgid "and"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:882
+msgid "logical AND operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:890
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:893
+msgid "or"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:894
+msgid "logical OR operator"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:906
+msgid "flow"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:910
+msgid "wait"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:914
+msgid "pauses program execution a specified number of seconds"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:923
+msgid "forever"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:927
+msgid "loops forever"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:937
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:941
+msgid "repeat"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:942
+msgid "loops specified number of times"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:971
+msgid "if"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:955
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:971
+msgid "then"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:958
+msgid "if then"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:960
+msgid "if-then operator that uses boolean operators from Numbers palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:971
+msgid "else"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:975
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:988
+msgid "if then else"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:976
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:989
+msgid "if-then-else operator that uses boolean operators from Numbers palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:998
+msgid "horizontal space"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:999
+msgid "jogs stack right"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1008
+msgid "vertical space"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1009
+msgid "jogs stack down"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1016
+msgid "stop action"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1019
+msgid "stops current action"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1029
+msgid "Palette of variable blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1030
+msgid "blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1034
+#: /var/www/pootle/repos/TurtleArt/pysamples/grecord.py:211
+msgid "start"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1037
+msgid "connects action to toolbar run buttons"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1049
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1052
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1065
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1069
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1264
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1377
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1390
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:2043
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4777
+msgid "action"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1054
+msgid "top of nameable action stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1070
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4790
+msgid "invokes named action stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1077
+msgid "store in box 1"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1082
+msgid "stores numeric value in Variable 1"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1091
+msgid "store in box 2"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1096
+msgid "stores numeric value in Variable 2"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1105
+msgid "box 1"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1108
+msgid "Variable 1 (numeric value)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1118
+msgid "box 2"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1121
+msgid "Variable 2 (numeric value)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1133
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4839
+msgid "store in"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1133
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1149
+msgid "box"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1133
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4839
+msgid "value"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1137
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1152
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1270
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1416
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:2049
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4804
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4831
+msgid "my box"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1138
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4844
+msgid "stores numeric value in named variable"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1155
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4817
+msgid "named variable (numeric value)"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1161
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1185
+msgid "action 1"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1164
+msgid "top of Action 1 stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1173
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1198
+msgid "action 2"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1176
+msgid "top of Action 2 stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1188
+msgid "invokes Action 1 stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1201
+msgid "invokes Action 2 stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1213
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1214
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tapalette.py:141
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tapalette.py:142
+msgid "trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1218
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1906
+msgid "empty trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1219
+msgid "permanently deletes items in trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1223
+msgid "restore all"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1224
+msgid "restore all blocks from trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1228
+msgid "clear all"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tabasics.py:1229
+msgid "move all blocks to trash"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1092
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1093
+msgid "orientation"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1107
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1573
+msgid "next"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1146
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1594
+msgid "shift"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1221
+msgid "Please hit the Stop Button before making changes to your program"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1285
+msgid "Select blocks to share"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1462
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1476
+msgid "Really overwrite stack?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1465
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1504
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:144
+msgid "Cancel"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1469
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1479
+msgid "Overwrite stack"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1501
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1514
+msgid "Really delete stack?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:1907
+msgid "Do you really want to empty the trash?"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4170
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4191
+#, python-format
+msgid "Cannot write data to %s."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4171
+msgid "Please choose a different save directory."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4192
+msgid "Please choose a different file name."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "True"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tawindow.py:4398
+msgid "False"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taprimitive.py:60
+msgid "error in highlighted block"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/taprimitive.py:62
+msgid "error"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:577
+msgid "did not output to"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:618
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:1014
+msgid "doesn't like"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:619
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:1015
+msgid "as input"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/talogo.py:682
+msgid "I don't know how to"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tapalette.py:101
+msgid "displays next palette"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/TurtleArt/tapalette.py:102
+msgid "changes the orientation of the palette of blocks"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/journal-stats.py:80
+msgid "other"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:43
+msgid "Please install the Speak Activity and try again."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:52
+msgid "Spanish"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:56
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:69
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:71
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:77
+msgid "English"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:88
+msgid "Sorry, I can't understand what you are asking about."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/brain.py:97
+msgid ""
+"Sorry, there is no free memory to load my brain. Close other activities and "
+"try once more."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/uturn.py:35
+msgid "uturn"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/uturn.py:37
+msgid "turns the turtle 180 degrees"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/grecord.py:213
+msgid "stop"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/grecord.py:215
+msgid "play"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/grecord.py:217
+msgid "save"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/pysamples/forward_push.py:48
+msgid "push destination rgb value to heap"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:64
+msgid "My Turtle Art session"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:111
+msgid "Enable collaboration"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:116
+msgid "Activities"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:121
+msgid "Buddies"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:124
+msgid "Share"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:125
+msgid "Configuration"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:128
+msgid "Neighborhood"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:289
+msgid "Nickname"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:291
+msgid "Account ID"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:293
+msgid "Server"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:295
+msgid "Port"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:297
+msgid "Password"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:299
+msgid "Register"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/collaboration_plugin.py:301
+msgid "Colors"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:63
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:64
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:73
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/fb_plugin.py:82
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/fb_plugin.py:83
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/fb_plugin.py:92
+msgid "Upload"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:68
+msgid "Upload to Web"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:90
+msgid ""
+"You must have an account at http://turtleartsite.sugarlabs.org to upload "
+"your project."
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:99
+msgid "Username:"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:109
+msgid "Password:"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:120
+msgid "Title:"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:130
+msgid "Description:"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:140
+msgid "Submit to Web"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:172
+msgid "Login failed"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/uploader_plugin.py:209
+msgid "Failed to upload!"
+msgstr ""
+
+#: /var/www/pootle/repos/TurtleArt/gnome_plugins/fb_plugin.py:87
+msgid "Facebook wall post"
+msgstr ""
